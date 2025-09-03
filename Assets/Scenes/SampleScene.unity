@@ -301,7 +301,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 16
+  m_Constraints: 80
   m_CollisionDetection: 0
 --- !u!136 &222540899
 CapsuleCollider:
@@ -408,11 +408,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e65194c10478514d9bf50e87d2997e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Direita: {fileID: 1829739952}
-  Esquerda: {fileID: 1254831760}
-  accel: 200
-  freio: 300
-  anguloVirar: 25
+  Frente: {fileID: 1829739952}
+  Tras: {fileID: 1254831760}
+  accel: 1000
+  freio: 150
+  anguloVirar: 20
   freioPassivo: 50
   accelAtual: 0
   freioAtual: 0
@@ -699,8 +699,8 @@ Transform:
   m_GameObject: {fileID: 455726929}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.31, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: -0.497, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1.2655898}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1829739951}
@@ -767,7 +767,7 @@ GameObject:
   - component: {fileID: 1254831759}
   - component: {fileID: 1254831760}
   m_Layer: 0
-  m_Name: Esquerda
+  m_Name: Tras
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -782,7 +782,7 @@ Transform:
   m_GameObject: {fileID: 1254831758}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.466, y: -0.381, z: 0}
+  m_LocalPosition: {x: 0, y: -0.381, z: -0.6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -797,7 +797,7 @@ WheelCollider:
   m_GameObject: {fileID: 1254831758}
   serializedVersion: 2
   m_Center: {x: 0, y: 0, z: 0}
-  m_Radius: 0.5
+  m_Radius: 0.3
   m_SuspensionSpring:
     spring: 300
     damper: 4500
@@ -930,7 +930,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 34.686, y: 1, z: 41.694}
+  m_LocalScale: {x: 34.686, y: 1, z: 300.09674}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1141,7 +1141,7 @@ GameObject:
   - component: {fileID: 1829739951}
   - component: {fileID: 1829739952}
   m_Layer: 0
-  m_Name: Direita
+  m_Name: Frente
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1156,7 +1156,7 @@ Transform:
   m_GameObject: {fileID: 1829739950}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.466, y: -0.381, z: 0}
+  m_LocalPosition: {x: 0, y: -0.381, z: 0.6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1171,7 +1171,7 @@ WheelCollider:
   m_GameObject: {fileID: 1829739950}
   serializedVersion: 2
   m_Center: {x: 0, y: 0, z: 0}
-  m_Radius: 0.5
+  m_Radius: 0.3
   m_SuspensionSpring:
     spring: 300
     damper: 4500
@@ -1187,7 +1187,7 @@ WheelCollider:
     m_AsymptoteValue: 0.5
     m_Stiffness: 1
   m_SidewaysFriction:
-    m_ExtremumSlip: 0.2
+    m_ExtremumSlip: 1.01
     m_ExtremumValue: 1
     m_AsymptoteSlip: 0.5
     m_AsymptoteValue: 0.75

@@ -2,8 +2,8 @@ using UnityEngine;
 
 public class ScriptPlayer : MonoBehaviour
 {
-    [SerializeField] WheelCollider Direita;
-    [SerializeField] WheelCollider Esquerda;
+    [SerializeField] WheelCollider Frente;
+    [SerializeField] WheelCollider Tras;
     public float accel = 500f;
     public float freio = 300f;
     public float anguloVirar = 60f;
@@ -32,11 +32,10 @@ public class ScriptPlayer : MonoBehaviour
                 freioAtual = 0;
             }
         }
-        Direita.motorTorque = accelAtual;
-        Esquerda.motorTorque = accelAtual;
-        Direita.brakeTorque = freioAtual;
-        Esquerda.brakeTorque = freioAtual;
-        Direita.steerAngle = virarAtual;
-        Esquerda.steerAngle = virarAtual;
+        Frente.motorTorque = accelAtual;
+        Tras.motorTorque = accelAtual;
+        Frente.brakeTorque = freioAtual;
+        Tras.brakeTorque = freioAtual;
+        Frente.steerAngle = virarAtual;
     }
 }
