@@ -6,6 +6,7 @@ public class GameManager : MonoBehaviour
 {
     public int cenarioatual = 0;
     int vitoriaderrota = 0;
+    public GameObject MenuPause;
     public GameObject[] telaVitoriaDerrota;
     public bool isPaused = false;
     public float tempomax= 100f;
@@ -38,30 +39,38 @@ public class GameManager : MonoBehaviour
         if (isPaused)
         {
             Time.timeScale = 0;
+            if (vitoriaderrota == 0)
+            {
+                MenuPause.SetActive(true);
+            }
         }
         if (!isPaused)
         {
             Time.timeScale = 1;
+            if (vitoriaderrota == 0)
+            {
+                MenuPause.SetActive(false);
+            }
         }
     }
     //condições de vitoria e derrota
     public void Vitoria()
     {
+        vitoriaderrota = 1;
         telaVitoriaDerrota[0].gameObject.SetActive(true);
         if (isPaused == false)
         {
             Pause();
         }
-        vitoriaderrota = 1;
     }
     public void Derrota()
     {
+        vitoriaderrota = 2;
         telaVitoriaDerrota[1].gameObject.SetActive(true);
         if (isPaused == false)
         {
             Pause();
         }
-        vitoriaderrota = 2;
     }
 
     public void TentarNovamente()
