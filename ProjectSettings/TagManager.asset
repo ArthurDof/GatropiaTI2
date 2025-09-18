@@ -7,14 +7,15 @@ TagManager:
   - interface
   - vitoria
   - obstaculo
+  - Inimigo
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Esconderijo
   - Water
   - UI
-  - 
+  - Player
   - 
   - 
   - 
