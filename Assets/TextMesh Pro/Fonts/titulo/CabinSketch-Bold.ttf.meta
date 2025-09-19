@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: d94ce87515676ff409dff4f8ec0550b8
+guid: b3d33151f189e234eb851b29a2ee52a8
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -9,7 +9,7 @@ TrueTypeFontImporter:
   characterPadding: 1
   includeFontData: 1
   fontNames:
-  - Magnetar
+  - Cabin Sketch
   fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0
