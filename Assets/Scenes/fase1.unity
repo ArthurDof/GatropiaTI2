@@ -308,6 +308,10 @@ PrefabInstance:
       value: PosteDePlaca
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: dd2ad579247606d469472601a102e9be, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd2ad579247606d469472601a102e9be, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -372,6 +376,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: f70aeae5d03fd534693f678271298f60, type: 3}
       propertyPath: m_Name
       value: PlacaDePare
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f70aeae5d03fd534693f678271298f60, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: f70aeae5d03fd534693f678271298f60, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -452,7 +460,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -560,7 +568,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -685,6 +693,10 @@ PrefabInstance:
       value: PlacaRetangular
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 994aa4a5c8b6cde41b0dd5f292bb5b01, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 994aa4a5c8b6cde41b0dd5f292bb5b01, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -749,6 +761,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: fa4ba6f1ce6e3f14c9dfbb2949f9676a, type: 3}
       propertyPath: m_Name
       value: Barril (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fa4ba6f1ce6e3f14c9dfbb2949f9676a, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: fa4ba6f1ce6e3f14c9dfbb2949f9676a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -921,6 +937,10 @@ PrefabInstance:
       value: PlacaTriangular
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 52fc61443314ff546ada47dfcb0a405b, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 52fc61443314ff546ada47dfcb0a405b, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -1020,6 +1040,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dd2ad579247606d469472601a102e9be, type: 3}
       propertyPath: m_Name
       value: PosteDePlaca
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd2ad579247606d469472601a102e9be, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: dd2ad579247606d469472601a102e9be, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -1154,6 +1178,10 @@ PrefabInstance:
       value: Barril (2)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: fa4ba6f1ce6e3f14c9dfbb2949f9676a, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fa4ba6f1ce6e3f14c9dfbb2949f9676a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -1259,6 +1287,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 3cb5261d251d17242985362a61f16072, type: 3}
       propertyPath: m_Name
       value: PlacaRuas
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3cb5261d251d17242985362a61f16072, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 3cb5261d251d17242985362a61f16072, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -1785,6 +1817,10 @@ PrefabInstance:
       value: ADBaseGrande (2)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 36a5a2a5ef0b4d84881ed4ee6b5e8094, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 36a5a2a5ef0b4d84881ed4ee6b5e8094, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -1988,6 +2024,10 @@ PrefabInstance:
       value: CarrinhoDeComida (1)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 5921208b944509e4ca98339723b1e12f, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5921208b944509e4ca98339723b1e12f, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -2081,6 +2121,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 1c80644f2b711b34190d2888062923c8, type: 3}
       propertyPath: m_Name
       value: ParadaDePedra (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1c80644f2b711b34190d2888062923c8, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 1c80644f2b711b34190d2888062923c8, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -2426,6 +2470,10 @@ PrefabInstance:
       value: PlacaRetangular (1)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 994aa4a5c8b6cde41b0dd5f292bb5b01, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 994aa4a5c8b6cde41b0dd5f292bb5b01, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -2746,6 +2794,10 @@ PrefabInstance:
       value: ParadaDePedra (4)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 1c80644f2b711b34190d2888062923c8, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1c80644f2b711b34190d2888062923c8, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -2839,6 +2891,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5921208b944509e4ca98339723b1e12f, type: 3}
       propertyPath: m_Name
       value: CarrinhoDeComida
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5921208b944509e4ca98339723b1e12f, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 5921208b944509e4ca98339723b1e12f, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -3193,6 +3249,10 @@ PrefabInstance:
       value: Barril (2)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: fa4ba6f1ce6e3f14c9dfbb2949f9676a, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fa4ba6f1ce6e3f14c9dfbb2949f9676a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -3396,6 +3456,10 @@ PrefabInstance:
       value: Barril (3)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: fa4ba6f1ce6e3f14c9dfbb2949f9676a, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fa4ba6f1ce6e3f14c9dfbb2949f9676a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -3449,7 +3513,7 @@ GameObject:
   - component: {fileID: 486944235}
   m_Layer: 0
   m_Name: Duplicados
-  m_TagString: Untagged
+  m_TagString: obstaculo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -3462,8 +3526,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 486944234}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.48777372, y: 5.420762, z: -131.10918}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -4.926918, y: -0.31925106, z: -10.224609}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3471,7 +3535,7 @@ Transform:
   - {fileID: 1203505632}
   - {fileID: 1619929943}
   - {fileID: 541682487}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 2059163406}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &531602560
 GameObject:
@@ -3896,6 +3960,10 @@ PrefabInstance:
       value: ADBaseGrande
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 36a5a2a5ef0b4d84881ed4ee6b5e8094, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 36a5a2a5ef0b4d84881ed4ee6b5e8094, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -4124,6 +4192,10 @@ PrefabInstance:
       value: CarrinhoDeComida (2)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 5921208b944509e4ca98339723b1e12f, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5921208b944509e4ca98339723b1e12f, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -4217,6 +4289,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 36a5a2a5ef0b4d84881ed4ee6b5e8094, type: 3}
       propertyPath: m_Name
       value: ADBaseGrande (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 36a5a2a5ef0b4d84881ed4ee6b5e8094, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 36a5a2a5ef0b4d84881ed4ee6b5e8094, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -4407,6 +4483,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 1c80644f2b711b34190d2888062923c8, type: 3}
       propertyPath: m_Name
       value: ParadaDePedra (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1c80644f2b711b34190d2888062923c8, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 1c80644f2b711b34190d2888062923c8, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -4689,6 +4769,10 @@ PrefabInstance:
       value: PlacaRetangular
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 994aa4a5c8b6cde41b0dd5f292bb5b01, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 994aa4a5c8b6cde41b0dd5f292bb5b01, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -4753,6 +4837,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 06138c51859e28c4d9167fef3cf7220b, type: 3}
       propertyPath: m_Name
       value: MaquinaDeVendas (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 06138c51859e28c4d9167fef3cf7220b, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 06138c51859e28c4d9167fef3cf7220b, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -4993,6 +5081,10 @@ PrefabInstance:
       value: ADBaseGrande (4)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 36a5a2a5ef0b4d84881ed4ee6b5e8094, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 36a5a2a5ef0b4d84881ed4ee6b5e8094, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -5088,6 +5180,10 @@ PrefabInstance:
       value: PlacaTriangular
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 52fc61443314ff546ada47dfcb0a405b, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 52fc61443314ff546ada47dfcb0a405b, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -5152,6 +5248,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 994aa4a5c8b6cde41b0dd5f292bb5b01, type: 3}
       propertyPath: m_Name
       value: PlacaRetangular
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 994aa4a5c8b6cde41b0dd5f292bb5b01, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 994aa4a5c8b6cde41b0dd5f292bb5b01, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -5230,6 +5330,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 3cb5261d251d17242985362a61f16072, type: 3}
       propertyPath: m_Name
       value: PlacaRuas
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3cb5261d251d17242985362a61f16072, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 3cb5261d251d17242985362a61f16072, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -5471,6 +5575,10 @@ PrefabInstance:
       value: PosteDePlaca
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: dd2ad579247606d469472601a102e9be, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd2ad579247606d469472601a102e9be, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -5537,6 +5645,10 @@ PrefabInstance:
       value: ADBaseGrande
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 36a5a2a5ef0b4d84881ed4ee6b5e8094, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 36a5a2a5ef0b4d84881ed4ee6b5e8094, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -5590,7 +5702,7 @@ GameObject:
   - component: {fileID: 887658331}
   m_Layer: 0
   m_Name: Poste
-  m_TagString: Untagged
+  m_TagString: obstaculo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -5667,6 +5779,10 @@ PrefabInstance:
       value: ADBaseGrande (2)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 36a5a2a5ef0b4d84881ed4ee6b5e8094, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 36a5a2a5ef0b4d84881ed4ee6b5e8094, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -5720,7 +5836,7 @@ GameObject:
   - component: {fileID: 904001752}
   m_Layer: 0
   m_Name: ObstaculosRua (1)
-  m_TagString: Untagged
+  m_TagString: obstaculo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -5803,6 +5919,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: fa4ba6f1ce6e3f14c9dfbb2949f9676a, type: 3}
       propertyPath: m_Name
       value: Barril (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fa4ba6f1ce6e3f14c9dfbb2949f9676a, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: fa4ba6f1ce6e3f14c9dfbb2949f9676a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -5900,6 +6020,10 @@ PrefabInstance:
       value: ADBaseGrande (5)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 36a5a2a5ef0b4d84881ed4ee6b5e8094, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 36a5a2a5ef0b4d84881ed4ee6b5e8094, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -5993,6 +6117,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 994aa4a5c8b6cde41b0dd5f292bb5b01, type: 3}
       propertyPath: m_Name
       value: PlacaRetangular (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 994aa4a5c8b6cde41b0dd5f292bb5b01, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 994aa4a5c8b6cde41b0dd5f292bb5b01, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -6113,6 +6241,10 @@ PrefabInstance:
       value: Barril (2)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: fa4ba6f1ce6e3f14c9dfbb2949f9676a, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fa4ba6f1ce6e3f14c9dfbb2949f9676a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -6206,6 +6338,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 36a5a2a5ef0b4d84881ed4ee6b5e8094, type: 3}
       propertyPath: m_Name
       value: ADBaseGrande (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 36a5a2a5ef0b4d84881ed4ee6b5e8094, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 36a5a2a5ef0b4d84881ed4ee6b5e8094, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -6601,6 +6737,10 @@ PrefabInstance:
       value: Cone (1)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 383c5a05db444c14788ef02b185737dc, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 383c5a05db444c14788ef02b185737dc, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -6654,7 +6794,7 @@ GameObject:
   - component: {fileID: 1028918480}
   m_Layer: 0
   m_Name: Poste
-  m_TagString: Untagged
+  m_TagString: obstaculo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -6729,6 +6869,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 383c5a05db444c14788ef02b185737dc, type: 3}
       propertyPath: m_Name
       value: Cone (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 383c5a05db444c14788ef02b185737dc, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 383c5a05db444c14788ef02b185737dc, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -6963,6 +7107,10 @@ PrefabInstance:
       value: Barril (3)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: fa4ba6f1ce6e3f14c9dfbb2949f9676a, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fa4ba6f1ce6e3f14c9dfbb2949f9676a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -7194,6 +7342,10 @@ PrefabInstance:
       value: ParadaDePedra (2)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 1c80644f2b711b34190d2888062923c8, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1c80644f2b711b34190d2888062923c8, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -7325,6 +7477,10 @@ PrefabInstance:
       value: ParadaDePedra (3)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 1c80644f2b711b34190d2888062923c8, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1c80644f2b711b34190d2888062923c8, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -7420,6 +7576,10 @@ PrefabInstance:
       value: PlacaRetangular
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 994aa4a5c8b6cde41b0dd5f292bb5b01, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 994aa4a5c8b6cde41b0dd5f292bb5b01, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -7500,6 +7660,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5df88bf656d2e354c9fa4e54fc3a1ffa, type: 3}
       propertyPath: m_Layer
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5df88bf656d2e354c9fa4e54fc3a1ffa, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 5df88bf656d2e354c9fa4e54fc3a1ffa, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -7693,6 +7857,10 @@ PrefabInstance:
       value: ParadaDePedra (1)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 1c80644f2b711b34190d2888062923c8, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1c80644f2b711b34190d2888062923c8, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -7810,7 +7978,7 @@ GameObject:
   - component: {fileID: 1203505632}
   m_Layer: 0
   m_Name: ObstaculosRua (1)
-  m_TagString: Untagged
+  m_TagString: obstaculo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -7895,6 +8063,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: fa4ba6f1ce6e3f14c9dfbb2949f9676a, type: 3}
       propertyPath: m_Name
       value: Barril (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fa4ba6f1ce6e3f14c9dfbb2949f9676a, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: fa4ba6f1ce6e3f14c9dfbb2949f9676a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -7990,6 +8162,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 52fc61443314ff546ada47dfcb0a405b, type: 3}
       propertyPath: m_Name
       value: PlacaTriangular
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 52fc61443314ff546ada47dfcb0a405b, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 52fc61443314ff546ada47dfcb0a405b, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -8129,6 +8305,10 @@ PrefabInstance:
       value: PosteDePlaca
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: dd2ad579247606d469472601a102e9be, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd2ad579247606d469472601a102e9be, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -8193,6 +8373,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 06138c51859e28c4d9167fef3cf7220b, type: 3}
       propertyPath: m_Name
       value: MaquinaDeVendas
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 06138c51859e28c4d9167fef3cf7220b, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 06138c51859e28c4d9167fef3cf7220b, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -8382,6 +8566,10 @@ PrefabInstance:
       value: Cone
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 383c5a05db444c14788ef02b185737dc, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 383c5a05db444c14788ef02b185737dc, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -8435,7 +8623,7 @@ GameObject:
   - component: {fileID: 1307971693}
   m_Layer: 0
   m_Name: Cenario (1)
-  m_TagString: Untagged
+  m_TagString: obstaculo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -8513,6 +8701,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 1c80644f2b711b34190d2888062923c8, type: 3}
       propertyPath: m_Name
       value: ParadaDePedra (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1c80644f2b711b34190d2888062923c8, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 1c80644f2b711b34190d2888062923c8, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -8608,6 +8800,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: fa4ba6f1ce6e3f14c9dfbb2949f9676a, type: 3}
       propertyPath: m_Name
       value: Barril
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fa4ba6f1ce6e3f14c9dfbb2949f9676a, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: fa4ba6f1ce6e3f14c9dfbb2949f9676a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -8794,6 +8990,10 @@ PrefabInstance:
       value: Cone
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 383c5a05db444c14788ef02b185737dc, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 383c5a05db444c14788ef02b185737dc, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -8976,6 +9176,10 @@ PrefabInstance:
       value: PlacaRetangular (1)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 994aa4a5c8b6cde41b0dd5f292bb5b01, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 994aa4a5c8b6cde41b0dd5f292bb5b01, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -9000,7 +9204,7 @@ GameObject:
   - component: {fileID: 1418577234}
   m_Layer: 0
   m_Name: Cenario (1)
-  m_TagString: Untagged
+  m_TagString: obstaculo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -9093,6 +9297,10 @@ PrefabInstance:
       value: PlacaTriangular
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 52fc61443314ff546ada47dfcb0a405b, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 52fc61443314ff546ada47dfcb0a405b, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -9157,6 +9365,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 383c5a05db444c14788ef02b185737dc, type: 3}
       propertyPath: m_Name
       value: Cone (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 383c5a05db444c14788ef02b185737dc, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 383c5a05db444c14788ef02b185737dc, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -9252,6 +9464,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: fa4ba6f1ce6e3f14c9dfbb2949f9676a, type: 3}
       propertyPath: m_Name
       value: Barril (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fa4ba6f1ce6e3f14c9dfbb2949f9676a, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: fa4ba6f1ce6e3f14c9dfbb2949f9676a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -9482,6 +9698,10 @@ PrefabInstance:
       value: ParadaDePedra (1)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 1c80644f2b711b34190d2888062923c8, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1c80644f2b711b34190d2888062923c8, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -9577,6 +9797,10 @@ PrefabInstance:
       value: ADBaseGrande (6)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 36a5a2a5ef0b4d84881ed4ee6b5e8094, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 36a5a2a5ef0b4d84881ed4ee6b5e8094, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -9670,6 +9894,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 36a5a2a5ef0b4d84881ed4ee6b5e8094, type: 3}
       propertyPath: m_Name
       value: ADBaseGrande
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 36a5a2a5ef0b4d84881ed4ee6b5e8094, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 36a5a2a5ef0b4d84881ed4ee6b5e8094, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -9906,6 +10134,10 @@ PrefabInstance:
       value: ParadaDePedra
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 1c80644f2b711b34190d2888062923c8, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1c80644f2b711b34190d2888062923c8, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -9959,7 +10191,7 @@ GameObject:
   - component: {fileID: 1619929943}
   m_Layer: 0
   m_Name: Cenario (1)
-  m_TagString: Untagged
+  m_TagString: obstaculo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -10145,6 +10377,10 @@ PrefabInstance:
       value: ParadaDePedra (3)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 1c80644f2b711b34190d2888062923c8, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1c80644f2b711b34190d2888062923c8, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -10238,6 +10474,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5921208b944509e4ca98339723b1e12f, type: 3}
       propertyPath: m_Name
       value: CarrinhoDeComida
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5921208b944509e4ca98339723b1e12f, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 5921208b944509e4ca98339723b1e12f, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -10343,6 +10583,10 @@ PrefabInstance:
       value: CasaCorredorGrade
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 1cbcedbdd160813419550d6ae4704313, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1cbcedbdd160813419550d6ae4704313, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -10436,6 +10680,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: f70aeae5d03fd534693f678271298f60, type: 3}
       propertyPath: m_Name
       value: PlacaDePare
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f70aeae5d03fd534693f678271298f60, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: f70aeae5d03fd534693f678271298f60, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -10533,6 +10781,10 @@ PrefabInstance:
       value: Barril
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: fa4ba6f1ce6e3f14c9dfbb2949f9676a, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fa4ba6f1ce6e3f14c9dfbb2949f9676a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -10626,6 +10878,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 36a5a2a5ef0b4d84881ed4ee6b5e8094, type: 3}
       propertyPath: m_Name
       value: ADBaseGrande
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 36a5a2a5ef0b4d84881ed4ee6b5e8094, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 36a5a2a5ef0b4d84881ed4ee6b5e8094, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -10958,6 +11214,10 @@ PrefabInstance:
       value: Cone (1)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 383c5a05db444c14788ef02b185737dc, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 383c5a05db444c14788ef02b185737dc, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -11051,6 +11311,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 06138c51859e28c4d9167fef3cf7220b, type: 3}
       propertyPath: m_Name
       value: MaquinaDeVendas (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 06138c51859e28c4d9167fef3cf7220b, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 06138c51859e28c4d9167fef3cf7220b, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -11148,6 +11412,10 @@ PrefabInstance:
       value: ParadaDePedra
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 1c80644f2b711b34190d2888062923c8, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1c80644f2b711b34190d2888062923c8, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -11241,6 +11509,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5921208b944509e4ca98339723b1e12f, type: 3}
       propertyPath: m_Name
       value: CarrinhoDeComida
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5921208b944509e4ca98339723b1e12f, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 5921208b944509e4ca98339723b1e12f, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -11417,6 +11689,10 @@ PrefabInstance:
       value: Cone
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 383c5a05db444c14788ef02b185737dc, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 383c5a05db444c14788ef02b185737dc, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -11470,7 +11746,7 @@ GameObject:
   - component: {fileID: 1811482048}
   m_Layer: 0
   m_Name: Casas
-  m_TagString: Untagged
+  m_TagString: obstaculo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -11483,14 +11759,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1811482047}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 23.888485, y: 3.583531, z: -139.59927}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 19.44934, y: -2.1564822, z: -18.714706}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1821810310}
   - {fileID: 1660728369}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 2059163406}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1821810309
 PrefabInstance:
@@ -11551,6 +11827,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 864de3bcaada3a14ea85f2aa7d21fc77, type: 3}
       propertyPath: m_Name
       value: CasaCorredorMedia
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 864de3bcaada3a14ea85f2aa7d21fc77, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 864de3bcaada3a14ea85f2aa7d21fc77, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -11731,6 +12011,10 @@ PrefabInstance:
       value: PlacaRuas
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 3cb5261d251d17242985362a61f16072, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3cb5261d251d17242985362a61f16072, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -11824,6 +12108,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 06138c51859e28c4d9167fef3cf7220b, type: 3}
       propertyPath: m_Name
       value: MaquinaDeVendas
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 06138c51859e28c4d9167fef3cf7220b, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 06138c51859e28c4d9167fef3cf7220b, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -11921,6 +12209,10 @@ PrefabInstance:
       value: ParadaDePedra (4)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 1c80644f2b711b34190d2888062923c8, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1c80644f2b711b34190d2888062923c8, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -12014,6 +12306,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 383c5a05db444c14788ef02b185737dc, type: 3}
       propertyPath: m_Name
       value: Cone (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 383c5a05db444c14788ef02b185737dc, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 383c5a05db444c14788ef02b185737dc, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -12177,6 +12473,10 @@ PrefabInstance:
       value: CarrinhoDeComida
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 5921208b944509e4ca98339723b1e12f, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5921208b944509e4ca98339723b1e12f, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -12336,6 +12636,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: fa4ba6f1ce6e3f14c9dfbb2949f9676a, type: 3}
       propertyPath: m_Name
       value: Barril (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fa4ba6f1ce6e3f14c9dfbb2949f9676a, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: fa4ba6f1ce6e3f14c9dfbb2949f9676a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -12499,6 +12803,10 @@ PrefabInstance:
       value: Cone (1)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 383c5a05db444c14788ef02b185737dc, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 383c5a05db444c14788ef02b185737dc, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -12552,7 +12860,7 @@ GameObject:
   - component: {fileID: 2003563678}
   m_Layer: 0
   m_Name: Duplicados (1)
-  m_TagString: Untagged
+  m_TagString: obstaculo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -12565,15 +12873,15 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2003563677}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.48777372, y: 5.420762, z: -100.10918}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -4.926918, y: -0.31925106, z: 20.77539}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 904001752}
   - {fileID: 1307971693}
   - {fileID: 1559390708}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 2059163406}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2011579253
 PrefabInstance:
@@ -12626,6 +12934,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: fa4ba6f1ce6e3f14c9dfbb2949f9676a, type: 3}
       propertyPath: m_Name
       value: Barril (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fa4ba6f1ce6e3f14c9dfbb2949f9676a, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: fa4ba6f1ce6e3f14c9dfbb2949f9676a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -12756,6 +13068,10 @@ PrefabInstance:
       value: Cone
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 383c5a05db444c14788ef02b185737dc, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 383c5a05db444c14788ef02b185737dc, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -12851,6 +13167,10 @@ PrefabInstance:
       value: ParadaDePedra
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 1c80644f2b711b34190d2888062923c8, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1c80644f2b711b34190d2888062923c8, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -12925,6 +13245,10 @@ Transform:
   - {fileID: 1775007415}
   - {fileID: 1846936177}
   - {fileID: 1555662485}
+  - {fileID: 1811482048}
+  - {fileID: 486944235}
+  - {fileID: 2003563678}
+  - {fileID: 2105469491}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2064857843
@@ -12978,6 +13302,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 06138c51859e28c4d9167fef3cf7220b, type: 3}
       propertyPath: m_Name
       value: MaquinaDeVendas
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 06138c51859e28c4d9167fef3cf7220b, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 06138c51859e28c4d9167fef3cf7220b, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -13075,6 +13403,10 @@ PrefabInstance:
       value: PlacaRetangular (1)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 994aa4a5c8b6cde41b0dd5f292bb5b01, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 994aa4a5c8b6cde41b0dd5f292bb5b01, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -13141,6 +13473,10 @@ PrefabInstance:
       value: PlacaDePare
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: f70aeae5d03fd534693f678271298f60, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f70aeae5d03fd534693f678271298f60, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -13194,7 +13530,7 @@ GameObject:
   - component: {fileID: 2105469491}
   m_Layer: 0
   m_Name: Duplicados (2)
-  m_TagString: Untagged
+  m_TagString: obstaculo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -13207,8 +13543,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2105469490}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.48777372, y: 5.420762, z: -67.10918}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -4.926918, y: -0.31925106, z: 53.77539}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -13216,7 +13552,7 @@ Transform:
   - {fileID: 1418577234}
   - {fileID: 360737601}
   - {fileID: 1168874736}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 2059163406}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2107732476
 GameObject:
@@ -13229,7 +13565,7 @@ GameObject:
   - component: {fileID: 2107732477}
   m_Layer: 0
   m_Name: Poste
-  m_TagString: Untagged
+  m_TagString: obstaculo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -13264,7 +13600,7 @@ GameObject:
   - component: {fileID: 2110701165}
   m_Layer: 0
   m_Name: ObstaculosRua (1)
-  m_TagString: Untagged
+  m_TagString: obstaculo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -13347,6 +13683,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 36a5a2a5ef0b4d84881ed4ee6b5e8094, type: 3}
       propertyPath: m_Name
       value: ADBaseGrande (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 36a5a2a5ef0b4d84881ed4ee6b5e8094, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 36a5a2a5ef0b4d84881ed4ee6b5e8094, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -13444,6 +13784,10 @@ PrefabInstance:
       value: ADBaseGrande (1)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 36a5a2a5ef0b4d84881ed4ee6b5e8094, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 36a5a2a5ef0b4d84881ed4ee6b5e8094, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -13537,6 +13881,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 36a5a2a5ef0b4d84881ed4ee6b5e8094, type: 3}
       propertyPath: m_Name
       value: ADBaseGrande (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 36a5a2a5ef0b4d84881ed4ee6b5e8094, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 36a5a2a5ef0b4d84881ed4ee6b5e8094, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -13705,9 +14053,5 @@ SceneRoots:
   - {fileID: 207939384}
   - {fileID: 2026489335}
   - {fileID: 2059163406}
-  - {fileID: 1811482048}
-  - {fileID: 486944235}
-  - {fileID: 2003563678}
-  - {fileID: 2105469491}
   - {fileID: 1007876210}
   - {fileID: 1198156794}

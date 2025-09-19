@@ -26,11 +26,11 @@ public class ScriptPlayer : MonoBehaviour
         if (colisao > 0f)
         {
             colisao += Time.deltaTime;
-            if (0f < colisao && colisao < 1f)
+            if (0f < colisao && colisao < 0.5f)
             {
                 freioAtual = 250000f;
             }
-            if (colisao >= 1f)
+            if (colisao >= 0.5f)
             {
                 colisao = 0f;
             }
@@ -62,7 +62,7 @@ public class ScriptPlayer : MonoBehaviour
         Frente.steerAngle = virarAtual;
         if (accelAtual < 0f)
         {
-            accelAtual = accelAtual / 10;
+            accelAtual = accelAtual / 20;
         }
     }
     void OnTriggerEnter(Collider other)
