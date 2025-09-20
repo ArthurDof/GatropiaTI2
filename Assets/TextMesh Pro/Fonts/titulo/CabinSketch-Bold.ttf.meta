@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 0f6fdb7383c9fee4c9ae489a7b81e002
+guid: b3d33151f189e234eb851b29a2ee52a8
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -9,7 +9,7 @@ TrueTypeFontImporter:
   characterPadding: 1
   includeFontData: 1
   fontNames:
-  - ARCO Typography
+  - Cabin Sketch
   fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0
