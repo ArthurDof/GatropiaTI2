@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 0f6fdb7383c9fee4c9ae489a7b81e002
+guid: e0e21d060ef33d142a5361ff9ddcc699
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -9,7 +9,7 @@ TrueTypeFontImporter:
   characterPadding: 1
   includeFontData: 1
   fontNames:
-  - ARCO Typography
+  - New Rocker
   fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0
