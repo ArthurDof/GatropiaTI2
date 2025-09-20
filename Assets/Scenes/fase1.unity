@@ -171,6 +171,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ArCondicionado
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d85070463699db24c8b0160f7c84734e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -262,6 +266,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EscadaMedia
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e5bd510e3a0f3f34394cb6cb8a03a7cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -352,6 +360,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d85070463699db24c8b0160f7c84734e, type: 3}
       propertyPath: m_Name
       value: ArCondicionado
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d85070463699db24c8b0160f7c84734e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -448,6 +460,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CasaCorredorMedia
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 864de3bcaada3a14ea85f2aa7d21fc77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -502,7 +518,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &17898654
 Transform:
@@ -734,9 +750,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -5992779917718051749, guid: 3cb6c7fe8d4201541b60c0a140d4e776, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 3cb6c7fe8d4201541b60c0a140d4e776, type: 3}
       propertyPath: m_Name
       value: CercadoReto (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3cb6c7fe8d4201541b60c0a140d4e776, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5354543917012452388, guid: 3cb6c7fe8d4201541b60c0a140d4e776, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -829,6 +857,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CarrinhoDeComida
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5921208b944509e4ca98339723b1e12f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -919,6 +951,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 33731a05e8f06f5489b4a1c58a2d7d56, type: 3}
       propertyPath: m_Name
       value: TesteiraCasaLGrande
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 33731a05e8f06f5489b4a1c58a2d7d56, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1115,9 +1151,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -5992779917718051749, guid: 3cb6c7fe8d4201541b60c0a140d4e776, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 3cb6c7fe8d4201541b60c0a140d4e776, type: 3}
       propertyPath: m_Name
       value: CercadoReto (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3cb6c7fe8d4201541b60c0a140d4e776, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5354543917012452388, guid: 3cb6c7fe8d4201541b60c0a140d4e776, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1318,6 +1366,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ArCondicionado
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d85070463699db24c8b0160f7c84734e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1408,6 +1460,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 1c80644f2b711b34190d2888062923c8, type: 3}
       propertyPath: m_Name
       value: ParadaDePedra (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1c80644f2b711b34190d2888062923c8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1500,6 +1556,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barril
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fa4ba6f1ce6e3f14c9dfbb2949f9676a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1590,6 +1650,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 1e0a8d4be97bc1b43a37fab05ecb12ab, type: 3}
       propertyPath: m_Name
       value: VarandaGradeGrandeComEscada
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1e0a8d4be97bc1b43a37fab05ecb12ab, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1757,6 +1821,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: VarandaGradeGrandeComEscada
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1e0a8d4be97bc1b43a37fab05ecb12ab, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1852,6 +1920,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CasaCorredorGrade
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1cbcedbdd160813419550d6ae4704313, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1942,6 +2014,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 1e0a8d4be97bc1b43a37fab05ecb12ab, type: 3}
       propertyPath: m_Name
       value: VarandaGradeGrandeComEscada
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1e0a8d4be97bc1b43a37fab05ecb12ab, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2034,6 +2110,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: VarandaGradeGrandeComEscada
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1e0a8d4be97bc1b43a37fab05ecb12ab, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2121,9 +2201,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -5992779917718051749, guid: 3cb6c7fe8d4201541b60c0a140d4e776, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 3cb6c7fe8d4201541b60c0a140d4e776, type: 3}
       propertyPath: m_Name
       value: CercadoReto (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3cb6c7fe8d4201541b60c0a140d4e776, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5354543917012452388, guid: 3cb6c7fe8d4201541b60c0a140d4e776, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2216,6 +2308,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TesteiraCasaLado (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fd73460ca172d2947b162c50bfa21bd2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2270,7 +2366,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &134700052
 Transform:
@@ -2332,7 +2428,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &138856866
 Transform:
@@ -2404,6 +2500,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 1950ff4d86b9d814a9a5a50a473eb41b, type: 3}
       propertyPath: m_Name
       value: TesteiraCasaCorredorGrade
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1950ff4d86b9d814a9a5a50a473eb41b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2496,6 +2596,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: VarandaGradeGrandeComEscada
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1e0a8d4be97bc1b43a37fab05ecb12ab, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2586,6 +2690,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 1950ff4d86b9d814a9a5a50a473eb41b, type: 3}
       propertyPath: m_Name
       value: TesteiraCasaCorredorGrade
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1950ff4d86b9d814a9a5a50a473eb41b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2678,6 +2786,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TesteiraCasaCorredorMedia
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7c92d2e6994f0b146a0ebb59a46aa8b3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2769,6 +2881,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TesteiraCasaCorredorMedia
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7c92d2e6994f0b146a0ebb59a46aa8b3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2859,6 +2975,18 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5df88bf656d2e354c9fa4e54fc3a1ffa, type: 3}
       propertyPath: m_Name
       value: CabineTelefonica (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5df88bf656d2e354c9fa4e54fc3a1ffa, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5df88bf656d2e354c9fa4e54fc3a1ffa, type: 3}
+      propertyPath: m_TagString
+      value: Esconderijo
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5df88bf656d2e354c9fa4e54fc3a1ffa, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2999,6 +3127,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: VarandaFechadaGrande
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 81977ee009819f440a3dcb1809ffb718, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3090,6 +3222,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ADBaseGrande (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 36a5a2a5ef0b4d84881ed4ee6b5e8094, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3180,6 +3316,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 7c92d2e6994f0b146a0ebb59a46aa8b3, type: 3}
       propertyPath: m_Name
       value: TesteiraCasaCorredorMedia
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7c92d2e6994f0b146a0ebb59a46aa8b3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3408,6 +3548,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ADBaseGrande (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 36a5a2a5ef0b4d84881ed4ee6b5e8094, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3461,7 +3605,7 @@ GameObject:
   m_TagString: obstaculo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &197580464
 Transform:
@@ -3532,6 +3676,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 06138c51859e28c4d9167fef3cf7220b, type: 3}
       propertyPath: m_Name
       value: MaquinaDeVendas (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 06138c51859e28c4d9167fef3cf7220b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3624,6 +3772,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EscadaPequena
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 866d6674adb23c0458fb29fd36f2db34, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3702,7 +3854,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &214345951
 Transform:
@@ -3799,6 +3951,18 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 51450f7a21778d24faa486186c7a83e6, type: 3}
       propertyPath: m_Name
       value: PontoDeOnibus
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 51450f7a21778d24faa486186c7a83e6, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 51450f7a21778d24faa486186c7a83e6, type: 3}
+      propertyPath: m_TagString
+      value: Esconderijo
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 51450f7a21778d24faa486186c7a83e6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4076,6 +4240,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TesteiraCasaLado
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fd73460ca172d2947b162c50bfa21bd2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4191,6 +4359,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cone (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 383c5a05db444c14788ef02b185737dc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4247,7 +4419,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!65 &234881616
 BoxCollider:
@@ -4390,6 +4562,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ParadaDePedra (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1c80644f2b711b34190d2888062923c8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4480,6 +4656,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 7c92d2e6994f0b146a0ebb59a46aa8b3, type: 3}
       propertyPath: m_Name
       value: TesteiraCasaCorredorMedia
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7c92d2e6994f0b146a0ebb59a46aa8b3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4572,6 +4752,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TesteiraCasaLado (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fd73460ca172d2947b162c50bfa21bd2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4662,6 +4846,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 866d6674adb23c0458fb29fd36f2db34, type: 3}
       propertyPath: m_Name
       value: EscadaPequena
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 866d6674adb23c0458fb29fd36f2db34, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4754,6 +4942,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TesteiraCasaLado (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fd73460ca172d2947b162c50bfa21bd2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4845,6 +5037,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EscadaPequena
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 866d6674adb23c0458fb29fd36f2db34, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4899,7 +5095,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &281041010
 Transform:
@@ -5031,6 +5227,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EscadaMedia
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e5bd510e3a0f3f34394cb6cb8a03a7cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5121,6 +5321,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 866d6674adb23c0458fb29fd36f2db34, type: 3}
       propertyPath: m_Name
       value: EscadaPequena
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 866d6674adb23c0458fb29fd36f2db34, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5213,6 +5417,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: VarandaGradeGrande
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a70e1963040a62242927223a3c4893e2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5303,6 +5511,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: fd73460ca172d2947b162c50bfa21bd2, type: 3}
       propertyPath: m_Name
       value: TesteiraCasaLado (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fd73460ca172d2947b162c50bfa21bd2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5395,6 +5607,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ArCondicionado
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d85070463699db24c8b0160f7c84734e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5485,6 +5701,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 829ae4e778472224eaeeb49ba7780f94, type: 3}
       propertyPath: m_Name
       value: CasaLado (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 829ae4e778472224eaeeb49ba7780f94, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5577,6 +5797,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ParadaDePedra (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1c80644f2b711b34190d2888062923c8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5667,6 +5891,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 994aa4a5c8b6cde41b0dd5f292bb5b01, type: 3}
       propertyPath: m_Name
       value: PlacaRetangular (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 994aa4a5c8b6cde41b0dd5f292bb5b01, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5867,6 +6095,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: VarandaGradeGrande
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a70e1963040a62242927223a3c4893e2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5957,6 +6189,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 7c92d2e6994f0b146a0ebb59a46aa8b3, type: 3}
       propertyPath: m_Name
       value: TesteiraCasaCorredorMedia
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7c92d2e6994f0b146a0ebb59a46aa8b3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6049,6 +6285,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EscadaMedia
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e5bd510e3a0f3f34394cb6cb8a03a7cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6140,6 +6380,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CasaLGrande
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 82767126a402950429a5ea58da8c4a60, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6230,6 +6474,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5921208b944509e4ca98339723b1e12f, type: 3}
       propertyPath: m_Name
       value: CarrinhoDeComida (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5921208b944509e4ca98339723b1e12f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6326,6 +6574,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CasaCorredorMedia
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 864de3bcaada3a14ea85f2aa7d21fc77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6380,7 +6632,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &397059655
 Transform:
@@ -6476,6 +6728,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TesteiraCasaCorredorMedia
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7c92d2e6994f0b146a0ebb59a46aa8b3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6566,6 +6822,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d85070463699db24c8b0160f7c84734e, type: 3}
       propertyPath: m_Name
       value: ArCondicionado
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d85070463699db24c8b0160f7c84734e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6658,6 +6918,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PosteDePlaca (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd2ad579247606d469472601a102e9be, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6712,7 +6976,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &408213195
 Transform:
@@ -6933,6 +7197,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CasaCorredorMedia
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 864de3bcaada3a14ea85f2aa7d21fc77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7020,9 +7288,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -5992779917718051749, guid: 3cb6c7fe8d4201541b60c0a140d4e776, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 3cb6c7fe8d4201541b60c0a140d4e776, type: 3}
       propertyPath: m_Name
       value: CercadoReto (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3cb6c7fe8d4201541b60c0a140d4e776, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5354543917012452388, guid: 3cb6c7fe8d4201541b60c0a140d4e776, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7079,7 +7359,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &425812553
 Transform:
@@ -7336,6 +7616,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CasaCorredorMedia
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 864de3bcaada3a14ea85f2aa7d21fc77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7427,6 +7711,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ArCondicionado
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d85070463699db24c8b0160f7c84734e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7517,6 +7805,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 829ae4e778472224eaeeb49ba7780f94, type: 3}
       propertyPath: m_Name
       value: CasaLado (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 829ae4e778472224eaeeb49ba7780f94, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7684,6 +7976,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CarrinhoDeComida (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5921208b944509e4ca98339723b1e12f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7774,6 +8070,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 829ae4e778472224eaeeb49ba7780f94, type: 3}
       propertyPath: m_Name
       value: CasaLado (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 829ae4e778472224eaeeb49ba7780f94, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7866,6 +8166,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: VarandaGradeGrandeComEscada
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1e0a8d4be97bc1b43a37fab05ecb12ab, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7956,6 +8260,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 829ae4e778472224eaeeb49ba7780f94, type: 3}
       propertyPath: m_Name
       value: CasaLado (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 829ae4e778472224eaeeb49ba7780f94, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8081,6 +8389,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EscadaMedia
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e5bd510e3a0f3f34394cb6cb8a03a7cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8172,6 +8484,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TesteiraCasaLado (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fd73460ca172d2947b162c50bfa21bd2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8262,6 +8578,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 3cb6c7fe8d4201541b60c0a140d4e776, type: 3}
       propertyPath: m_Name
       value: CercadoReto (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3cb6c7fe8d4201541b60c0a140d4e776, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
@@ -8356,6 +8676,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: VarandaFechadaGrande
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 81977ee009819f440a3dcb1809ffb718, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8447,6 +8771,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TesteiraCasaLado
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fd73460ca172d2947b162c50bfa21bd2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8537,6 +8865,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 7c92d2e6994f0b146a0ebb59a46aa8b3, type: 3}
       propertyPath: m_Name
       value: TesteiraCasaCorredorMedia
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7c92d2e6994f0b146a0ebb59a46aa8b3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8633,6 +8965,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CasaCorredorMedia
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 864de3bcaada3a14ea85f2aa7d21fc77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8723,6 +9059,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 1e0a8d4be97bc1b43a37fab05ecb12ab, type: 3}
       propertyPath: m_Name
       value: VarandaGradeGrandeComEscada
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1e0a8d4be97bc1b43a37fab05ecb12ab, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8815,6 +9155,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CasaLado
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 829ae4e778472224eaeeb49ba7780f94, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8906,6 +9250,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TesteiraCasaLado (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fd73460ca172d2947b162c50bfa21bd2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8996,6 +9344,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d85070463699db24c8b0160f7c84734e, type: 3}
       propertyPath: m_Name
       value: ArCondicionado
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d85070463699db24c8b0160f7c84734e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9186,7 +9538,7 @@ GameObject:
   m_TagString: obstaculo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &542685667
 Transform:
@@ -9259,9 +9611,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -5992779917718051749, guid: 3cb6c7fe8d4201541b60c0a140d4e776, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 3cb6c7fe8d4201541b60c0a140d4e776, type: 3}
       propertyPath: m_Name
       value: CercadoReto (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3cb6c7fe8d4201541b60c0a140d4e776, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5354543917012452388, guid: 3cb6c7fe8d4201541b60c0a140d4e776, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9487,6 +9851,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CasaLado (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 829ae4e778472224eaeeb49ba7780f94, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9577,6 +9945,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 829ae4e778472224eaeeb49ba7780f94, type: 3}
       propertyPath: m_Name
       value: CasaLado (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 829ae4e778472224eaeeb49ba7780f94, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9931,6 +10303,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TesteiraCasaLado
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fd73460ca172d2947b162c50bfa21bd2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10099,6 +10475,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TesteiraCasaLado
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fd73460ca172d2947b162c50bfa21bd2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10190,6 +10570,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlacaRetangular (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 994aa4a5c8b6cde41b0dd5f292bb5b01, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10252,6 +10636,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ArCondicionado
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d85070463699db24c8b0160f7c84734e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10308,7 +10696,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!65 &612231169
 BoxCollider:
@@ -10451,6 +10839,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ADBaseGrande (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 36a5a2a5ef0b4d84881ed4ee6b5e8094, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10504,7 +10896,7 @@ GameObject:
   m_TagString: obstaculo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &661970912
 Transform:
@@ -10580,6 +10972,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 864de3bcaada3a14ea85f2aa7d21fc77, type: 3}
       propertyPath: m_Name
       value: CasaCorredorMedia
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 864de3bcaada3a14ea85f2aa7d21fc77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10672,6 +11068,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cone
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 383c5a05db444c14788ef02b185737dc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10762,6 +11162,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d85070463699db24c8b0160f7c84734e, type: 3}
       propertyPath: m_Name
       value: ArCondicionado
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d85070463699db24c8b0160f7c84734e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10962,6 +11366,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: VarandaGradeGrandeComEscada
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1e0a8d4be97bc1b43a37fab05ecb12ab, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11052,6 +11460,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 829ae4e778472224eaeeb49ba7780f94, type: 3}
       propertyPath: m_Name
       value: CasaLado (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 829ae4e778472224eaeeb49ba7780f94, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11144,6 +11556,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ArCondicionado
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d85070463699db24c8b0160f7c84734e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11235,6 +11651,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CercadoCurvo (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bf0a63334d7a5ab45a1e2dca98f3b1b7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11296,6 +11716,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d85070463699db24c8b0160f7c84734e, type: 3}
       propertyPath: m_Name
       value: ArCondicionado
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d85070463699db24c8b0160f7c84734e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11388,6 +11812,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CasaLado (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 829ae4e778472224eaeeb49ba7780f94, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11478,6 +11906,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 45e65aa4c5545214cbd061611bc4987a, type: 3}
       propertyPath: m_Name
       value: VarandaFechadaPequena
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 45e65aa4c5545214cbd061611bc4987a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11570,6 +12002,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TesteiraCasaCorredorMedia
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7c92d2e6994f0b146a0ebb59a46aa8b3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11660,6 +12096,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 81977ee009819f440a3dcb1809ffb718, type: 3}
       propertyPath: m_Name
       value: VarandaFechadaGrande
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 81977ee009819f440a3dcb1809ffb718, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11752,6 +12192,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EscadaMedia
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e5bd510e3a0f3f34394cb6cb8a03a7cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11842,6 +12286,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 1950ff4d86b9d814a9a5a50a473eb41b, type: 3}
       propertyPath: m_Name
       value: TesteiraCasaCorredorGrade
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1950ff4d86b9d814a9a5a50a473eb41b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11938,6 +12386,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CasaCorredorGrade
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1cbcedbdd160813419550d6ae4704313, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12029,6 +12481,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EscadaMedia
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e5bd510e3a0f3f34394cb6cb8a03a7cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12083,7 +12539,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &777909208
 Transform:
@@ -12180,6 +12636,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: a70e1963040a62242927223a3c4893e2, type: 3}
       propertyPath: m_Name
       value: VarandaGradeGrande
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a70e1963040a62242927223a3c4893e2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12403,6 +12863,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ParadaDePedra
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1c80644f2b711b34190d2888062923c8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12494,6 +12958,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TesteiraCasaLGrande
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 33731a05e8f06f5489b4a1c58a2d7d56, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12584,6 +13052,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 829ae4e778472224eaeeb49ba7780f94, type: 3}
       propertyPath: m_Name
       value: CasaLado
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 829ae4e778472224eaeeb49ba7780f94, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12700,6 +13172,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TesteiraCasaLado
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fd73460ca172d2947b162c50bfa21bd2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12790,6 +13266,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 06138c51859e28c4d9167fef3cf7220b, type: 3}
       propertyPath: m_Name
       value: MaquinaDeVendas
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 06138c51859e28c4d9167fef3cf7220b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12882,6 +13362,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TesteiraCasaLado
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fd73460ca172d2947b162c50bfa21bd2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12972,6 +13456,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e5bd510e3a0f3f34394cb6cb8a03a7cb, type: 3}
       propertyPath: m_Name
       value: EscadaMedia
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e5bd510e3a0f3f34394cb6cb8a03a7cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13113,6 +13601,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EscadaMedia
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e5bd510e3a0f3f34394cb6cb8a03a7cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13203,6 +13695,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: a70e1963040a62242927223a3c4893e2, type: 3}
       propertyPath: m_Name
       value: VarandaGradeGrande
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a70e1963040a62242927223a3c4893e2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13295,6 +13791,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EscadaMedia
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e5bd510e3a0f3f34394cb6cb8a03a7cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13385,6 +13885,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 81977ee009819f440a3dcb1809ffb718, type: 3}
       propertyPath: m_Name
       value: VarandaFechadaGrande
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 81977ee009819f440a3dcb1809ffb718, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13477,6 +13981,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CasaLado
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 829ae4e778472224eaeeb49ba7780f94, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13530,7 +14038,7 @@ GameObject:
   m_TagString: obstaculo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &890608220
 Transform:
@@ -13606,6 +14114,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 1cbcedbdd160813419550d6ae4704313, type: 3}
       propertyPath: m_Name
       value: CasaCorredorGrade
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1cbcedbdd160813419550d6ae4704313, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13697,6 +14209,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 829ae4e778472224eaeeb49ba7780f94, type: 3}
       propertyPath: m_Name
       value: CasaLado (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 829ae4e778472224eaeeb49ba7780f94, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13920,6 +14436,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TesteiraCasaCorredorMedia
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7c92d2e6994f0b146a0ebb59a46aa8b3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13974,7 +14494,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &910021105
 Transform:
@@ -14070,6 +14590,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MaquinaDeVendas (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 06138c51859e28c4d9167fef3cf7220b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14160,6 +14684,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 81977ee009819f440a3dcb1809ffb718, type: 3}
       propertyPath: m_Name
       value: VarandaFechadaGrande
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 81977ee009819f440a3dcb1809ffb718, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14252,6 +14780,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: VarandaGradeGrandeComEscada
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1e0a8d4be97bc1b43a37fab05ecb12ab, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14342,6 +14874,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 1e0a8d4be97bc1b43a37fab05ecb12ab, type: 3}
       propertyPath: m_Name
       value: VarandaGradeGrandeComEscada
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1e0a8d4be97bc1b43a37fab05ecb12ab, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14434,6 +14970,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TesteiraCasaLado
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fd73460ca172d2947b162c50bfa21bd2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14524,6 +15064,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e5bd510e3a0f3f34394cb6cb8a03a7cb, type: 3}
       propertyPath: m_Name
       value: EscadaMedia
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e5bd510e3a0f3f34394cb6cb8a03a7cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14616,6 +15160,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cone (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 383c5a05db444c14788ef02b185737dc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14670,7 +15218,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &951135045
 Transform:
@@ -14769,6 +15317,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 866d6674adb23c0458fb29fd36f2db34, type: 3}
       propertyPath: m_Name
       value: EscadaPequena
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 866d6674adb23c0458fb29fd36f2db34, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14876,6 +15428,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 3cb5261d251d17242985362a61f16072, type: 3}
       propertyPath: m_TagString
       value: obstaculo
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3cb5261d251d17242985362a61f16072, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14992,6 +15548,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TesteiraCasaCorredorGrade
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1950ff4d86b9d814a9a5a50a473eb41b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15082,6 +15642,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 829ae4e778472224eaeeb49ba7780f94, type: 3}
       propertyPath: m_Name
       value: CasaLado (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 829ae4e778472224eaeeb49ba7780f94, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15174,6 +15738,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CasaLado (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 829ae4e778472224eaeeb49ba7780f94, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15265,6 +15833,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TesteiraCasaCorredorMedia
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7c92d2e6994f0b146a0ebb59a46aa8b3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15355,6 +15927,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d85070463699db24c8b0160f7c84734e, type: 3}
       propertyPath: m_Name
       value: ArCondicionado
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d85070463699db24c8b0160f7c84734e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15556,13 +16132,15 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 8
   tempoDeDeteccao: 5
+  redTempoEscondido: 0
   m_distancia: 0
   velocidade: 3
   "raioDeVis\xE3o": 15
   "campoDeVis\xE3o": 90
   waypoints:
   - {fileID: 688096243}
-  - {fileID: 0}
+  - {fileID: 958519351}
+  - {fileID: 159843879}
 --- !u!195 &1007876212
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -15636,6 +16214,18 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5df88bf656d2e354c9fa4e54fc3a1ffa, type: 3}
       propertyPath: m_Name
       value: CabineTelefonica
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5df88bf656d2e354c9fa4e54fc3a1ffa, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5df88bf656d2e354c9fa4e54fc3a1ffa, type: 3}
+      propertyPath: m_TagString
+      value: Esconderijo
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5df88bf656d2e354c9fa4e54fc3a1ffa, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15800,6 +16390,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TesteiraCasaLado (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fd73460ca172d2947b162c50bfa21bd2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15887,9 +16481,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -5992779917718051749, guid: 3cb6c7fe8d4201541b60c0a140d4e776, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 3cb6c7fe8d4201541b60c0a140d4e776, type: 3}
       propertyPath: m_Name
       value: CercadoReto (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3cb6c7fe8d4201541b60c0a140d4e776, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5354543917012452388, guid: 3cb6c7fe8d4201541b60c0a140d4e776, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15981,6 +16587,18 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5df88bf656d2e354c9fa4e54fc3a1ffa, type: 3}
       propertyPath: m_Name
       value: CabineTelefonica
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5df88bf656d2e354c9fa4e54fc3a1ffa, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5df88bf656d2e354c9fa4e54fc3a1ffa, type: 3}
+      propertyPath: m_TagString
+      value: Esconderijo
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5df88bf656d2e354c9fa4e54fc3a1ffa, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16086,7 +16704,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!65 &1022246506
 BoxCollider:
@@ -16229,6 +16847,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CasaLado (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 829ae4e778472224eaeeb49ba7780f94, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16283,7 +16905,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1037913348
 Transform:
@@ -16382,6 +17004,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CasaCorredorGrade
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1cbcedbdd160813419550d6ae4704313, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16477,6 +17103,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: obstaculo
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 994aa4a5c8b6cde41b0dd5f292bb5b01, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16538,6 +17168,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 45e65aa4c5545214cbd061611bc4987a, type: 3}
       propertyPath: m_Name
       value: VarandaFechadaPequena
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 45e65aa4c5545214cbd061611bc4987a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16630,6 +17264,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TesteiraCasaLado
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fd73460ca172d2947b162c50bfa21bd2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16720,6 +17358,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d85070463699db24c8b0160f7c84734e, type: 3}
       propertyPath: m_Name
       value: ArCondicionado
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d85070463699db24c8b0160f7c84734e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16949,6 +17591,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: VarandaFechadaGrande
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 81977ee009819f440a3dcb1809ffb718, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17040,6 +17686,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PosteDePlaca (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd2ad579247606d469472601a102e9be, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17130,6 +17780,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 3cb6c7fe8d4201541b60c0a140d4e776, type: 3}
       propertyPath: m_Name
       value: CercadoReto (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3cb6c7fe8d4201541b60c0a140d4e776, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
@@ -17223,6 +17877,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: fd73460ca172d2947b162c50bfa21bd2, type: 3}
       propertyPath: m_Name
       value: TesteiraCasaLado
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fd73460ca172d2947b162c50bfa21bd2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -17455,6 +18113,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CasaCorredorGrade
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1cbcedbdd160813419550d6ae4704313, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17545,6 +18207,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: fa4ba6f1ce6e3f14c9dfbb2949f9676a, type: 3}
       propertyPath: m_Name
       value: Barril
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fa4ba6f1ce6e3f14c9dfbb2949f9676a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -17637,6 +18303,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CasaLado (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 829ae4e778472224eaeeb49ba7780f94, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17728,6 +18398,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlacaTriangular (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 52fc61443314ff546ada47dfcb0a405b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17789,6 +18463,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: a70e1963040a62242927223a3c4893e2, type: 3}
       propertyPath: m_Name
       value: VarandaGradeGrande
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a70e1963040a62242927223a3c4893e2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -17880,6 +18558,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 1e0a8d4be97bc1b43a37fab05ecb12ab, type: 3}
       propertyPath: m_Name
       value: VarandaGradeGrandeComEscada
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1e0a8d4be97bc1b43a37fab05ecb12ab, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -18008,6 +18690,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TesteiraCasaCorredorMedia
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7c92d2e6994f0b146a0ebb59a46aa8b3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18098,6 +18784,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 7c92d2e6994f0b146a0ebb59a46aa8b3, type: 3}
       propertyPath: m_Name
       value: TesteiraCasaCorredorMedia
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7c92d2e6994f0b146a0ebb59a46aa8b3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -18190,6 +18880,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: VarandaFechadaPequena
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 45e65aa4c5545214cbd061611bc4987a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18280,6 +18974,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 7c92d2e6994f0b146a0ebb59a46aa8b3, type: 3}
       propertyPath: m_Name
       value: TesteiraCasaCorredorMedia
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7c92d2e6994f0b146a0ebb59a46aa8b3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -18372,6 +19070,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ADBaseGrande
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 36a5a2a5ef0b4d84881ed4ee6b5e8094, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18463,6 +19165,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EscadaMedia
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e5bd510e3a0f3f34394cb6cb8a03a7cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18553,6 +19259,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 1e0a8d4be97bc1b43a37fab05ecb12ab, type: 3}
       propertyPath: m_Name
       value: VarandaGradeGrandeComEscada
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1e0a8d4be97bc1b43a37fab05ecb12ab, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -18709,6 +19419,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CasaLado (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 829ae4e778472224eaeeb49ba7780f94, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18800,6 +19514,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CasaLGrande
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 82767126a402950429a5ea58da8c4a60, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18887,9 +19605,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -5992779917718051749, guid: 3cb6c7fe8d4201541b60c0a140d4e776, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 3cb6c7fe8d4201541b60c0a140d4e776, type: 3}
       propertyPath: m_Name
       value: CercadoReto (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3cb6c7fe8d4201541b60c0a140d4e776, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5354543917012452388, guid: 3cb6c7fe8d4201541b60c0a140d4e776, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -19053,6 +19783,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TesteiraCasaLado
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fd73460ca172d2947b162c50bfa21bd2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19143,6 +19877,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d85070463699db24c8b0160f7c84734e, type: 3}
       propertyPath: m_Name
       value: ArCondicionado
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d85070463699db24c8b0160f7c84734e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -19235,6 +19973,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CasaLado
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 829ae4e778472224eaeeb49ba7780f94, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19326,6 +20068,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TesteiraCasaCorredorGrade
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1950ff4d86b9d814a9a5a50a473eb41b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19416,6 +20162,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 1e0a8d4be97bc1b43a37fab05ecb12ab, type: 3}
       propertyPath: m_Name
       value: VarandaGradeGrandeComEscada
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1e0a8d4be97bc1b43a37fab05ecb12ab, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -19635,9 +20385,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -5992779917718051749, guid: 3cb6c7fe8d4201541b60c0a140d4e776, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 3cb6c7fe8d4201541b60c0a140d4e776, type: 3}
       propertyPath: m_Name
       value: CercadoReto (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3cb6c7fe8d4201541b60c0a140d4e776, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5354543917012452388, guid: 3cb6c7fe8d4201541b60c0a140d4e776, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -19693,7 +20455,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1308859359
 Transform:
@@ -19755,7 +20517,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1334074954
 Transform:
@@ -19903,6 +20665,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ParadaDePedra
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1c80644f2b711b34190d2888062923c8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19993,6 +20759,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 33731a05e8f06f5489b4a1c58a2d7d56, type: 3}
       propertyPath: m_Name
       value: TesteiraCasaLGrande
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 33731a05e8f06f5489b4a1c58a2d7d56, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -20088,6 +20858,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 864de3bcaada3a14ea85f2aa7d21fc77, type: 3}
       propertyPath: m_Name
       value: CasaCorredorMedia
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 864de3bcaada3a14ea85f2aa7d21fc77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -20196,6 +20970,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: obstaculo
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f70aeae5d03fd534693f678271298f60, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -20249,7 +21027,7 @@ GameObject:
   m_TagString: obstaculo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1357361843
 Transform:
@@ -20321,6 +21099,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: a70e1963040a62242927223a3c4893e2, type: 3}
       propertyPath: m_Name
       value: VarandaGradeGrande
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a70e1963040a62242927223a3c4893e2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -20412,6 +21194,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 1c80644f2b711b34190d2888062923c8, type: 3}
       propertyPath: m_Name
       value: ParadaDePedra (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1c80644f2b711b34190d2888062923c8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -20593,6 +21379,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ArCondicionado
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d85070463699db24c8b0160f7c84734e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -20647,7 +21437,7 @@ GameObject:
   m_TagString: obstaculo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!65 &1396977677
 BoxCollider:
@@ -20741,6 +21531,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 45e65aa4c5545214cbd061611bc4987a, type: 3}
       propertyPath: m_Name
       value: VarandaFechadaPequena
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 45e65aa4c5545214cbd061611bc4987a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -20857,6 +21651,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barril (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fa4ba6f1ce6e3f14c9dfbb2949f9676a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -20956,6 +21754,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CercadoCurvo
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bf0a63334d7a5ab45a1e2dca98f3b1b7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -20981,7 +21783,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1425367706
 Transform:
@@ -21042,7 +21844,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1446461808
 Transform:
@@ -21138,9 +21940,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -5992779917718051749, guid: 3cb6c7fe8d4201541b60c0a140d4e776, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 3cb6c7fe8d4201541b60c0a140d4e776, type: 3}
       propertyPath: m_Name
       value: CercadoReto (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3cb6c7fe8d4201541b60c0a140d4e776, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5354543917012452388, guid: 3cb6c7fe8d4201541b60c0a140d4e776, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -21366,6 +22180,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EscadaMedia
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e5bd510e3a0f3f34394cb6cb8a03a7cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -21420,7 +22238,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1459627421
 Transform:
@@ -21520,6 +22338,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CasaCorredorGrade
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1cbcedbdd160813419550d6ae4704313, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -21611,6 +22433,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cone (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 383c5a05db444c14788ef02b185737dc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -21698,9 +22524,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -5992779917718051749, guid: 3cb6c7fe8d4201541b60c0a140d4e776, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 3cb6c7fe8d4201541b60c0a140d4e776, type: 3}
       propertyPath: m_Name
       value: CercadoReto (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3cb6c7fe8d4201541b60c0a140d4e776, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5354543917012452388, guid: 3cb6c7fe8d4201541b60c0a140d4e776, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -21792,6 +22630,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 81977ee009819f440a3dcb1809ffb718, type: 3}
       propertyPath: m_Name
       value: VarandaFechadaGrande
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 81977ee009819f440a3dcb1809ffb718, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -21888,6 +22730,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CasaCorredorGrade
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1cbcedbdd160813419550d6ae4704313, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -21979,6 +22825,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TesteiraCasaLado
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fd73460ca172d2947b162c50bfa21bd2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -22033,7 +22883,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1501295636
 Transform:
@@ -22131,6 +22981,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CasaLGrande
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 82767126a402950429a5ea58da8c4a60, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -22221,6 +23075,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 383c5a05db444c14788ef02b185737dc, type: 3}
       propertyPath: m_Name
       value: Cone
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 383c5a05db444c14788ef02b185737dc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -22317,6 +23175,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CasaCorredorMedia
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 864de3bcaada3a14ea85f2aa7d21fc77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -22371,7 +23233,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1515369060
 Transform:
@@ -22469,6 +23331,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CasaLado (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 829ae4e778472224eaeeb49ba7780f94, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -22560,6 +23426,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ParadaDePedra
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1c80644f2b711b34190d2888062923c8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -22650,6 +23520,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d85070463699db24c8b0160f7c84734e, type: 3}
       propertyPath: m_Name
       value: ArCondicionado
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d85070463699db24c8b0160f7c84734e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -22799,6 +23673,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TesteiraCasaCorredorMedia
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7c92d2e6994f0b146a0ebb59a46aa8b3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -22889,6 +23767,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d85070463699db24c8b0160f7c84734e, type: 3}
       propertyPath: m_Name
       value: ArCondicionado
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d85070463699db24c8b0160f7c84734e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -22985,6 +23867,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CasaCorredorGrade
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1cbcedbdd160813419550d6ae4704313, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -23080,6 +23966,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: obstaculo
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 994aa4a5c8b6cde41b0dd5f292bb5b01, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -23145,6 +24035,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 1cbcedbdd160813419550d6ae4704313, type: 3}
       propertyPath: m_Name
       value: CasaCorredorGrade
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1cbcedbdd160813419550d6ae4704313, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -23237,6 +24131,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CasaLGrande
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 82767126a402950429a5ea58da8c4a60, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -23327,6 +24225,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: a70e1963040a62242927223a3c4893e2, type: 3}
       propertyPath: m_Name
       value: VarandaGradeGrande
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a70e1963040a62242927223a3c4893e2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -23423,6 +24325,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: obstaculo
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd2ad579247606d469472601a102e9be, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -23513,6 +24419,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: aa342c764e603b2458710f23d4570ebd, type: 3}
       propertyPath: m_Name
       value: ADPequeno
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: aa342c764e603b2458710f23d4570ebd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -23605,6 +24515,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CasaLado
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 829ae4e778472224eaeeb49ba7780f94, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -23696,6 +24610,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EscadaMedia
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e5bd510e3a0f3f34394cb6cb8a03a7cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -23750,7 +24668,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1612102673
 Transform:
@@ -23850,6 +24768,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TesteiraCasaLado
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fd73460ca172d2947b162c50bfa21bd2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -23940,6 +24862,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 1e0a8d4be97bc1b43a37fab05ecb12ab, type: 3}
       propertyPath: m_Name
       value: VarandaGradeGrandeComEscada
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1e0a8d4be97bc1b43a37fab05ecb12ab, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -24032,6 +24958,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TesteiraCasaLGrande
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 33731a05e8f06f5489b4a1c58a2d7d56, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -24122,6 +25052,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e5bd510e3a0f3f34394cb6cb8a03a7cb, type: 3}
       propertyPath: m_Name
       value: EscadaMedia
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e5bd510e3a0f3f34394cb6cb8a03a7cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -24214,6 +25148,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: VarandaFechadaPequena
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 45e65aa4c5545214cbd061611bc4987a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -24304,6 +25242,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 829ae4e778472224eaeeb49ba7780f94, type: 3}
       propertyPath: m_Name
       value: CasaLado
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 829ae4e778472224eaeeb49ba7780f94, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -24467,7 +25409,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1637295478
 Transform:
@@ -24565,6 +25507,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TesteiraCasaCorredorGrade
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1950ff4d86b9d814a9a5a50a473eb41b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -24659,6 +25605,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 864de3bcaada3a14ea85f2aa7d21fc77, type: 3}
       propertyPath: m_Name
       value: CasaCorredorMedia
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 864de3bcaada3a14ea85f2aa7d21fc77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -24882,6 +25832,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CasaLado (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 829ae4e778472224eaeeb49ba7780f94, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -24969,9 +25923,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -5992779917718051749, guid: 3cb6c7fe8d4201541b60c0a140d4e776, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 3cb6c7fe8d4201541b60c0a140d4e776, type: 3}
       propertyPath: m_Name
       value: CercadoReto (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3cb6c7fe8d4201541b60c0a140d4e776, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5354543917012452388, guid: 3cb6c7fe8d4201541b60c0a140d4e776, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -25064,6 +26030,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: VarandaGradeGrandeComEscada
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1e0a8d4be97bc1b43a37fab05ecb12ab, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -25154,6 +26124,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 7c92d2e6994f0b146a0ebb59a46aa8b3, type: 3}
       propertyPath: m_Name
       value: TesteiraCasaCorredorMedia
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7c92d2e6994f0b146a0ebb59a46aa8b3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -25246,6 +26220,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ParadaDePedra (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1c80644f2b711b34190d2888062923c8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -25336,6 +26314,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 1e0a8d4be97bc1b43a37fab05ecb12ab, type: 3}
       propertyPath: m_Name
       value: VarandaGradeGrandeComEscada
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1e0a8d4be97bc1b43a37fab05ecb12ab, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -25428,6 +26410,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EscadaMedia
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e5bd510e3a0f3f34394cb6cb8a03a7cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -25519,6 +26505,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ArCondicionado
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d85070463699db24c8b0160f7c84734e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -25573,7 +26563,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1697619572
 Transform:
@@ -25631,7 +26621,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1698263133
 Transform:
@@ -25723,9 +26713,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -5992779917718051749, guid: 3cb6c7fe8d4201541b60c0a140d4e776, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 3cb6c7fe8d4201541b60c0a140d4e776, type: 3}
       propertyPath: m_Name
       value: CercadoReto
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3cb6c7fe8d4201541b60c0a140d4e776, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5354543917012452388, guid: 3cb6c7fe8d4201541b60c0a140d4e776, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -25783,7 +26785,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!65 &1707370378
 BoxCollider:
@@ -25926,6 +26928,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: VarandaFechadaGrande
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 81977ee009819f440a3dcb1809ffb718, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -26020,6 +27026,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 864de3bcaada3a14ea85f2aa7d21fc77, type: 3}
       propertyPath: m_Name
       value: CasaCorredorMedia
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 864de3bcaada3a14ea85f2aa7d21fc77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -26196,12 +27206,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1717144309}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Esconderijos
-  m_TagString: obstaculo
+  m_TagString: Esconderijo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1717144309
 Transform:
@@ -26274,6 +27284,18 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 51450f7a21778d24faa486186c7a83e6, type: 3}
       propertyPath: m_Name
       value: PontoDeOnibus
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 51450f7a21778d24faa486186c7a83e6, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 51450f7a21778d24faa486186c7a83e6, type: 3}
+      propertyPath: m_TagString
+      value: Esconderijo
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 51450f7a21778d24faa486186c7a83e6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -26390,6 +27412,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EscadaMedia
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e5bd510e3a0f3f34394cb6cb8a03a7cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -26444,7 +27470,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1741332212
 Transform:
@@ -26542,6 +27568,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TesteiraCasaCorredorMedia
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7c92d2e6994f0b146a0ebb59a46aa8b3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -26629,9 +27659,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -5992779917718051749, guid: 3cb6c7fe8d4201541b60c0a140d4e776, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 3cb6c7fe8d4201541b60c0a140d4e776, type: 3}
       propertyPath: m_Name
       value: CercadoReto (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3cb6c7fe8d4201541b60c0a140d4e776, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5354543917012452388, guid: 3cb6c7fe8d4201541b60c0a140d4e776, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -26687,7 +27729,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1751857199
 Transform:
@@ -26748,7 +27790,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1753717925
 Transform:
@@ -26842,6 +27884,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cone
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 383c5a05db444c14788ef02b185737dc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -26932,6 +27978,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 1c80644f2b711b34190d2888062923c8, type: 3}
       propertyPath: m_Name
       value: ParadaDePedra (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1c80644f2b711b34190d2888062923c8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -27024,6 +28074,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: VarandaGradeGrande
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a70e1963040a62242927223a3c4893e2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -27115,6 +28169,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlacaRetangular (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 994aa4a5c8b6cde41b0dd5f292bb5b01, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -27176,6 +28234,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 1e0a8d4be97bc1b43a37fab05ecb12ab, type: 3}
       propertyPath: m_Name
       value: VarandaGradeGrandeComEscada
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1e0a8d4be97bc1b43a37fab05ecb12ab, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -27347,6 +28409,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TesteiraCasaCorredorGrade
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1950ff4d86b9d814a9a5a50a473eb41b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -27434,9 +28500,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -5992779917718051749, guid: 3cb6c7fe8d4201541b60c0a140d4e776, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 3cb6c7fe8d4201541b60c0a140d4e776, type: 3}
       propertyPath: m_Name
       value: CercadoReto (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3cb6c7fe8d4201541b60c0a140d4e776, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5354543917012452388, guid: 3cb6c7fe8d4201541b60c0a140d4e776, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -27492,7 +28570,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1820846285
 Transform:
@@ -27725,6 +28803,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CasaCorredorGrade
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1cbcedbdd160813419550d6ae4704313, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -27815,6 +28897,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 36a5a2a5ef0b4d84881ed4ee6b5e8094, type: 3}
       propertyPath: m_Name
       value: ADBaseGrande (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 36a5a2a5ef0b4d84881ed4ee6b5e8094, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -27978,6 +29064,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: VarandaGradeGrandeComEscada
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1e0a8d4be97bc1b43a37fab05ecb12ab, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -28068,6 +29158,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 1950ff4d86b9d814a9a5a50a473eb41b, type: 3}
       propertyPath: m_Name
       value: TesteiraCasaCorredorGrade
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1950ff4d86b9d814a9a5a50a473eb41b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -28160,6 +29254,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TesteiraCasaCorredorMedia
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7c92d2e6994f0b146a0ebb59a46aa8b3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -28250,6 +29348,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 81977ee009819f440a3dcb1809ffb718, type: 3}
       propertyPath: m_Name
       value: VarandaFechadaGrande
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 81977ee009819f440a3dcb1809ffb718, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -28399,6 +29501,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TesteiraCasaLGrande
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 33731a05e8f06f5489b4a1c58a2d7d56, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -28489,6 +29595,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 82767126a402950429a5ea58da8c4a60, type: 3}
       propertyPath: m_Name
       value: CasaLGrande
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 82767126a402950429a5ea58da8c4a60, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -28581,6 +29691,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ADBaseGrande
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 36a5a2a5ef0b4d84881ed4ee6b5e8094, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -28671,6 +29785,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 33731a05e8f06f5489b4a1c58a2d7d56, type: 3}
       propertyPath: m_Name
       value: TesteiraCasaLGrande
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 33731a05e8f06f5489b4a1c58a2d7d56, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -28914,9 +30032,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -5992779917718051749, guid: 3cb6c7fe8d4201541b60c0a140d4e776, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 3cb6c7fe8d4201541b60c0a140d4e776, type: 3}
       propertyPath: m_Name
       value: CercadoReto (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3cb6c7fe8d4201541b60c0a140d4e776, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5354543917012452388, guid: 3cb6c7fe8d4201541b60c0a140d4e776, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -29009,6 +30139,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TesteiraCasaLado
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fd73460ca172d2947b162c50bfa21bd2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -29099,6 +30233,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: a70e1963040a62242927223a3c4893e2, type: 3}
       propertyPath: m_Name
       value: VarandaGradeGrande
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a70e1963040a62242927223a3c4893e2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -29191,6 +30329,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: VarandaFechadaPequena
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 45e65aa4c5545214cbd061611bc4987a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -29281,6 +30423,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 1c80644f2b711b34190d2888062923c8, type: 3}
       propertyPath: m_Name
       value: ParadaDePedra (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1c80644f2b711b34190d2888062923c8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -29373,6 +30519,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CasaLado (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 829ae4e778472224eaeeb49ba7780f94, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -29427,7 +30577,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1933673086
 Transform:
@@ -29652,9 +30802,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -5992779917718051749, guid: 3cb6c7fe8d4201541b60c0a140d4e776, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 3cb6c7fe8d4201541b60c0a140d4e776, type: 3}
       propertyPath: m_Name
       value: CercadoReto (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3cb6c7fe8d4201541b60c0a140d4e776, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5354543917012452388, guid: 3cb6c7fe8d4201541b60c0a140d4e776, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -29747,6 +30909,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TesteiraCasaCorredorGrade
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1950ff4d86b9d814a9a5a50a473eb41b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -29837,6 +31003,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: fd73460ca172d2947b162c50bfa21bd2, type: 3}
       propertyPath: m_Name
       value: TesteiraCasaLado (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fd73460ca172d2947b162c50bfa21bd2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -29929,6 +31099,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MaquinaDeVendas
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 06138c51859e28c4d9167fef3cf7220b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -30020,6 +31194,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlacaTriangular (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 52fc61443314ff546ada47dfcb0a405b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -30044,7 +31222,7 @@ GameObject:
   m_TagString: obstaculo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1971021766
 Transform:
@@ -30118,6 +31296,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 383c5a05db444c14788ef02b185737dc, type: 3}
       propertyPath: m_Name
       value: Cone (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 383c5a05db444c14788ef02b185737dc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -30210,6 +31392,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EscadaMedia
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e5bd510e3a0f3f34394cb6cb8a03a7cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -30300,6 +31486,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e5bd510e3a0f3f34394cb6cb8a03a7cb, type: 3}
       propertyPath: m_Name
       value: EscadaMedia
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e5bd510e3a0f3f34394cb6cb8a03a7cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -30396,6 +31586,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CercadoReto (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3cb6c7fe8d4201541b60c0a140d4e776, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: -5992779917718051749, guid: 3cb6c7fe8d4201541b60c0a140d4e776, type: 3}
@@ -30489,6 +31683,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlacaRetangular (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 994aa4a5c8b6cde41b0dd5f292bb5b01, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -30547,9 +31745,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -5992779917718051749, guid: 3cb6c7fe8d4201541b60c0a140d4e776, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 3cb6c7fe8d4201541b60c0a140d4e776, type: 3}
       propertyPath: m_Name
       value: CercadoReto (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3cb6c7fe8d4201541b60c0a140d4e776, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5354543917012452388, guid: 3cb6c7fe8d4201541b60c0a140d4e776, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -30642,6 +31852,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: VarandaGradeGrandeComEscada
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1e0a8d4be97bc1b43a37fab05ecb12ab, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -30696,7 +31910,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &2009028508
 Transform:
@@ -30796,6 +32010,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TesteiraCasaLado (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fd73460ca172d2947b162c50bfa21bd2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -30886,6 +32104,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 866d6674adb23c0458fb29fd36f2db34, type: 3}
       propertyPath: m_Name
       value: EscadaPequena
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 866d6674adb23c0458fb29fd36f2db34, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -30978,6 +32200,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ADBaseGrande
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 36a5a2a5ef0b4d84881ed4ee6b5e8094, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -31068,6 +32294,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 81977ee009819f440a3dcb1809ffb718, type: 3}
       propertyPath: m_Name
       value: VarandaFechadaGrande
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 81977ee009819f440a3dcb1809ffb718, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -31160,6 +32390,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CasaLado (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 829ae4e778472224eaeeb49ba7780f94, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -31214,7 +32448,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &2058471760
 Transform:
@@ -31314,6 +32548,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EscadaMedia
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e5bd510e3a0f3f34394cb6cb8a03a7cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -31404,6 +32642,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 7c92d2e6994f0b146a0ebb59a46aa8b3, type: 3}
       propertyPath: m_Name
       value: TesteiraCasaCorredorMedia
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7c92d2e6994f0b146a0ebb59a46aa8b3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -31496,6 +32738,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TesteiraCasaLado
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fd73460ca172d2947b162c50bfa21bd2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -31586,6 +32832,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5921208b944509e4ca98339723b1e12f, type: 3}
       propertyPath: m_Name
       value: CarrinhoDeComida
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5921208b944509e4ca98339723b1e12f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -31694,6 +32944,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: obstaculo
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f70aeae5d03fd534693f678271298f60, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -31784,6 +33038,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 7c92d2e6994f0b146a0ebb59a46aa8b3, type: 3}
       propertyPath: m_Name
       value: TesteiraCasaCorredorMedia
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7c92d2e6994f0b146a0ebb59a46aa8b3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -31880,6 +33138,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: obstaculo
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 52fc61443314ff546ada47dfcb0a405b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -31941,6 +33203,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 82767126a402950429a5ea58da8c4a60, type: 3}
       propertyPath: m_Name
       value: CasaLGrande
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 82767126a402950429a5ea58da8c4a60, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -32019,7 +33285,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &2107906979
 Transform:
@@ -32060,7 +33326,7 @@ GameObject:
   m_TagString: obstaculo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &2114757157
 Transform:
@@ -32141,6 +33407,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d85070463699db24c8b0160f7c84734e, type: 3}
       propertyPath: m_Name
       value: ArCondicionado
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d85070463699db24c8b0160f7c84734e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -32233,6 +33503,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TesteiraCasaCorredorGrade
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1950ff4d86b9d814a9a5a50a473eb41b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -32286,7 +33560,7 @@ GameObject:
   m_TagString: obstaculo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &2139553822
 Transform:
@@ -32370,6 +33644,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 06138c51859e28c4d9167fef3cf7220b, type: 3}
       propertyPath: m_Name
       value: MaquinaDeVendas (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 06138c51859e28c4d9167fef3cf7220b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -32461,6 +33739,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: fd73460ca172d2947b162c50bfa21bd2, type: 3}
       propertyPath: m_Name
       value: TesteiraCasaLado
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fd73460ca172d2947b162c50bfa21bd2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

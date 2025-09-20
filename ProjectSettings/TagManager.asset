@@ -8,6 +8,7 @@ TagManager:
   - vitoria
   - obstaculo
   - Inimigo
+  - Esconderijo
   layers:
   - Default
   - TransparentFX
