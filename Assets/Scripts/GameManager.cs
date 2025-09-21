@@ -5,19 +5,27 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 public class GameManager : MonoBehaviour
 {
+    //cenário e vitoria/derrota
     public int cenarioatual = 0;
     int vitoriaderrota = 0;
+    public GameObject[] telaVitoriaDerrota; 
+
+    //pausa
     public GameObject MenuPause;
-    public GameObject[] telaVitoriaDerrota;
     public bool isPaused = false;
+
+    //tempo decrescente
     public float tempomax= 100f;
     public float tempofaltando;
     public Slider Tempo;
-    public TextMeshProUGUI telaVitoria;
+
+    //pontuação (base em colisões)
     int batidas;
     double multiplicador;
     double pontos = 0;
     double pontosFinais=0;
+    public TextMeshProUGUI telaVitoria;
+
     void Start()
     {
         multiplicador = 20;
@@ -40,7 +48,15 @@ public class GameManager : MonoBehaviour
         }
         pontos = (tempofaltando * 100) + (-150 * batidas);
     }
-    //pause do jogo
+
+
+    //função para coletavel que adiciona tempo
+    public void ColetavelTempo(int tempo)
+    {
+        tempofaltando += tempo;
+    }
+
+    //pause do jogo (se n tiver pausado pausa, se tiver pausado despausa)
     public void Pause()
     {
         isPaused = !isPaused;
@@ -61,7 +77,14 @@ public class GameManager : MonoBehaviour
             }
         }
     }
-    //condições de vitoria e derrota
+
+    //voltar ao menu principal
+    public void Menu()
+    {
+        SceneManager.LoadScene("Menu");
+    }
+
+    //condições de vitoria e derrota + sistema de pontuação
     public void Vitoria()
     {
         vitoriaderrota = 1;
