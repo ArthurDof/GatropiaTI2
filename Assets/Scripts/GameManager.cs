@@ -24,7 +24,7 @@ public class GameManager : MonoBehaviour
     double multiplicador;
     double pontos = 0;
     double pontosFinais=0;
-    public TextMeshProUGUI telaVitoria;
+    public TextMeshProUGUI pontosVitoria;
 
     void Start()
     {
@@ -89,7 +89,7 @@ public class GameManager : MonoBehaviour
     {
         vitoriaderrota = 1;
         pontosFinais = (pontos * multiplicador) / 10;
-        telaVitoria.text = "Pontuação: " + $"{pontos:F1}" + " X " + $"{multiplicador / 10}" + " = " + $"{pontosFinais:F1}".ToString();
+        pontosVitoria.text = "Pontuação: " + $"{pontos:F1}" + " X " + $"{multiplicador / 10}" + " = " + $"{pontosFinais:F1}".ToString();
         telaVitoriaDerrota[0].gameObject.SetActive(true);
         if (isPaused == false)
         {
