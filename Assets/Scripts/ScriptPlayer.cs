@@ -76,6 +76,7 @@ public class ScriptPlayer : MonoBehaviour
     {
         if (collision.gameObject.tag == "obstaculo")
         {
+            controller.DetectouColisao();
             colisao += Time.deltaTime;
         }
     }

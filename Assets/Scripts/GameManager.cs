@@ -1,3 +1,4 @@
+using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -12,8 +13,14 @@ public class GameManager : MonoBehaviour
     public float tempomax= 100f;
     public float tempofaltando;
     public Slider Tempo;
+    public TextMeshProUGUI telaVitoria;
+    int batidas;
+    double multiplicador;
+    double pontos = 0;
+    double pontosFinais=0;
     void Start()
     {
+        multiplicador = 20;
         tempofaltando = tempomax;
         Tempo.maxValue = tempomax;
         Tempo.value = tempofaltando;
@@ -31,6 +38,7 @@ public class GameManager : MonoBehaviour
         {
             Derrota();
         }
+        pontos = (tempofaltando * 100) + (-150 * batidas);
     }
     //pause do jogo
     public void Pause()
@@ -57,6 +65,8 @@ public class GameManager : MonoBehaviour
     public void Vitoria()
     {
         vitoriaderrota = 1;
+        pontosFinais = (pontos * multiplicador) / 10;
+        telaVitoria.text = "Pontuação: " + $"{pontos:F1}" + " X " + $"{multiplicador / 10}" + " = " + $"{pontosFinais:F1}".ToString();
         telaVitoriaDerrota[0].gameObject.SetActive(true);
         if (isPaused == false)
         {
@@ -70,6 +80,14 @@ public class GameManager : MonoBehaviour
         if (isPaused == false)
         {
             Pause();
+        }
+    }
+    public void DetectouColisao()
+    {
+        batidas++;
+        if (batidas <=10)
+        {
+            multiplicador --;
         }
     }
 

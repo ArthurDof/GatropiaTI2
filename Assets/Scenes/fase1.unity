@@ -858,6 +858,10 @@ PrefabInstance:
       value: CarrinhoDeComida
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 5921208b944509e4ca98339723b1e12f, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5921208b944509e4ca98339723b1e12f, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -1462,6 +1466,10 @@ PrefabInstance:
       value: ParadaDePedra (2)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 1c80644f2b711b34190d2888062923c8, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1c80644f2b711b34190d2888062923c8, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -1555,6 +1563,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: fa4ba6f1ce6e3f14c9dfbb2949f9676a, type: 3}
       propertyPath: m_Name
       value: Barril
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fa4ba6f1ce6e3f14c9dfbb2949f9676a, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: fa4ba6f1ce6e3f14c9dfbb2949f9676a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -3223,6 +3235,10 @@ PrefabInstance:
       value: ADBaseGrande (3)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 36a5a2a5ef0b4d84881ed4ee6b5e8094, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 36a5a2a5ef0b4d84881ed4ee6b5e8094, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -3549,6 +3565,10 @@ PrefabInstance:
       value: ADBaseGrande (1)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 36a5a2a5ef0b4d84881ed4ee6b5e8094, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 36a5a2a5ef0b4d84881ed4ee6b5e8094, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -3676,6 +3696,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 06138c51859e28c4d9167fef3cf7220b, type: 3}
       propertyPath: m_Name
       value: MaquinaDeVendas (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 06138c51859e28c4d9167fef3cf7220b, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 06138c51859e28c4d9167fef3cf7220b, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -3851,7 +3875,7 @@ GameObject:
   - component: {fileID: 214345952}
   m_Layer: 0
   m_Name: Casa3 (1)
-  m_TagString: Untagged
+  m_TagString: obstaculo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -4360,6 +4384,10 @@ PrefabInstance:
       value: Cone (1)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 383c5a05db444c14788ef02b185737dc, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 383c5a05db444c14788ef02b185737dc, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -4561,6 +4589,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 1c80644f2b711b34190d2888062923c8, type: 3}
       propertyPath: m_Name
       value: ParadaDePedra (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1c80644f2b711b34190d2888062923c8, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 1c80644f2b711b34190d2888062923c8, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -5092,7 +5124,7 @@ GameObject:
   - component: {fileID: 281041011}
   m_Layer: 0
   m_Name: Casa3
-  m_TagString: Untagged
+  m_TagString: obstaculo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -5798,6 +5830,10 @@ PrefabInstance:
       value: ParadaDePedra (4)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 1c80644f2b711b34190d2888062923c8, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1c80644f2b711b34190d2888062923c8, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -5891,6 +5927,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 994aa4a5c8b6cde41b0dd5f292bb5b01, type: 3}
       propertyPath: m_Name
       value: PlacaRetangular (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 994aa4a5c8b6cde41b0dd5f292bb5b01, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 994aa4a5c8b6cde41b0dd5f292bb5b01, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -6476,6 +6516,10 @@ PrefabInstance:
       value: CarrinhoDeComida (1)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 5921208b944509e4ca98339723b1e12f, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5921208b944509e4ca98339723b1e12f, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -6919,6 +6963,10 @@ PrefabInstance:
       value: PosteDePlaca (1)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: dd2ad579247606d469472601a102e9be, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dd2ad579247606d469472601a102e9be, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -7356,7 +7404,7 @@ GameObject:
   - component: {fileID: 425812554}
   m_Layer: 0
   m_Name: Casa2 (1)
-  m_TagString: Untagged
+  m_TagString: obstaculo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -7552,7 +7600,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 448839363}
   m_Father: {fileID: 1713342657}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -7977,6 +8026,10 @@ PrefabInstance:
       value: CarrinhoDeComida (2)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 5921208b944509e4ca98339723b1e12f, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5921208b944509e4ca98339723b1e12f, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -8114,6 +8167,144 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.1371464, y: 0.086304836, z: 0.068918936}
   m_Center: {x: -0.000000067055225, y: 0.043152433, z: 0.0036241657}
+--- !u!1 &448839360
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 448839363}
+  - component: {fileID: 448839362}
+  - component: {fileID: 448839361}
+  m_Layer: 5
+  m_Name: Pontos
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &448839361
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 448839360}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: '
+
+'
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 40
+  m_fontSizeBase: 40
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &448839362
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 448839360}
+  m_CullTransparentMesh: 1
+--- !u!224 &448839363
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 448839360}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 431295080}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0.000030518, y: -190}
+  m_SizeDelta: {x: 1111.6486, y: 153.5931}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &450443330
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10840,6 +11031,10 @@ PrefabInstance:
       value: ADBaseGrande (1)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 36a5a2a5ef0b4d84881ed4ee6b5e8094, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 36a5a2a5ef0b4d84881ed4ee6b5e8094, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -11067,6 +11262,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 383c5a05db444c14788ef02b185737dc, type: 3}
       propertyPath: m_Name
       value: Cone
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 383c5a05db444c14788ef02b185737dc, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 383c5a05db444c14788ef02b185737dc, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -11308,7 +11507,7 @@ Transform:
   m_GameObject: {fileID: 688096239}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.08, y: 1.65, z: 60.09}
+  m_LocalPosition: {x: 0.05, y: 1.65, z: 60.08}
   m_LocalScale: {x: 3.6156, y: 4.0152, z: 4.6563}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -12864,6 +13063,10 @@ PrefabInstance:
       value: ParadaDePedra
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 1c80644f2b711b34190d2888062923c8, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1c80644f2b711b34190d2888062923c8, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -13266,6 +13469,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 06138c51859e28c4d9167fef3cf7220b, type: 3}
       propertyPath: m_Name
       value: MaquinaDeVendas
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 06138c51859e28c4d9167fef3cf7220b, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 06138c51859e28c4d9167fef3cf7220b, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -14591,6 +14798,10 @@ PrefabInstance:
       value: MaquinaDeVendas (1)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 06138c51859e28c4d9167fef3cf7220b, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 06138c51859e28c4d9167fef3cf7220b, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -15159,6 +15370,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 383c5a05db444c14788ef02b185737dc, type: 3}
       propertyPath: m_Name
       value: Cone (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 383c5a05db444c14788ef02b185737dc, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 383c5a05db444c14788ef02b185737dc, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -16902,7 +17117,7 @@ GameObject:
   - component: {fileID: 1037913349}
   m_Layer: 0
   m_Name: CasasDuplicadas(temporario)
-  m_TagString: Untagged
+  m_TagString: obstaculo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -18209,6 +18424,10 @@ PrefabInstance:
       value: Barril
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: fa4ba6f1ce6e3f14c9dfbb2949f9676a, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fa4ba6f1ce6e3f14c9dfbb2949f9676a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -19069,6 +19288,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 36a5a2a5ef0b4d84881ed4ee6b5e8094, type: 3}
       propertyPath: m_Name
       value: ADBaseGrande
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 36a5a2a5ef0b4d84881ed4ee6b5e8094, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 36a5a2a5ef0b4d84881ed4ee6b5e8094, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -20452,7 +20675,7 @@ GameObject:
   - component: {fileID: 1308859360}
   m_Layer: 0
   m_Name: Casa1 (1)
-  m_TagString: Untagged
+  m_TagString: obstaculo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -20664,6 +20887,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 1c80644f2b711b34190d2888062923c8, type: 3}
       propertyPath: m_Name
       value: ParadaDePedra
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1c80644f2b711b34190d2888062923c8, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 1c80644f2b711b34190d2888062923c8, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -21196,6 +21423,10 @@ PrefabInstance:
       value: ParadaDePedra (1)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 1c80644f2b711b34190d2888062923c8, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1c80644f2b711b34190d2888062923c8, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -21650,6 +21881,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: fa4ba6f1ce6e3f14c9dfbb2949f9676a, type: 3}
       propertyPath: m_Name
       value: Barril (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fa4ba6f1ce6e3f14c9dfbb2949f9676a, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: fa4ba6f1ce6e3f14c9dfbb2949f9676a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -22235,7 +22470,7 @@ GameObject:
   - component: {fileID: 1459627422}
   m_Layer: 0
   m_Name: Casa2
-  m_TagString: Untagged
+  m_TagString: obstaculo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -22432,6 +22667,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 383c5a05db444c14788ef02b185737dc, type: 3}
       propertyPath: m_Name
       value: Cone (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 383c5a05db444c14788ef02b185737dc, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 383c5a05db444c14788ef02b185737dc, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -23077,6 +23316,10 @@ PrefabInstance:
       value: Cone
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 383c5a05db444c14788ef02b185737dc, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 383c5a05db444c14788ef02b185737dc, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -23425,6 +23668,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 1c80644f2b711b34190d2888062923c8, type: 3}
       propertyPath: m_Name
       value: ParadaDePedra
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1c80644f2b711b34190d2888062923c8, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 1c80644f2b711b34190d2888062923c8, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -24421,6 +24668,10 @@ PrefabInstance:
       value: ADPequeno
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: aa342c764e603b2458710f23d4570ebd, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: aa342c764e603b2458710f23d4570ebd, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -24665,7 +24916,7 @@ GameObject:
   - component: {fileID: 1612102674}
   m_Layer: 0
   m_Name: Casa1 (2)
-  m_TagString: Untagged
+  m_TagString: obstaculo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -26221,6 +26472,10 @@ PrefabInstance:
       value: ParadaDePedra (1)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 1c80644f2b711b34190d2888062923c8, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1c80644f2b711b34190d2888062923c8, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -27111,6 +27366,7 @@ MonoBehaviour:
   tempomax: 100
   tempofaltando: 0
   Tempo: {fileID: 1373441717}
+  telaVitoria: {fileID: 448839361}
 --- !u!114 &1713342654
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27208,7 +27464,7 @@ GameObject:
   - component: {fileID: 1717144309}
   m_Layer: 3
   m_Name: Esconderijos
-  m_TagString: Esconderijo
+  m_TagString: obstaculo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -27885,6 +28141,10 @@ PrefabInstance:
       value: Cone
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 383c5a05db444c14788ef02b185737dc, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 383c5a05db444c14788ef02b185737dc, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -27978,6 +28238,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 1c80644f2b711b34190d2888062923c8, type: 3}
       propertyPath: m_Name
       value: ParadaDePedra (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1c80644f2b711b34190d2888062923c8, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 1c80644f2b711b34190d2888062923c8, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -28168,6 +28432,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 994aa4a5c8b6cde41b0dd5f292bb5b01, type: 3}
       propertyPath: m_Name
       value: PlacaRetangular (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 994aa4a5c8b6cde41b0dd5f292bb5b01, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 994aa4a5c8b6cde41b0dd5f292bb5b01, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -28897,6 +29165,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 36a5a2a5ef0b4d84881ed4ee6b5e8094, type: 3}
       propertyPath: m_Name
       value: ADBaseGrande (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 36a5a2a5ef0b4d84881ed4ee6b5e8094, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 36a5a2a5ef0b4d84881ed4ee6b5e8094, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -29692,6 +29964,10 @@ PrefabInstance:
       value: ADBaseGrande
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 36a5a2a5ef0b4d84881ed4ee6b5e8094, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 36a5a2a5ef0b4d84881ed4ee6b5e8094, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -30425,6 +30701,10 @@ PrefabInstance:
       value: ParadaDePedra (1)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 1c80644f2b711b34190d2888062923c8, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1c80644f2b711b34190d2888062923c8, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -31100,6 +31380,10 @@ PrefabInstance:
       value: MaquinaDeVendas
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 06138c51859e28c4d9167fef3cf7220b, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 06138c51859e28c4d9167fef3cf7220b, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -31193,6 +31477,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 52fc61443314ff546ada47dfcb0a405b, type: 3}
       propertyPath: m_Name
       value: PlacaTriangular (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 52fc61443314ff546ada47dfcb0a405b, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 52fc61443314ff546ada47dfcb0a405b, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -31296,6 +31584,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 383c5a05db444c14788ef02b185737dc, type: 3}
       propertyPath: m_Name
       value: Cone (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 383c5a05db444c14788ef02b185737dc, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 383c5a05db444c14788ef02b185737dc, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -32201,6 +32493,10 @@ PrefabInstance:
       value: ADBaseGrande
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 36a5a2a5ef0b4d84881ed4ee6b5e8094, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 36a5a2a5ef0b4d84881ed4ee6b5e8094, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -32834,6 +33130,10 @@ PrefabInstance:
       value: CarrinhoDeComida
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 5921208b944509e4ca98339723b1e12f, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5921208b944509e4ca98339723b1e12f, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -33282,7 +33582,7 @@ GameObject:
   - component: {fileID: 2107906979}
   m_Layer: 0
   m_Name: Casa1
-  m_TagString: Untagged
+  m_TagString: obstaculo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -33644,6 +33944,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 06138c51859e28c4d9167fef3cf7220b, type: 3}
       propertyPath: m_Name
       value: MaquinaDeVendas (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 06138c51859e28c4d9167fef3cf7220b, type: 3}
+      propertyPath: m_TagString
+      value: obstaculo
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 06138c51859e28c4d9167fef3cf7220b, type: 3}
       propertyPath: m_StaticEditorFlags
