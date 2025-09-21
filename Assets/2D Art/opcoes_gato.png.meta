@@ -100,10 +100,10 @@ TextureImporter:
       name: opcoes_gato_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 393
-        width: 237
-        height: 276
+        x: 13
+        y: 793
+        width: 211
+        height: 236
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -112,8 +112,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 18f60ff1bec0cbd48a40df94eb737e98
-      internalID: 2005229552
+      spriteID: 5c96664fd1612814bb4231a18844564d
+      internalID: -734993565
       vertices: []
       indices: 
       edges: []
@@ -122,10 +122,10 @@ TextureImporter:
       name: opcoes_gato_1
       rect:
         serializedVersion: 2
-        x: 253
-        y: 577
-        width: 206
-        height: 233
+        x: 301
+        y: 645
+        width: 365
+        height: 390
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -134,8 +134,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 415912905c2387e488ef2eb128b8fa67
-      internalID: 1219672835
+      spriteID: 352ac72b6d88f624ab385c6584c9d6d2
+      internalID: 681084963
       vertices: []
       indices: 
       edges: []
@@ -144,10 +144,10 @@ TextureImporter:
       name: opcoes_gato_2
       rect:
         serializedVersion: 2
-        x: 750
-        y: 432
+        x: 715
+        y: 645
         width: 366
-        height: 384
+        height: 390
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -156,8 +156,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eee31bc1ad9f92d4abc9d0b4571b92d1
-      internalID: -967775269
+      spriteID: 8278f5a1a3cf28043836b7295ae36512
+      internalID: 188844112
       vertices: []
       indices: 
       edges: []
@@ -166,10 +166,10 @@ TextureImporter:
       name: opcoes_gato_3
       rect:
         serializedVersion: 2
-        x: 1177
-        y: 437
-        width: 366
-        height: 384
+        x: 0
+        y: 465
+        width: 244
+        height: 280
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -178,19 +178,41 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: da7e89bdddde6594786bfbf3e2fa384b
-      internalID: -1855607159
+      spriteID: 37ccc1184a1911d49b48ef9e5c89b68c
+      internalID: -1243613869
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: opcoes_gato_7
+      name: opcoes_gato_4
       rect:
         serializedVersion: 2
-        x: 579
-        y: 410
-        width: 77
+        x: 275
+        y: 540
+        width: 327
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bd9e1203dcad8d448683e5427572181
+      internalID: -1621671848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: opcoes_gato_5
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 465
+        width: 76
         height: 125
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -200,20 +222,86 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8321b2e899924f1459786527aa7c4a78
-      internalID: 897837522
+      spriteID: 4d61b17bf003e06468528d3c525fb55c
+      internalID: -1668514032
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: opcoes_gato_12
+      name: opcoes_gato_6
       rect:
         serializedVersion: 2
-        x: 807
+        x: 742
+        y: 465
+        width: 76
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a11aa38e1c2ae784794d96c50fb1b7c2
+      internalID: -1567417072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: opcoes_gato_7
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 463
+        width: 76
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3298f7a552ad29a439faadc1112d80be
+      internalID: 307868612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: opcoes_gato_8
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 467
+        width: 182
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 611d804b30a1a3b4bb7d9efe383cb0e6
+      internalID: 1069169625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: opcoes_gato_9
+      rect:
+        serializedVersion: 2
+        x: 1353
         y: 0
-        width: 639
-        height: 306
+        width: 498
+        height: 769
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -222,20 +310,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a32c1a5d5aa70394296a198e969e877b
-      internalID: -2122359348
+      spriteID: ebee7e9a0f79d6f4ea4c30c6582fcd8b
+      internalID: -1171401035
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: opcoes_gato_4
+      name: opcoes_gato_10
       rect:
         serializedVersion: 2
-        x: 272
-        y: 464
-        width: 259
-        height: 45
+        x: 275
+        y: 459
+        width: 325
+        height: 65
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -244,20 +332,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2c9f8ec5eb76922449dcc486a703ab0b
-      internalID: -1011188998
+      spriteID: 8b17c8bc1d0c580488f78803825db537
+      internalID: -44705679
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: opcoes_gato_5
+      name: opcoes_gato_33
       rect:
         serializedVersion: 2
-        x: 272
-        y: 406
-        width: 259
-        height: 46
+        x: 1
+        y: 303
+        width: 76
+        height: 125
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -266,8 +354,96 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 42208be69b188e7468fe3d52b642fc2a
-      internalID: -1064394840
+      spriteID: 298b965b199495948bf1cea30c557a32
+      internalID: -1129091685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: opcoes_gato_34
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 23
+        width: 640
+        height: 305
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4d5856138813614c9e317bf11890fe1
+      internalID: 694212349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: opcoes_gato_35
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 96
+        width: 128
+        height: 324
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fbe52e287186cf49ac0ce6ad2f6107e
+      internalID: -181808003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: opcoes_gato_36
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 311
+        width: 182
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feedb6de487c0664b8e6747ce082d8e4
+      internalID: 1541761342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: opcoes_gato_38
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 160
+        width: 183
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 296075822a66f254aa7faf70d70e5707
+      internalID: -152981273
       vertices: []
       indices: 
       edges: []
@@ -276,7 +452,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 6da9486b36ff94e428e4560e8783174c
+    spriteID: e7095b917070ad94ea5d97e2fb9ef127
     internalID: 0
     vertices: []
     indices: 
@@ -286,19 +462,45 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      opcoes_gato_0: 2005229552
-      opcoes_gato_1: 1219672835
-      opcoes_gato_10: -780854247
-      opcoes_gato_11: 2049770024
-      opcoes_gato_12: -2122359348
-      opcoes_gato_2: -967775269
-      opcoes_gato_3: -1855607159
-      opcoes_gato_4: -1011188998
-      opcoes_gato_5: -1064394840
-      opcoes_gato_6: 17129796
-      opcoes_gato_7: 897837522
-      opcoes_gato_8: -1125284430
-      opcoes_gato_9: -1781773828
+      opcoes_gato_0: -734993565
+      opcoes_gato_1: 681084963
+      opcoes_gato_10: -44705679
+      opcoes_gato_11: -683888650
+      opcoes_gato_12: 371479759
+      opcoes_gato_13: 1011021016
+      opcoes_gato_14: -1838204661
+      opcoes_gato_15: -986474615
+      opcoes_gato_16: 431359317
+      opcoes_gato_17: -720979585
+      opcoes_gato_18: -907014732
+      opcoes_gato_19: 717035143
+      opcoes_gato_2: 188844112
+      opcoes_gato_20: -874280216
+      opcoes_gato_21: 302280775
+      opcoes_gato_22: 960326160
+      opcoes_gato_23: 1313213499
+      opcoes_gato_24: 761811530
+      opcoes_gato_25: 1394791090
+      opcoes_gato_26: 298163649
+      opcoes_gato_27: -19979810
+      opcoes_gato_28: 600416268
+      opcoes_gato_29: -1858595266
+      opcoes_gato_3: -1243613869
+      opcoes_gato_30: -935363837
+      opcoes_gato_31: 2119924165
+      opcoes_gato_32: 217184497
+      opcoes_gato_33: -1129091685
+      opcoes_gato_34: 694212349
+      opcoes_gato_35: -181808003
+      opcoes_gato_36: 1541761342
+      opcoes_gato_37: 445586172
+      opcoes_gato_38: -152981273
+      opcoes_gato_4: -1621671848
+      opcoes_gato_5: -1668514032
+      opcoes_gato_6: -1567417072
+      opcoes_gato_7: 307868612
+      opcoes_gato_8: 1069169625
+      opcoes_gato_9: -1171401035
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
