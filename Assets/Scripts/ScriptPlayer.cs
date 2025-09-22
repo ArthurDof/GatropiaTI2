@@ -18,7 +18,7 @@ public class ScriptPlayer : MonoBehaviour
     private void Start()
     {
         colisao = 0f;
-        controller = GameObject.FindGameObjectWithTag("interface").gameObject.GetComponent<GameManager>();
+        controller = GameObject.FindGameObjectWithTag("GameController").gameObject.GetComponent<GameManager>();
     }
 
     void FixedUpdate()
