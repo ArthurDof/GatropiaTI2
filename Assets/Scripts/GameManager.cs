@@ -59,13 +59,6 @@ public class GameManager : MonoBehaviour
             tempofaltando = tempomax;
         }
     }
-    public void OnTriggerEnter(Collider collision)
-    {
-        if (collision.CompareTag("vitoria"))
-        {
-            Vitoria();
-        }
-    }
 
     //pause do jogo (se n tiver pausado pausa, se tiver pausado despausa)
     public void Pause()
