@@ -54,6 +54,17 @@ public class GameManager : MonoBehaviour
     public void ColetavelTempo(int tempo)
     {
         tempofaltando += tempo;
+        if(tempofaltando > tempomax)
+        {
+            tempofaltando = tempomax;
+        }
+    }
+    public void OnTriggerEnter(Collider collision)
+    {
+        if (collision.CompareTag("vitoria"))
+        {
+            Vitoria();
+        }
     }
 
     //pause do jogo (se n tiver pausado pausa, se tiver pausado despausa)
