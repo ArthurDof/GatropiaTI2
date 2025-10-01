@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class ScriptPlayer : MonoBehaviour
 {
+    AudioController sfx;
     GameManager controller;
     [SerializeField] WheelCollider Frente;
     [SerializeField] WheelCollider Tras;
@@ -27,6 +28,7 @@ public class ScriptPlayer : MonoBehaviour
         right = false;
         colisao = 0f;
         controller = GameObject.FindGameObjectWithTag("GameController").gameObject.GetComponent<GameManager>();
+        sfx = GameObject.FindGameObjectWithTag("GameController").gameObject.GetComponent<AudioController>();
     }
 
     void FixedUpdate()
@@ -118,6 +120,7 @@ public class ScriptPlayer : MonoBehaviour
         if (collision.gameObject.tag == "obstaculo")
         {
             controller.DetectouColisao();
+            sfx.PlayerAudio(0);
             colisao += Time.deltaTime;
         }
     }
