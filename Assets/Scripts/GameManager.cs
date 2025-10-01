@@ -40,13 +40,27 @@ public class GameManager : MonoBehaviour
         Tempo.value = tempofaltando;
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            Pause();
+            if (vitoriaderrota == 0)
+            {
+                Pause();
+            }
         }
         if (tempofaltando <= 0)
         {
             Derrota();
         }
-        pontos = (tempofaltando * 100) + (-150 * batidas);
+        if (batidas >= 10)
+        {
+            pontos = (tempofaltando * 100) + (-150 * batidas + 1500);
+        }
+        else
+        {
+            pontos = (tempofaltando * 100);
+        }
+        if (pontos < 0) 
+        {
+            pontos = 1000;
+        }
     }
 
 

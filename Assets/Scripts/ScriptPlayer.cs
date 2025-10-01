@@ -14,9 +14,17 @@ public class ScriptPlayer : MonoBehaviour
     float freioAtual = 0f;
     float virarAtual = 0f;
     public float colisao = 0f;
+    bool up = false;
+    bool down = false;
+    bool left = false;
+    bool right = false;
 
     private void Start()
     {
+        up = false;
+        down = false;
+        left = false;
+        right = false;
         colisao = 0f;
         controller = GameObject.FindGameObjectWithTag("GameController").gameObject.GetComponent<GameManager>();
     }
@@ -37,8 +45,41 @@ public class ScriptPlayer : MonoBehaviour
         }
         if (colisao == 0f)
         {
-            accelAtual = accel * Input.GetAxis("Vertical");
-            virarAtual = anguloVirar * Input.GetAxis("Horizontal");
+            float vertical = Input.GetAxis("Vertical");
+            if (up == true && down == true)
+            {
+                vertical = 0f;
+            }
+            else
+            {
+                if (up == true)
+                {
+                    vertical = 1f;
+                }
+                if (down == true)
+                {
+                    vertical = -1f;
+                }
+            }
+            accelAtual = accel * vertical;
+            float horizontal = Input.GetAxis("Horizontal");
+            if (left == true && right == true)
+            {
+                horizontal = 0f;
+            }
+            else
+            {
+                if (left == true)
+                {
+                    horizontal = -1f;
+                }
+                if (right == true)
+                {
+                    horizontal = 1f;
+                }
+            }
+            virarAtual = anguloVirar * horizontal;
+
             if (Input.GetKey(KeyCode.Space))
             {
                 freioAtual = freio;
@@ -79,5 +120,40 @@ public class ScriptPlayer : MonoBehaviour
             controller.DetectouColisao();
             colisao += Time.deltaTime;
         }
+    }
+    public void clicarUp()
+    {
+        up = true;
+    }
+    public void soltarUp()
+    {
+        up = false;
+    }
+
+    public void clicarDown() 
+    { 
+        down = true; 
+    }
+    public void soltarDown() 
+    { 
+        down = false; 
+    }
+
+    public void clicarDireita() 
+    { 
+        right = true; 
+    }
+    public void soltarDireita() 
+    { 
+        right = false; 
+    }
+
+    public void clicarEsquerda() 
+    { 
+        left = true; 
+    }
+    public void soltarEsquerda() 
+    { 
+        left = false; 
     }
 }
