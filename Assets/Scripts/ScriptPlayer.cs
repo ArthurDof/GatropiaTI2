@@ -6,10 +6,16 @@ public class ScriptPlayer : MonoBehaviour
     GameManager controller;
     [SerializeField] WheelCollider Frente;
     [SerializeField] WheelCollider Tras;
-    public float accel = 1500f;
-    public float freio = 1750f;
-    public float anguloVirar = 20f;
-    public float freioPassivo = 1000f;
+    public Rigidbody rb;
+    public float accel = 100f;
+    public float freio = 75f;
+    public float anguloVirar = 15f;
+    public float freioPassivo = 50f;
+    public float forcaPulo = 25f;
+    public float forcaPuloAndando = 125;
+    public float cooldownPulo;
+    Vector3 Pulo;
+    Vector3 PuloAndando;
 
     public float accelAtual = 0f;
     float freioAtual = 0f;
@@ -22,10 +28,8 @@ public class ScriptPlayer : MonoBehaviour
 
     private void Start()
     {
-        up = false;
-        down = false;
-        left = false;
-        right = false;
+        cooldownPulo = 2f;
+        Pulo = new Vector3(0.0f, 2.0f, 0.0f);
         colisao = 0f;
         controller = GameObject.FindGameObjectWithTag("GameController").gameObject.GetComponent<GameManager>();
         sfx = GameObject.FindGameObjectWithTag("GameController").gameObject.GetComponent<AudioController>();
@@ -33,6 +37,8 @@ public class ScriptPlayer : MonoBehaviour
 
     void FixedUpdate()
     {
+        PuloAndando = (Camera.main.transform.forward/2 + Vector3.up).normalized * 2f;
+        cooldownPulo += Time.deltaTime;
         if (colisao > 0f)
         {
             colisao += Time.deltaTime;
@@ -47,6 +53,10 @@ public class ScriptPlayer : MonoBehaviour
         }
         if (colisao == 0f)
         {
+            if (Input.GetKey(KeyCode.Space))
+            {
+                Pular();
+            }
             float vertical = Input.GetAxis("Vertical");
             if (up == true && down == true)
             {
@@ -82,7 +92,7 @@ public class ScriptPlayer : MonoBehaviour
             }
             virarAtual = anguloVirar * horizontal;
 
-            if (Input.GetKey(KeyCode.Space))
+            if (Input.GetKey(KeyCode.F))
             {
                 freioAtual = freio;
             }
@@ -120,8 +130,27 @@ public class ScriptPlayer : MonoBehaviour
         if (collision.gameObject.tag == "obstaculo")
         {
             controller.DetectouColisao();
-            sfx.PlayerAudio(0);
+            if (colisao ==0f)
+            {
+                sfx.PlayerAudio(0);
+            }
             colisao += Time.deltaTime;
+        }
+    }
+    public void Pular()
+    {
+        if (cooldownPulo >= 2f)
+        {
+            if (accelAtual > 0f)
+            {
+                rb.AddForce(PuloAndando * forcaPuloAndando, ForceMode.Impulse);
+                cooldownPulo = 0f;
+            }
+            else
+            {
+                rb.AddForce(Pulo * forcaPulo, ForceMode.Impulse);
+                cooldownPulo = 0f;
+            }
         }
     }
     public void clicarUp()

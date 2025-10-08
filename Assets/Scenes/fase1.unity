@@ -4951,10 +4951,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Frente: {fileID: 1829739952}
   Tras: {fileID: 1254831760}
+  rb: {fileID: 222540898}
   accel: 100
   freio: 75
   anguloVirar: 15
   freioPassivo: 50
+  forcaPulo: 60
+  forcaPuloAndando: 80
+  cooldownPulo: 0
   accelAtual: 0
   colisao: 0
 --- !u!82 &222540906
@@ -10210,7 +10214,7 @@ GameObject:
   - component: {fileID: 455726930}
   m_Layer: 0
   m_Name: ColisorRodas
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13458,7 +13462,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd6c9564a4822ae429c7dce788a5fb65, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coletavel: {fileID: 656308468}
+  coletavel: {fileID: 0}
 --- !u!95 &656308471
 Animator:
   serializedVersion: 7
@@ -24011,7 +24015,7 @@ GameObject:
   - component: {fileID: 1254831760}
   m_Layer: 0
   m_Name: Tras
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34643,7 +34647,7 @@ GameObject:
   - component: {fileID: 1829739952}
   m_Layer: 0
   m_Name: Frente
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
