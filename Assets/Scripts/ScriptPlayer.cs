@@ -16,6 +16,7 @@ public class ScriptPlayer : MonoBehaviour
     public float cooldownPulo;
     Vector3 Pulo;
     Vector3 PuloAndando;
+    Vector3 impulso;
 
     public float accelAtual = 0f;
     float freioAtual = 0f;
@@ -25,6 +26,7 @@ public class ScriptPlayer : MonoBehaviour
     bool down = false;
     bool left = false;
     bool right = false;
+    bool onrail = false;
 
     private void Start()
     {
@@ -38,6 +40,7 @@ public class ScriptPlayer : MonoBehaviour
     void FixedUpdate()
     {
         PuloAndando = (Camera.main.transform.forward/2 + Vector3.up).normalized * 2f;
+        impulso = (Camera.main.transform.forward).normalized * 2;
         cooldownPulo += Time.deltaTime;
         if (colisao > 0f)
         {
@@ -53,58 +56,62 @@ public class ScriptPlayer : MonoBehaviour
         }
         if (colisao == 0f)
         {
-            if (Input.GetKey(KeyCode.Space))
+            if (onrail == false)
             {
-                Pular();
-            }
-            float vertical = Input.GetAxis("Vertical");
-            if (up == true && down == true)
-            {
-                vertical = 0f;
-            }
-            else
-            {
-                if (up == true)
+                transform.rotation = Quaternion.Euler(0f, transform.eulerAngles.y, 0f);
+                if (Input.GetKey(KeyCode.Space))
                 {
-                    vertical = 1f;
+                    Pular();
                 }
-                if (down == true)
+                float vertical = Input.GetAxis("Vertical");
+                if (up == true && down == true)
                 {
-                    vertical = -1f;
-                }
-            }
-            accelAtual = accel * vertical;
-            float horizontal = Input.GetAxis("Horizontal");
-            if (left == true && right == true)
-            {
-                horizontal = 0f;
-            }
-            else
-            {
-                if (left == true)
-                {
-                    horizontal = -1f;
-                }
-                if (right == true)
-                {
-                    horizontal = 1f;
-                }
-            }
-            virarAtual = anguloVirar * horizontal;
-
-            if (Input.GetKey(KeyCode.F))
-            {
-                freioAtual = freio;
-            }
-            else
-            {
-                if (accelAtual == 0)
-                {
-                    freioAtual = freioPassivo;
+                    vertical = 0f;
                 }
                 else
                 {
-                    freioAtual = 0;
+                    if (up == true)
+                    {
+                        vertical = 1f;
+                    }
+                    if (down == true)
+                    {
+                        vertical = -1f;
+                    }
+                }
+                accelAtual = accel * vertical;
+                float horizontal = Input.GetAxis("Horizontal");
+                if (left == true && right == true)
+                {
+                    horizontal = 0f;
+                }
+                else
+                {
+                    if (left == true)
+                    {
+                        horizontal = -1f;
+                    }
+                    if (right == true)
+                    {
+                        horizontal = 1f;
+                    }
+                }
+                virarAtual = anguloVirar * horizontal;
+
+                if (Input.GetKey(KeyCode.F))
+                {
+                    freioAtual = freio;
+                }
+                else
+                {
+                    if (accelAtual == 0)
+                    {
+                        freioAtual = freioPassivo;
+                    }
+                    else
+                    {
+                        freioAtual = 0;
+                    }
                 }
             }
         }
@@ -135,6 +142,17 @@ public class ScriptPlayer : MonoBehaviour
                 sfx.PlayerAudio(0);
             }
             colisao += Time.deltaTime;
+        }
+    }
+    public void EntrouSaiurail(int narail)
+    {
+        if (narail == 1)
+        {
+            onrail = true;
+        }
+        if (narail== 0)
+        {
+            onrail = false;
         }
     }
     public void Pular()
