@@ -262,6 +262,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e5bd510e3a0f3f34394cb6cb8a03a7cb, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 8f6a0f59ab76eb444bef7e78b207e3aa, type: 2}
     - target: {fileID: 919132149155446097, guid: e5bd510e3a0f3f34394cb6cb8a03a7cb, type: 3}
       propertyPath: m_Name
       value: EscadaMedia
@@ -456,6 +460,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 180
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 864de3bcaada3a14ea85f2aa7d21fc77, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 1624b166c60cb324bb7284b987f75ab9, type: 2}
     - target: {fileID: 919132149155446097, guid: 864de3bcaada3a14ea85f2aa7d21fc77, type: 3}
       propertyPath: m_Name
       value: CasaCorredorMedia
@@ -1012,7 +1020,7 @@ RectTransform:
   m_GameObject: {fileID: 46595375}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.1149, y: 1.1149, z: 1.1149}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1373441718}
@@ -1021,7 +1029,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 457}
+  m_AnchoredPosition: {x: -2.0289, y: 463.21}
   m_SizeDelta: {x: 839.7726, y: 155.95447}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &48954375
@@ -1783,6 +1791,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 1c80644f2b711b34190d2888062923c8, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 1624b166c60cb324bb7284b987f75ab9, type: 2}
     - target: {fileID: 919132149155446097, guid: 1c80644f2b711b34190d2888062923c8, type: 3}
       propertyPath: m_Name
       value: ParadaDePedra (2)
@@ -1882,6 +1894,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: fa4ba6f1ce6e3f14c9dfbb2949f9676a, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 1624b166c60cb324bb7284b987f75ab9, type: 2}
     - target: {fileID: 919132149155446097, guid: fa4ba6f1ce6e3f14c9dfbb2949f9676a, type: 3}
       propertyPath: m_Name
       value: Barril
@@ -1981,6 +1997,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 1e0a8d4be97bc1b43a37fab05ecb12ab, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 8f6a0f59ab76eb444bef7e78b207e3aa, type: 2}
     - target: {fileID: 919132149155446097, guid: 1e0a8d4be97bc1b43a37fab05ecb12ab, type: 3}
       propertyPath: m_Name
       value: VarandaGradeGrandeComEscada
@@ -2151,6 +2171,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 1e0a8d4be97bc1b43a37fab05ecb12ab, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 8f6a0f59ab76eb444bef7e78b207e3aa, type: 2}
     - target: {fileID: 919132149155446097, guid: 1e0a8d4be97bc1b43a37fab05ecb12ab, type: 3}
       propertyPath: m_Name
       value: VarandaGradeGrandeComEscada
@@ -2345,6 +2369,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 1e0a8d4be97bc1b43a37fab05ecb12ab, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 8f6a0f59ab76eb444bef7e78b207e3aa, type: 2}
     - target: {fileID: 919132149155446097, guid: 1e0a8d4be97bc1b43a37fab05ecb12ab, type: 3}
       propertyPath: m_Name
       value: VarandaGradeGrandeComEscada
@@ -3137,6 +3165,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 1e0a8d4be97bc1b43a37fab05ecb12ab, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 8f6a0f59ab76eb444bef7e78b207e3aa, type: 2}
     - target: {fileID: 919132149155446097, guid: 1e0a8d4be97bc1b43a37fab05ecb12ab, type: 3}
       propertyPath: m_Name
       value: VarandaGradeGrandeComEscada
@@ -4093,6 +4125,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 36a5a2a5ef0b4d84881ed4ee6b5e8094, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: a0e20b25700054e478610ac8b8c68dd0, type: 2}
     - target: {fileID: 919132149155446097, guid: 36a5a2a5ef0b4d84881ed4ee6b5e8094, type: 3}
       propertyPath: m_Name
       value: ADBaseGrande (1)
@@ -5103,7 +5139,7 @@ RectTransform:
   m_GameObject: {fileID: 223209757}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1241740369}
@@ -5142,8 +5178,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4281479730
-  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    rgba: 4279147519
+  m_fontColor: {r: 1, g: 0.60784316, b: 0.054901965, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -5260,6 +5296,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: fd73460ca172d2947b162c50bfa21bd2, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: ecbbf2452bd32644fab8e655d7bf5937, type: 2}
     - target: {fileID: 919132149155446097, guid: fd73460ca172d2947b162c50bfa21bd2, type: 3}
       propertyPath: m_Name
       value: TesteiraCasaLado
@@ -5379,6 +5419,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 383c5a05db444c14788ef02b185737dc, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 1624b166c60cb324bb7284b987f75ab9, type: 2}
     - target: {fileID: 919132149155446097, guid: 383c5a05db444c14788ef02b185737dc, type: 3}
       propertyPath: m_Name
       value: Cone (1)
@@ -5586,6 +5630,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 1c80644f2b711b34190d2888062923c8, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 1624b166c60cb324bb7284b987f75ab9, type: 2}
     - target: {fileID: 919132149155446097, guid: 1c80644f2b711b34190d2888062923c8, type: 3}
       propertyPath: m_Name
       value: ParadaDePedra (2)
@@ -5685,6 +5733,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 7c92d2e6994f0b146a0ebb59a46aa8b3, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5025f2a6d548f24ca16ecc51f451636, type: 2}
     - target: {fileID: 919132149155446097, guid: 7c92d2e6994f0b146a0ebb59a46aa8b3, type: 3}
       propertyPath: m_Name
       value: TesteiraCasaCorredorMedia
@@ -5875,6 +5927,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 866d6674adb23c0458fb29fd36f2db34, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 8f6a0f59ab76eb444bef7e78b207e3aa, type: 2}
     - target: {fileID: 919132149155446097, guid: 866d6674adb23c0458fb29fd36f2db34, type: 3}
       propertyPath: m_Name
       value: EscadaPequena
@@ -6330,6 +6386,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e5bd510e3a0f3f34394cb6cb8a03a7cb, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 8f6a0f59ab76eb444bef7e78b207e3aa, type: 2}
     - target: {fileID: 919132149155446097, guid: e5bd510e3a0f3f34394cb6cb8a03a7cb, type: 3}
       propertyPath: m_Name
       value: EscadaMedia
@@ -6425,6 +6485,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 866d6674adb23c0458fb29fd36f2db34, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 8f6a0f59ab76eb444bef7e78b207e3aa, type: 2}
     - target: {fileID: 919132149155446097, guid: 866d6674adb23c0458fb29fd36f2db34, type: 3}
       propertyPath: m_Name
       value: EscadaPequena
@@ -6665,6 +6729,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: a70e1963040a62242927223a3c4893e2, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 8f6a0f59ab76eb444bef7e78b207e3aa, type: 2}
     - target: {fileID: 919132149155446097, guid: a70e1963040a62242927223a3c4893e2, type: 3}
       propertyPath: m_Name
       value: VarandaGradeGrande
@@ -6835,6 +6903,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: fd73460ca172d2947b162c50bfa21bd2, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: a0e20b25700054e478610ac8b8c68dd0, type: 2}
     - target: {fileID: 919132149155446097, guid: fd73460ca172d2947b162c50bfa21bd2, type: 3}
       propertyPath: m_Name
       value: TesteiraCasaLado (1)
@@ -6930,6 +7002,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: d85070463699db24c8b0160f7c84734e, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 8f6a0f59ab76eb444bef7e78b207e3aa, type: 2}
     - target: {fileID: 919132149155446097, guid: d85070463699db24c8b0160f7c84734e, type: 3}
       propertyPath: m_Name
       value: ArCondicionado
@@ -7061,6 +7137,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 829ae4e778472224eaeeb49ba7780f94, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: bd39323442e41324187e51c97d19edf1, type: 2}
     - target: {fileID: 919132149155446097, guid: 829ae4e778472224eaeeb49ba7780f94, type: 3}
       propertyPath: m_Name
       value: CasaLado (2)
@@ -7231,6 +7311,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 1c80644f2b711b34190d2888062923c8, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 1624b166c60cb324bb7284b987f75ab9, type: 2}
     - target: {fileID: 919132149155446097, guid: 1c80644f2b711b34190d2888062923c8, type: 3}
       propertyPath: m_Name
       value: ParadaDePedra (4)
@@ -7414,7 +7498,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 0
-  orthographic size: 5
+  orthographic size: 6
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -7442,7 +7526,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 3.4791996, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 773022129}
   m_Father: {fileID: 222540902}
   m_LocalEulerAnglesHint: {x: 11.294, y: 0, z: 0}
 --- !u!114 &330585547
@@ -7619,7 +7704,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 447, y: -54}
+  m_AnchoredPosition: {x: 693, y: -54}
   m_SizeDelta: {x: 839.7726, y: 155.9545}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &346950310
@@ -7816,6 +7901,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e5bd510e3a0f3f34394cb6cb8a03a7cb, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 8f6a0f59ab76eb444bef7e78b207e3aa, type: 2}
     - target: {fileID: 919132149155446097, guid: e5bd510e3a0f3f34394cb6cb8a03a7cb, type: 3}
       propertyPath: m_Name
       value: EscadaMedia
@@ -8740,6 +8829,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 180
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 864de3bcaada3a14ea85f2aa7d21fc77, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 1624b166c60cb324bb7284b987f75ab9, type: 2}
     - target: {fileID: 919132149155446097, guid: 864de3bcaada3a14ea85f2aa7d21fc77, type: 3}
       propertyPath: m_Name
       value: CasaCorredorMedia
@@ -9102,6 +9195,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 180
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 864de3bcaada3a14ea85f2aa7d21fc77, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 656293bc9a027e047837149cab887dfd, type: 2}
     - target: {fileID: 919132149155446097, guid: 864de3bcaada3a14ea85f2aa7d21fc77, type: 3}
       propertyPath: m_Name
       value: CasaCorredorMedia
@@ -9441,6 +9538,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 829ae4e778472224eaeeb49ba7780f94, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5025f2a6d548f24ca16ecc51f451636, type: 2}
     - target: {fileID: 919132149155446097, guid: 829ae4e778472224eaeeb49ba7780f94, type: 3}
       propertyPath: m_Name
       value: CasaLado (1)
@@ -9710,6 +9811,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 829ae4e778472224eaeeb49ba7780f94, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: bd39323442e41324187e51c97d19edf1, type: 2}
     - target: {fileID: 919132149155446097, guid: 829ae4e778472224eaeeb49ba7780f94, type: 3}
       propertyPath: m_Name
       value: CasaLado (1)
@@ -9943,6 +10048,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 1e0a8d4be97bc1b43a37fab05ecb12ab, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 8f6a0f59ab76eb444bef7e78b207e3aa, type: 2}
     - target: {fileID: 919132149155446097, guid: 1e0a8d4be97bc1b43a37fab05ecb12ab, type: 3}
       propertyPath: m_Name
       value: VarandaGradeGrandeComEscada
@@ -10174,6 +10283,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 829ae4e778472224eaeeb49ba7780f94, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 656293bc9a027e047837149cab887dfd, type: 2}
     - target: {fileID: 919132149155446097, guid: 829ae4e778472224eaeeb49ba7780f94, type: 3}
       propertyPath: m_Name
       value: CasaLado (2)
@@ -10302,6 +10415,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e5bd510e3a0f3f34394cb6cb8a03a7cb, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 8f6a0f59ab76eb444bef7e78b207e3aa, type: 2}
     - target: {fileID: 919132149155446097, guid: e5bd510e3a0f3f34394cb6cb8a03a7cb, type: 3}
       propertyPath: m_Name
       value: EscadaMedia
@@ -10397,6 +10514,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: fd73460ca172d2947b162c50bfa21bd2, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5025f2a6d548f24ca16ecc51f451636, type: 2}
     - target: {fileID: 919132149155446097, guid: fd73460ca172d2947b162c50bfa21bd2, type: 3}
       propertyPath: m_Name
       value: TesteiraCasaLado (1)
@@ -10589,6 +10710,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 81977ee009819f440a3dcb1809ffb718, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5025f2a6d548f24ca16ecc51f451636, type: 2}
     - target: {fileID: 919132149155446097, guid: 81977ee009819f440a3dcb1809ffb718, type: 3}
       propertyPath: m_Name
       value: VarandaFechadaGrande
@@ -10821,6 +10946,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: fd73460ca172d2947b162c50bfa21bd2, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: a0e20b25700054e478610ac8b8c68dd0, type: 2}
     - target: {fileID: 919132149155446097, guid: fd73460ca172d2947b162c50bfa21bd2, type: 3}
       propertyPath: m_Name
       value: TesteiraCasaLado
@@ -11110,6 +11239,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 1e0a8d4be97bc1b43a37fab05ecb12ab, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 8f6a0f59ab76eb444bef7e78b207e3aa, type: 2}
     - target: {fileID: 919132149155446097, guid: 1e0a8d4be97bc1b43a37fab05ecb12ab, type: 3}
       propertyPath: m_Name
       value: VarandaGradeGrandeComEscada
@@ -11205,6 +11338,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 829ae4e778472224eaeeb49ba7780f94, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: ecbbf2452bd32644fab8e655d7bf5937, type: 2}
     - target: {fileID: 919132149155446097, guid: 829ae4e778472224eaeeb49ba7780f94, type: 3}
       propertyPath: m_Name
       value: CasaLado
@@ -12008,6 +12145,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 829ae4e778472224eaeeb49ba7780f94, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 656293bc9a027e047837149cab887dfd, type: 2}
     - target: {fileID: 919132149155446097, guid: 829ae4e778472224eaeeb49ba7780f94, type: 3}
       propertyPath: m_Name
       value: CasaLado (1)
@@ -12111,6 +12252,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 864de3bcaada3a14ea85f2aa7d21fc77, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5025f2a6d548f24ca16ecc51f451636, type: 2}
     - target: {fileID: 919132149155446097, guid: 864de3bcaada3a14ea85f2aa7d21fc77, type: 3}
       propertyPath: m_Name
       value: CasaCorredorMedia
@@ -12548,6 +12693,38 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 581562408}
   m_CullTransparentMesh: 1
+--- !u!1 &584075584
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 584075585}
+  m_Layer: 0
+  m_Name: moedas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &584075585
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 584075584}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 9117137632917708236}
+  m_Father: {fileID: 1785886825}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &587886696
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12596,6 +12773,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: fd73460ca172d2947b162c50bfa21bd2, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: a0e20b25700054e478610ac8b8c68dd0, type: 2}
     - target: {fileID: 919132149155446097, guid: fd73460ca172d2947b162c50bfa21bd2, type: 3}
       propertyPath: m_Name
       value: TesteiraCasaLado
@@ -12870,6 +13051,38 @@ MonoBehaviour:
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
+--- !u!1 &610990904
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 610990905}
+  m_Layer: 0
+  m_Name: antidotos
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &610990905
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 610990904}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5609656526009150559}
+  m_Father: {fileID: 1785886825}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &612231168
 GameObject:
   m_ObjectHideFlags: 0
@@ -13026,6 +13239,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 36a5a2a5ef0b4d84881ed4ee6b5e8094, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 8f6a0f59ab76eb444bef7e78b207e3aa, type: 2}
     - target: {fileID: 919132149155446097, guid: 36a5a2a5ef0b4d84881ed4ee6b5e8094, type: 3}
       propertyPath: m_Name
       value: ADBaseGrande (1)
@@ -13249,7 +13466,7 @@ RectTransform:
   m_GameObject: {fileID: 654238857}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1600158260}
@@ -13288,8 +13505,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4281479730
-  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    rgba: 4279147519
+  m_fontColor: {r: 1, g: 0.60784316, b: 0.054901965, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -13364,7 +13581,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1785886825}
+    m_TransformParent: {fileID: 2065650025}
     m_Modifications:
     - target: {fileID: 1142738681691682365, guid: 6677fc1ea5cda4248957b815346e2ab1, type: 3}
       propertyPath: m_LocalScale.x
@@ -13480,7 +13697,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd6c9564a4822ae429c7dce788a5fb65, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coletavel: {fileID: 0}
+  coletavel: []
+  tipo: 0
+  moedas: 0
 --- !u!95 &656308471
 Animator:
   serializedVersion: 7
@@ -13491,7 +13710,7 @@ Animator:
   m_GameObject: {fileID: 656308468}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: b56e3b012ee838d4e8a8fce306d23bef, type: 2}
+  m_Controller: {fileID: 9100000, guid: 71acd32d3a4788e42b9c28174142f8c9, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -13826,6 +14045,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 383c5a05db444c14788ef02b185737dc, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 1624b166c60cb324bb7284b987f75ab9, type: 2}
     - target: {fileID: 919132149155446097, guid: 383c5a05db444c14788ef02b185737dc, type: 3}
       propertyPath: m_Name
       value: Cone
@@ -14128,6 +14351,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 1e0a8d4be97bc1b43a37fab05ecb12ab, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 8f6a0f59ab76eb444bef7e78b207e3aa, type: 2}
     - target: {fileID: 919132149155446097, guid: 1e0a8d4be97bc1b43a37fab05ecb12ab, type: 3}
       propertyPath: m_Name
       value: VarandaGradeGrandeComEscada
@@ -14262,6 +14489,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 829ae4e778472224eaeeb49ba7780f94, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 656293bc9a027e047837149cab887dfd, type: 2}
     - target: {fileID: 919132149155446097, guid: 829ae4e778472224eaeeb49ba7780f94, type: 3}
       propertyPath: m_Name
       value: CasaLado (1)
@@ -14613,6 +14844,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 829ae4e778472224eaeeb49ba7780f94, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5025f2a6d548f24ca16ecc51f451636, type: 2}
     - target: {fileID: 919132149155446097, guid: 829ae4e778472224eaeeb49ba7780f94, type: 3}
       propertyPath: m_Name
       value: CasaLado (2)
@@ -14803,6 +15038,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 7c92d2e6994f0b146a0ebb59a46aa8b3, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: a0e20b25700054e478610ac8b8c68dd0, type: 2}
     - target: {fileID: 919132149155446097, guid: 7c92d2e6994f0b146a0ebb59a46aa8b3, type: 3}
       propertyPath: m_Name
       value: TesteiraCasaCorredorMedia
@@ -14993,6 +15232,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e5bd510e3a0f3f34394cb6cb8a03a7cb, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 8f6a0f59ab76eb444bef7e78b207e3aa, type: 2}
     - target: {fileID: 919132149155446097, guid: e5bd510e3a0f3f34394cb6cb8a03a7cb, type: 3}
       propertyPath: m_Name
       value: EscadaMedia
@@ -15465,6 +15708,143 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 764933661}
   m_CullTransparentMesh: 1
+--- !u!1 &773022128
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 773022129}
+  - component: {fileID: 773022132}
+  - component: {fileID: 773022131}
+  - component: {fileID: 773022130}
+  m_Layer: 0
+  m_Name: 'Camera '
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &773022129
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 773022128}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.421e-12, y: 0, z: 0}
+  m_LocalScale: {x: 7.894449, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 330585546}
+  m_LocalEulerAnglesHint: {x: 11.294, y: 0, z: 0}
+--- !u!114 &773022130
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 773022128}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 1
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_AllowHDROutput: 1
+  m_UseScreenCoordOverride: 0
+  m_ScreenSizeOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_Version: 2
+  m_TaaSettings:
+    m_Quality: 3
+    m_FrameInfluence: 0.1
+    m_JitterScale: 1
+    m_MipBias: 0
+    m_VarianceClampScale: 0.9
+    m_ContrastAdaptiveSharpening: 0
+--- !u!81 &773022131
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 773022128}
+  m_Enabled: 1
+--- !u!20 &773022132
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 773022128}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 1, g: 1, b: 1, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_Iso: 200
+  m_ShutterSpeed: 0.005
+  m_Aperture: 16
+  m_FocusDistance: 10
+  m_FocalLength: 50
+  m_BladeCount: 5
+  m_Curvature: {x: 2, y: 11}
+  m_BarrelClipping: 0.25
+  m_Anamorphism: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 6
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 8400000, guid: 0fb9e3f1639474f488ead269c048935f, type: 2}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
 --- !u!1 &777909207
 GameObject:
   m_ObjectHideFlags: 0
@@ -15711,6 +16091,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: a70e1963040a62242927223a3c4893e2, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 8f6a0f59ab76eb444bef7e78b207e3aa, type: 2}
     - target: {fileID: 919132149155446097, guid: a70e1963040a62242927223a3c4893e2, type: 3}
       propertyPath: m_Name
       value: VarandaGradeGrande
@@ -15814,6 +16198,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 864de3bcaada3a14ea85f2aa7d21fc77, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5025f2a6d548f24ca16ecc51f451636, type: 2}
     - target: {fileID: 919132149155446097, guid: 864de3bcaada3a14ea85f2aa7d21fc77, type: 3}
       propertyPath: m_Name
       value: CasaCorredorMedia
@@ -15937,6 +16325,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 1c80644f2b711b34190d2888062923c8, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 1624b166c60cb324bb7284b987f75ab9, type: 2}
     - target: {fileID: 919132149155446097, guid: 1c80644f2b711b34190d2888062923c8, type: 3}
       propertyPath: m_Name
       value: ParadaDePedra
@@ -16036,6 +16428,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 33731a05e8f06f5489b4a1c58a2d7d56, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: ecbbf2452bd32644fab8e655d7bf5937, type: 2}
     - target: {fileID: 919132149155446097, guid: 33731a05e8f06f5489b4a1c58a2d7d56, type: 3}
       propertyPath: m_Name
       value: TesteiraCasaLGrande
@@ -16131,6 +16527,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 829ae4e778472224eaeeb49ba7780f94, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 11be3f409465da847be523c55ad2889d, type: 2}
     - target: {fileID: 919132149155446097, guid: 829ae4e778472224eaeeb49ba7780f94, type: 3}
       propertyPath: m_Name
       value: CasaLado
@@ -16539,6 +16939,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e5bd510e3a0f3f34394cb6cb8a03a7cb, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 8f6a0f59ab76eb444bef7e78b207e3aa, type: 2}
     - target: {fileID: 919132149155446097, guid: e5bd510e3a0f3f34394cb6cb8a03a7cb, type: 3}
       propertyPath: m_Name
       value: EscadaMedia
@@ -16778,6 +17182,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: a70e1963040a62242927223a3c4893e2, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 8f6a0f59ab76eb444bef7e78b207e3aa, type: 2}
     - target: {fileID: 919132149155446097, guid: a70e1963040a62242927223a3c4893e2, type: 3}
       propertyPath: m_Name
       value: VarandaGradeGrande
@@ -16873,6 +17281,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e5bd510e3a0f3f34394cb6cb8a03a7cb, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 8f6a0f59ab76eb444bef7e78b207e3aa, type: 2}
     - target: {fileID: 919132149155446097, guid: e5bd510e3a0f3f34394cb6cb8a03a7cb, type: 3}
       propertyPath: m_Name
       value: EscadaMedia
@@ -16968,6 +17380,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 81977ee009819f440a3dcb1809ffb718, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5025f2a6d548f24ca16ecc51f451636, type: 2}
     - target: {fileID: 919132149155446097, guid: 81977ee009819f440a3dcb1809ffb718, type: 3}
       propertyPath: m_Name
       value: VarandaFechadaGrande
@@ -17063,6 +17479,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 829ae4e778472224eaeeb49ba7780f94, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: ecbbf2452bd32644fab8e655d7bf5937, type: 2}
     - target: {fileID: 919132149155446097, guid: 829ae4e778472224eaeeb49ba7780f94, type: 3}
       propertyPath: m_Name
       value: CasaLado
@@ -17197,6 +17617,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 180
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 1cbcedbdd160813419550d6ae4704313, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: a0e20b25700054e478610ac8b8c68dd0, type: 2}
     - target: {fileID: 919132149155446097, guid: 1cbcedbdd160813419550d6ae4704313, type: 3}
       propertyPath: m_Name
       value: CasaCorredorGrade
@@ -17292,6 +17716,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 829ae4e778472224eaeeb49ba7780f94, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 11be3f409465da847be523c55ad2889d, type: 2}
     - target: {fileID: 919132149155446097, guid: 829ae4e778472224eaeeb49ba7780f94, type: 3}
       propertyPath: m_Name
       value: CasaLado (2)
@@ -17395,6 +17823,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 864de3bcaada3a14ea85f2aa7d21fc77, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: bd39323442e41324187e51c97d19edf1, type: 2}
     - target: {fileID: 919132149155446097, guid: 864de3bcaada3a14ea85f2aa7d21fc77, type: 3}
       propertyPath: m_Name
       value: CasaCorredorMedia
@@ -18192,6 +18624,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e5bd510e3a0f3f34394cb6cb8a03a7cb, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 8f6a0f59ab76eb444bef7e78b207e3aa, type: 2}
     - target: {fileID: 919132149155446097, guid: e5bd510e3a0f3f34394cb6cb8a03a7cb, type: 3}
       propertyPath: m_Name
       value: EscadaMedia
@@ -18287,6 +18723,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 383c5a05db444c14788ef02b185737dc, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 1624b166c60cb324bb7284b987f75ab9, type: 2}
     - target: {fileID: 919132149155446097, guid: 383c5a05db444c14788ef02b185737dc, type: 3}
       propertyPath: m_Name
       value: Cone (1)
@@ -18338,6 +18778,78 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.014192319, y: 0.014192317, z: 0.020142362}
   m_Center: {x: 9.313226e-10, y: -0.000000033527613, z: 0.0013938092}
+--- !u!1 &947158750
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 947158751}
+  - component: {fileID: 947158753}
+  - component: {fileID: 947158752}
+  m_Layer: 5
+  m_Name: PixelatedEffect
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &947158751
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 947158750}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.2, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1713342657}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 1920, y: 1080}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &947158752
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 947158750}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Texture: {fileID: 8400000, guid: 0fb9e3f1639474f488ead269c048935f, type: 2}
+  m_UVRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+--- !u!222 &947158753
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 947158750}
+  m_CullTransparentMesh: 1
 --- !u!1 &951135044
 GameObject:
   m_ObjectHideFlags: 0
@@ -18449,6 +18961,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 866d6674adb23c0458fb29fd36f2db34, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 8f6a0f59ab76eb444bef7e78b207e3aa, type: 2}
     - target: {fileID: 919132149155446097, guid: 866d6674adb23c0458fb29fd36f2db34, type: 3}
       propertyPath: m_Name
       value: EscadaPequena
@@ -18679,6 +19195,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 1950ff4d86b9d814a9a5a50a473eb41b, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 8f6a0f59ab76eb444bef7e78b207e3aa, type: 2}
     - target: {fileID: 919132149155446097, guid: 1950ff4d86b9d814a9a5a50a473eb41b, type: 3}
       propertyPath: m_Name
       value: TesteiraCasaCorredorGrade
@@ -18913,6 +19433,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 829ae4e778472224eaeeb49ba7780f94, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 11be3f409465da847be523c55ad2889d, type: 2}
     - target: {fileID: 919132149155446097, guid: 829ae4e778472224eaeeb49ba7780f94, type: 3}
       propertyPath: m_Name
       value: CasaLado (1)
@@ -19083,6 +19607,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 829ae4e778472224eaeeb49ba7780f94, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5025f2a6d548f24ca16ecc51f451636, type: 2}
     - target: {fileID: 919132149155446097, guid: 829ae4e778472224eaeeb49ba7780f94, type: 3}
       propertyPath: m_Name
       value: CasaLado (1)
@@ -19560,6 +20088,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 5df88bf656d2e354c9fa4e54fc3a1ffa, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 8f6a0f59ab76eb444bef7e78b207e3aa, type: 2}
     - target: {fileID: 919132149155446097, guid: 5df88bf656d2e354c9fa4e54fc3a1ffa, type: 3}
       propertyPath: m_Name
       value: CabineTelefonica
@@ -19735,6 +20267,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: fd73460ca172d2947b162c50bfa21bd2, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 656293bc9a027e047837149cab887dfd, type: 2}
     - target: {fileID: 919132149155446097, guid: fd73460ca172d2947b162c50bfa21bd2, type: 3}
       propertyPath: m_Name
       value: TesteiraCasaLado (1)
@@ -20171,7 +20707,7 @@ RectTransform:
   m_GameObject: {fileID: 1023894979}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1819748296}
@@ -20210,8 +20746,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4281479730
-  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    rgba: 4279147519
+  m_fontColor: {r: 1, g: 0.60784316, b: 0.054901965, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -20402,14 +20938,14 @@ RectTransform:
   m_GameObject: {fileID: 1031560300}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1628510227}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0.000061035156, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1031560302
@@ -20441,8 +20977,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4281479730
-  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    rgba: 4279147519
+  m_fontColor: {r: 1, g: 0.60784316, b: 0.054901965, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -20621,6 +21157,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 180
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 1cbcedbdd160813419550d6ae4704313, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: a0e20b25700054e478610ac8b8c68dd0, type: 2}
     - target: {fileID: 919132149155446097, guid: 1cbcedbdd160813419550d6ae4704313, type: 3}
       propertyPath: m_Name
       value: CasaCorredorGrade
@@ -20716,6 +21256,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 134.907
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 994aa4a5c8b6cde41b0dd5f292bb5b01, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: bd39323442e41324187e51c97d19edf1, type: 2}
     - target: {fileID: 919132149155446097, guid: 994aa4a5c8b6cde41b0dd5f292bb5b01, type: 3}
       propertyPath: m_Name
       value: PlacaRetangular (1)
@@ -20786,6 +21330,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 45e65aa4c5545214cbd061611bc4987a, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: ecbbf2452bd32644fab8e655d7bf5937, type: 2}
     - target: {fileID: 919132149155446097, guid: 45e65aa4c5545214cbd061611bc4987a, type: 3}
       propertyPath: m_Name
       value: VarandaFechadaPequena
@@ -21118,6 +21666,17 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.13714638, y: 0.023953358, z: 0.021508606}
   m_Center: {x: 0.000000048428774, y: -0.00037149104, z: 1.1071519e-11}
+--- !u!114 &1083030090 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1161030035656137189, guid: 60f48d7204ca2344f94d6bdbc79ce270, type: 3}
+  m_PrefabInstance: {fileID: 51099017}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1083595978
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21650,6 +22209,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 180
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 1cbcedbdd160813419550d6ae4704313, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 1624b166c60cb324bb7284b987f75ab9, type: 2}
     - target: {fileID: 919132149155446097, guid: 1cbcedbdd160813419550d6ae4704313, type: 3}
       propertyPath: m_Name
       value: CasaCorredorGrade
@@ -21881,6 +22444,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: fa4ba6f1ce6e3f14c9dfbb2949f9676a, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 1624b166c60cb324bb7284b987f75ab9, type: 2}
     - target: {fileID: 919132149155446097, guid: fa4ba6f1ce6e3f14c9dfbb2949f9676a, type: 3}
       propertyPath: m_Name
       value: Barril
@@ -21980,6 +22547,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 829ae4e778472224eaeeb49ba7780f94, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: bd39323442e41324187e51c97d19edf1, type: 2}
     - target: {fileID: 919132149155446097, guid: 829ae4e778472224eaeeb49ba7780f94, type: 3}
       propertyPath: m_Name
       value: CasaLado (1)
@@ -22236,6 +22807,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 1e0a8d4be97bc1b43a37fab05ecb12ab, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 8f6a0f59ab76eb444bef7e78b207e3aa, type: 2}
     - target: {fileID: 919132149155446097, guid: 1e0a8d4be97bc1b43a37fab05ecb12ab, type: 3}
       propertyPath: m_Name
       value: VarandaGradeGrandeComEscada
@@ -23301,6 +23876,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 1e0a8d4be97bc1b43a37fab05ecb12ab, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 8f6a0f59ab76eb444bef7e78b207e3aa, type: 2}
     - target: {fileID: 919132149155446097, guid: 1e0a8d4be97bc1b43a37fab05ecb12ab, type: 3}
       propertyPath: m_Name
       value: VarandaGradeGrandeComEscada
@@ -23555,6 +24134,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 180
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 82767126a402950429a5ea58da8c4a60, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 1624b166c60cb324bb7284b987f75ab9, type: 2}
     - target: {fileID: 919132149155446097, guid: 82767126a402950429a5ea58da8c4a60, type: 3}
       propertyPath: m_Name
       value: CasaLGrande
@@ -23776,7 +24359,7 @@ RectTransform:
   m_GameObject: {fileID: 1241740368}
   m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 223209758}
@@ -23889,15 +24472,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: -1736781128, guid: f824134c361cc4e4ca82098bc8f8ce84, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -24520,6 +25103,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 1e0a8d4be97bc1b43a37fab05ecb12ab, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 8f6a0f59ab76eb444bef7e78b207e3aa, type: 2}
     - target: {fileID: 919132149155446097, guid: 1e0a8d4be97bc1b43a37fab05ecb12ab, type: 3}
       propertyPath: m_Name
       value: VarandaGradeGrandeComEscada
@@ -24623,6 +25210,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 864de3bcaada3a14ea85f2aa7d21fc77, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 656293bc9a027e047837149cab887dfd, type: 2}
     - target: {fileID: 919132149155446097, guid: 864de3bcaada3a14ea85f2aa7d21fc77, type: 3}
       propertyPath: m_Name
       value: CasaCorredorMedia
@@ -24944,7 +25535,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: ecbbf2452bd32644fab8e655d7bf5937, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -25307,6 +25898,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 1c80644f2b711b34190d2888062923c8, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 1624b166c60cb324bb7284b987f75ab9, type: 2}
     - target: {fileID: 919132149155446097, guid: 1c80644f2b711b34190d2888062923c8, type: 3}
       propertyPath: m_Name
       value: ParadaDePedra
@@ -25505,6 +26100,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 180
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 864de3bcaada3a14ea85f2aa7d21fc77, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: ecbbf2452bd32644fab8e655d7bf5937, type: 2}
     - target: {fileID: 919132149155446097, guid: 864de3bcaada3a14ea85f2aa7d21fc77, type: 3}
       propertyPath: m_Name
       value: CasaCorredorMedia
@@ -25616,6 +26215,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 19.048004
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: f70aeae5d03fd534693f678271298f60, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: a0e20b25700054e478610ac8b8c68dd0, type: 2}
     - target: {fileID: 919132149155446097, guid: f70aeae5d03fd534693f678271298f60, type: 3}
       propertyPath: m_Name
       value: PlacaDePare
@@ -26131,6 +26734,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 1c80644f2b711b34190d2888062923c8, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 1624b166c60cb324bb7284b987f75ab9, type: 2}
     - target: {fileID: 919132149155446097, guid: 1c80644f2b711b34190d2888062923c8, type: 3}
       propertyPath: m_Name
       value: ParadaDePedra (1)
@@ -26268,7 +26875,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -396, y: -54}
+  m_AnchoredPosition: {x: -689, y: -54}
   m_SizeDelta: {x: 839.7726, y: 155.9545}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &1381767251
@@ -26319,6 +26926,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: d85070463699db24c8b0160f7c84734e, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 8f6a0f59ab76eb444bef7e78b207e3aa, type: 2}
     - target: {fileID: 919132149155446097, guid: d85070463699db24c8b0160f7c84734e, type: 3}
       propertyPath: m_Name
       value: ArCondicionado
@@ -26472,6 +27083,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 45e65aa4c5545214cbd061611bc4987a, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 8f6a0f59ab76eb444bef7e78b207e3aa, type: 2}
     - target: {fileID: 919132149155446097, guid: 45e65aa4c5545214cbd061611bc4987a, type: 3}
       propertyPath: m_Name
       value: VarandaFechadaPequena
@@ -26591,6 +27206,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: fa4ba6f1ce6e3f14c9dfbb2949f9676a, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 1624b166c60cb324bb7284b987f75ab9, type: 2}
     - target: {fileID: 919132149155446097, guid: fa4ba6f1ce6e3f14c9dfbb2949f9676a, type: 3}
       propertyPath: m_Name
       value: Barril (1)
@@ -27215,6 +27834,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e5bd510e3a0f3f34394cb6cb8a03a7cb, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 8f6a0f59ab76eb444bef7e78b207e3aa, type: 2}
     - target: {fileID: 919132149155446097, guid: e5bd510e3a0f3f34394cb6cb8a03a7cb, type: 3}
       propertyPath: m_Name
       value: EscadaMedia
@@ -27373,6 +27996,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 180
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 1cbcedbdd160813419550d6ae4704313, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 1624b166c60cb324bb7284b987f75ab9, type: 2}
     - target: {fileID: 919132149155446097, guid: 1cbcedbdd160813419550d6ae4704313, type: 3}
       propertyPath: m_Name
       value: CasaCorredorGrade
@@ -27468,6 +28095,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 383c5a05db444c14788ef02b185737dc, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 1624b166c60cb324bb7284b987f75ab9, type: 2}
     - target: {fileID: 919132149155446097, guid: 383c5a05db444c14788ef02b185737dc, type: 3}
       propertyPath: m_Name
       value: Cone (3)
@@ -27844,6 +28475,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 180
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 1cbcedbdd160813419550d6ae4704313, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 656293bc9a027e047837149cab887dfd, type: 2}
     - target: {fileID: 919132149155446097, guid: 1cbcedbdd160813419550d6ae4704313, type: 3}
       propertyPath: m_Name
       value: CasaCorredorGrade
@@ -28190,6 +28825,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 383c5a05db444c14788ef02b185737dc, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 1624b166c60cb324bb7284b987f75ab9, type: 2}
     - target: {fileID: 919132149155446097, guid: 383c5a05db444c14788ef02b185737dc, type: 3}
       propertyPath: m_Name
       value: Cone
@@ -28524,6 +29163,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 829ae4e778472224eaeeb49ba7780f94, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 656293bc9a027e047837149cab887dfd, type: 2}
     - target: {fileID: 919132149155446097, guid: 829ae4e778472224eaeeb49ba7780f94, type: 3}
       propertyPath: m_Name
       value: CasaLado (2)
@@ -28619,6 +29262,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 1c80644f2b711b34190d2888062923c8, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 1624b166c60cb324bb7284b987f75ab9, type: 2}
     - target: {fileID: 919132149155446097, guid: 1c80644f2b711b34190d2888062923c8, type: 3}
       propertyPath: m_Name
       value: ParadaDePedra
@@ -28879,6 +29526,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 7c92d2e6994f0b146a0ebb59a46aa8b3, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 656293bc9a027e047837149cab887dfd, type: 2}
     - target: {fileID: 919132149155446097, guid: 7c92d2e6994f0b146a0ebb59a46aa8b3, type: 3}
       propertyPath: m_Name
       value: TesteiraCasaCorredorMedia
@@ -29337,6 +29988,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 180
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 82767126a402950429a5ea58da8c4a60, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: ecbbf2452bd32644fab8e655d7bf5937, type: 2}
     - target: {fileID: 919132149155446097, guid: 82767126a402950429a5ea58da8c4a60, type: 3}
       propertyPath: m_Name
       value: CasaLGrande
@@ -29436,6 +30091,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: a70e1963040a62242927223a3c4893e2, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 8f6a0f59ab76eb444bef7e78b207e3aa, type: 2}
     - target: {fileID: 919132149155446097, guid: a70e1963040a62242927223a3c4893e2, type: 3}
       propertyPath: m_Name
       value: VarandaGradeGrande
@@ -29531,6 +30190,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: dd2ad579247606d469472601a102e9be, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 8f6a0f59ab76eb444bef7e78b207e3aa, type: 2}
     - target: {fileID: 919132149155446097, guid: dd2ad579247606d469472601a102e9be, type: 3}
       propertyPath: m_Name
       value: PosteDePlaca
@@ -29611,7 +30274,7 @@ RectTransform:
   m_GameObject: {fileID: 1600158259}
   m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 654238858}
@@ -29724,15 +30387,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: -1736781128, guid: f824134c361cc4e4ca82098bc8f8ce84, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -29896,6 +30559,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 829ae4e778472224eaeeb49ba7780f94, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 1624b166c60cb324bb7284b987f75ab9, type: 2}
     - target: {fileID: 919132149155446097, guid: 829ae4e778472224eaeeb49ba7780f94, type: 3}
       propertyPath: m_Name
       value: CasaLado
@@ -30624,6 +31291,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 829ae4e778472224eaeeb49ba7780f94, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: ecbbf2452bd32644fab8e655d7bf5937, type: 2}
     - target: {fileID: 919132149155446097, guid: 829ae4e778472224eaeeb49ba7780f94, type: 3}
       propertyPath: m_Name
       value: CasaLado
@@ -30700,7 +31371,7 @@ RectTransform:
   m_GameObject: {fileID: 1628510226}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1031560301}
@@ -30813,15 +31484,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: -1736781128, guid: f824134c361cc4e4ca82098bc8f8ce84, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -30901,7 +31572,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 4f1c24b0e4f10904b874dd181c33a6b4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -31055,6 +31726,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 1950ff4d86b9d814a9a5a50a473eb41b, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5025f2a6d548f24ca16ecc51f451636, type: 2}
     - target: {fileID: 919132149155446097, guid: 1950ff4d86b9d814a9a5a50a473eb41b, type: 3}
       propertyPath: m_Name
       value: TesteiraCasaCorredorGrade
@@ -31154,6 +31829,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 180
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 864de3bcaada3a14ea85f2aa7d21fc77, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: a0e20b25700054e478610ac8b8c68dd0, type: 2}
     - target: {fileID: 919132149155446097, guid: 864de3bcaada3a14ea85f2aa7d21fc77, type: 3}
       propertyPath: m_Name
       value: CasaCorredorMedia
@@ -31261,6 +31940,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 864de3bcaada3a14ea85f2aa7d21fc77, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 656293bc9a027e047837149cab887dfd, type: 2}
     - target: {fileID: 919132149155446097, guid: 864de3bcaada3a14ea85f2aa7d21fc77, type: 3}
       propertyPath: m_Name
       value: CasaCorredorMedia
@@ -31384,6 +32067,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 829ae4e778472224eaeeb49ba7780f94, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5025f2a6d548f24ca16ecc51f451636, type: 2}
     - target: {fileID: 919132149155446097, guid: 829ae4e778472224eaeeb49ba7780f94, type: 3}
       propertyPath: m_Name
       value: CasaLado (2)
@@ -31586,6 +32273,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 1e0a8d4be97bc1b43a37fab05ecb12ab, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 8f6a0f59ab76eb444bef7e78b207e3aa, type: 2}
     - target: {fileID: 919132149155446097, guid: 1e0a8d4be97bc1b43a37fab05ecb12ab, type: 3}
       propertyPath: m_Name
       value: VarandaGradeGrandeComEscada
@@ -31776,6 +32467,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 1c80644f2b711b34190d2888062923c8, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 1624b166c60cb324bb7284b987f75ab9, type: 2}
     - target: {fileID: 919132149155446097, guid: 1c80644f2b711b34190d2888062923c8, type: 3}
       propertyPath: m_Name
       value: ParadaDePedra (1)
@@ -31970,6 +32665,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e5bd510e3a0f3f34394cb6cb8a03a7cb, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 8f6a0f59ab76eb444bef7e78b207e3aa, type: 2}
     - target: {fileID: 919132149155446097, guid: e5bd510e3a0f3f34394cb6cb8a03a7cb, type: 3}
       propertyPath: m_Name
       value: EscadaMedia
@@ -32567,6 +33266,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 81977ee009819f440a3dcb1809ffb718, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: ecbbf2452bd32644fab8e655d7bf5937, type: 2}
     - target: {fileID: 919132149155446097, guid: 81977ee009819f440a3dcb1809ffb718, type: 3}
       propertyPath: m_Name
       value: VarandaFechadaGrande
@@ -32666,6 +33369,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 180
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 864de3bcaada3a14ea85f2aa7d21fc77, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: a0e20b25700054e478610ac8b8c68dd0, type: 2}
     - target: {fileID: 919132149155446097, guid: 864de3bcaada3a14ea85f2aa7d21fc77, type: 3}
       propertyPath: m_Name
       value: CasaCorredorMedia
@@ -32765,11 +33472,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
-  m_ScreenMatchMode: 0
+  m_ReferenceResolution: {x: 1920, y: 1080}
+  m_ScreenMatchMode: 1
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
@@ -32811,6 +33518,7 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 947158751}
   - {fileID: 1740521615}
   - {fileID: 46595376}
   - {fileID: 2057167747}
@@ -33038,6 +33746,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e5bd510e3a0f3f34394cb6cb8a03a7cb, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 8f6a0f59ab76eb444bef7e78b207e3aa, type: 2}
     - target: {fileID: 919132149155446097, guid: e5bd510e3a0f3f34394cb6cb8a03a7cb, type: 3}
       propertyPath: m_Name
       value: EscadaMedia
@@ -33233,6 +33945,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 7c92d2e6994f0b146a0ebb59a46aa8b3, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5025f2a6d548f24ca16ecc51f451636, type: 2}
     - target: {fileID: 919132149155446097, guid: 7c92d2e6994f0b146a0ebb59a46aa8b3, type: 3}
       propertyPath: m_Name
       value: TesteiraCasaCorredorMedia
@@ -33549,6 +34265,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 383c5a05db444c14788ef02b185737dc, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 1624b166c60cb324bb7284b987f75ab9, type: 2}
     - target: {fileID: 919132149155446097, guid: 383c5a05db444c14788ef02b185737dc, type: 3}
       propertyPath: m_Name
       value: Cone
@@ -33648,6 +34368,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 1c80644f2b711b34190d2888062923c8, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 1624b166c60cb324bb7284b987f75ab9, type: 2}
     - target: {fileID: 919132149155446097, guid: 1c80644f2b711b34190d2888062923c8, type: 3}
       propertyPath: m_Name
       value: ParadaDePedra (3)
@@ -33747,6 +34471,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: a70e1963040a62242927223a3c4893e2, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 8f6a0f59ab76eb444bef7e78b207e3aa, type: 2}
     - target: {fileID: 919132149155446097, guid: a70e1963040a62242927223a3c4893e2, type: 3}
       propertyPath: m_Name
       value: VarandaGradeGrande
@@ -34038,9 +34766,9 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1142738682409670305}
-  - {fileID: 656308474}
-  - {fileID: 5609656526009150559}
+  - {fileID: 2065650025}
+  - {fileID: 610990905}
+  - {fileID: 584075585}
   m_Father: {fileID: 323616136}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1797707959
@@ -34138,6 +34866,115 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.13714652, y: 0.025764614, z: 0.044359118}
   m_Center: {x: 0.0050246576, y: 0.0054693623, z: -0.008096958}
+--- !u!1 &1799191375
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1799191379}
+  - component: {fileID: 1799191378}
+  - component: {fileID: 1799191377}
+  - component: {fileID: 1799191376}
+  m_Layer: 0
+  m_Name: Plane
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!64 &1799191376
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1799191375}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &1799191377
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1799191375}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1799191378
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1799191375}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1799191379
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1799191375}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.1976358, y: 0.9723562, z: 8.3253765}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1803110551
 GameObject:
   m_ObjectHideFlags: 0
@@ -34341,7 +35178,7 @@ RectTransform:
   m_GameObject: {fileID: 1819748295}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1023894980}
@@ -34454,15 +35291,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: -1736781128, guid: f824134c361cc4e4ca82098bc8f8ce84, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -34703,6 +35540,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 864de3bcaada3a14ea85f2aa7d21fc77, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: bd39323442e41324187e51c97d19edf1, type: 2}
     - target: {fileID: 919132149155446097, guid: 864de3bcaada3a14ea85f2aa7d21fc77, type: 3}
       propertyPath: m_Name
       value: CasaCorredorMedia
@@ -34845,6 +35686,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 180
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 1cbcedbdd160813419550d6ae4704313, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: ecbbf2452bd32644fab8e655d7bf5937, type: 2}
     - target: {fileID: 919132149155446097, guid: 1cbcedbdd160813419550d6ae4704313, type: 3}
       propertyPath: m_Name
       value: CasaCorredorGrade
@@ -35205,6 +36050,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 1950ff4d86b9d814a9a5a50a473eb41b, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: ecbbf2452bd32644fab8e655d7bf5937, type: 2}
     - target: {fileID: 919132149155446097, guid: 1950ff4d86b9d814a9a5a50a473eb41b, type: 3}
       propertyPath: m_Name
       value: TesteiraCasaCorredorGrade
@@ -35552,6 +36401,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 33731a05e8f06f5489b4a1c58a2d7d56, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: a0e20b25700054e478610ac8b8c68dd0, type: 2}
     - target: {fileID: 919132149155446097, guid: 33731a05e8f06f5489b4a1c58a2d7d56, type: 3}
       propertyPath: m_Name
       value: TesteiraCasaLGrande
@@ -35792,6 +36645,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 180
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 82767126a402950429a5ea58da8c4a60, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: ecbbf2452bd32644fab8e655d7bf5937, type: 2}
     - target: {fileID: 919132149155446097, guid: 82767126a402950429a5ea58da8c4a60, type: 3}
       propertyPath: m_Name
       value: CasaLGrande
@@ -35891,6 +36748,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 36a5a2a5ef0b4d84881ed4ee6b5e8094, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: a0e20b25700054e478610ac8b8c68dd0, type: 2}
     - target: {fileID: 919132149155446097, guid: 36a5a2a5ef0b4d84881ed4ee6b5e8094, type: 3}
       propertyPath: m_Name
       value: ADBaseGrande
@@ -35990,6 +36851,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 33731a05e8f06f5489b4a1c58a2d7d56, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: ecbbf2452bd32644fab8e655d7bf5937, type: 2}
     - target: {fileID: 919132149155446097, guid: 33731a05e8f06f5489b4a1c58a2d7d56, type: 3}
       propertyPath: m_Name
       value: TesteiraCasaLGrande
@@ -36458,6 +37323,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: fd73460ca172d2947b162c50bfa21bd2, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5025f2a6d548f24ca16ecc51f451636, type: 2}
     - target: {fileID: 919132149155446097, guid: fd73460ca172d2947b162c50bfa21bd2, type: 3}
       propertyPath: m_Name
       value: TesteiraCasaLado
@@ -36553,6 +37422,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: a70e1963040a62242927223a3c4893e2, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 8f6a0f59ab76eb444bef7e78b207e3aa, type: 2}
     - target: {fileID: 919132149155446097, guid: a70e1963040a62242927223a3c4893e2, type: 3}
       propertyPath: m_Name
       value: VarandaGradeGrande
@@ -36743,6 +37616,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 1c80644f2b711b34190d2888062923c8, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 1624b166c60cb324bb7284b987f75ab9, type: 2}
     - target: {fileID: 919132149155446097, guid: 1c80644f2b711b34190d2888062923c8, type: 3}
       propertyPath: m_Name
       value: ParadaDePedra (1)
@@ -36921,6 +37798,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 829ae4e778472224eaeeb49ba7780f94, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: bd39323442e41324187e51c97d19edf1, type: 2}
     - target: {fileID: 919132149155446097, guid: 829ae4e778472224eaeeb49ba7780f94, type: 3}
       propertyPath: m_Name
       value: CasaLado (2)
@@ -37085,6 +37966,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 864de3bcaada3a14ea85f2aa7d21fc77, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 11be3f409465da847be523c55ad2889d, type: 2}
     - target: {fileID: 919132149155446097, guid: 864de3bcaada3a14ea85f2aa7d21fc77, type: 3}
       propertyPath: m_Name
       value: CasaCorredorMedia
@@ -37311,6 +38196,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 1950ff4d86b9d814a9a5a50a473eb41b, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c5025f2a6d548f24ca16ecc51f451636, type: 2}
     - target: {fileID: 919132149155446097, guid: 1950ff4d86b9d814a9a5a50a473eb41b, type: 3}
       propertyPath: m_Name
       value: TesteiraCasaCorredorGrade
@@ -37746,6 +38635,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 383c5a05db444c14788ef02b185737dc, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 1624b166c60cb324bb7284b987f75ab9, type: 2}
     - target: {fileID: 919132149155446097, guid: 383c5a05db444c14788ef02b185737dc, type: 3}
       propertyPath: m_Name
       value: Cone (2)
@@ -38428,6 +39321,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 1e0a8d4be97bc1b43a37fab05ecb12ab, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 8f6a0f59ab76eb444bef7e78b207e3aa, type: 2}
     - target: {fileID: 919132149155446097, guid: 1e0a8d4be97bc1b43a37fab05ecb12ab, type: 3}
       propertyPath: m_Name
       value: VarandaGradeGrandeComEscada
@@ -39252,6 +40149,39 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.01182606, y: 0.0012998964, z: 0.08379202}
   m_Center: {x: 0.0018644528, y: -0.0000028479642, z: 0.0012645851}
+--- !u!1 &2065650024
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2065650025}
+  m_Layer: 0
+  m_Name: peixes
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2065650025
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2065650024}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1142738682409670305}
+  - {fileID: 656308474}
+  m_Father: {fileID: 1785886825}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2072869981
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -39300,6 +40230,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 7c92d2e6994f0b146a0ebb59a46aa8b3, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 8f6a0f59ab76eb444bef7e78b207e3aa, type: 2}
     - target: {fileID: 919132149155446097, guid: 7c92d2e6994f0b146a0ebb59a46aa8b3, type: 3}
       propertyPath: m_Name
       value: TesteiraCasaCorredorMedia
@@ -39470,6 +40404,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: fd73460ca172d2947b162c50bfa21bd2, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 656293bc9a027e047837149cab887dfd, type: 2}
     - target: {fileID: 919132149155446097, guid: fd73460ca172d2947b162c50bfa21bd2, type: 3}
       propertyPath: m_Name
       value: TesteiraCasaLado
@@ -39565,6 +40503,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 5921208b944509e4ca98339723b1e12f, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: a0e20b25700054e478610ac8b8c68dd0, type: 2}
     - target: {fileID: 919132149155446097, guid: 5921208b944509e4ca98339723b1e12f, type: 3}
       propertyPath: m_Name
       value: CarrinhoDeComida
@@ -39917,6 +40859,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 52fc61443314ff546ada47dfcb0a405b, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 1624b166c60cb324bb7284b987f75ab9, type: 2}
     - target: {fileID: 919132149155446097, guid: 52fc61443314ff546ada47dfcb0a405b, type: 3}
       propertyPath: m_Name
       value: PlacaTriangular
@@ -39987,6 +40933,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 180
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 82767126a402950429a5ea58da8c4a60, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 11be3f409465da847be523c55ad2889d, type: 2}
     - target: {fileID: 919132149155446097, guid: 82767126a402950429a5ea58da8c4a60, type: 3}
       propertyPath: m_Name
       value: CasaLGrande
@@ -40334,7 +41284,7 @@ MonoBehaviour:
   audios:
   - {fileID: 8300000, guid: 7582fd7f4f0768d4db8ae23cecb5d0f8, type: 3}
   mixer: {fileID: 24100000, guid: c3c1efe4af1bf8744aeff09c5815481b, type: 2}
-  VolSlider: {fileID: 0}
+  VolSlider: {fileID: 1083030090}
 --- !u!1001 &2131460400
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -40682,7 +41632,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1785886825}
+    m_TransformParent: {fileID: 2065650025}
     m_Modifications:
     - target: {fileID: 1366431055235108114, guid: c420ce4896c3fab4c814c14bb42d8896, type: 3}
       propertyPath: m_LocalPosition.x
@@ -40724,6 +41674,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3986218928584583017, guid: c420ce4896c3fab4c814c14bb42d8896, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 71acd32d3a4788e42b9c28174142f8c9, type: 2}
     - target: {fileID: 5152019230866087809, guid: c420ce4896c3fab4c814c14bb42d8896, type: 3}
       propertyPath: m_Name
       value: Peixe
@@ -40739,8 +41693,12 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1785886825}
+    m_TransformParent: {fileID: 610990905}
     m_Modifications:
+    - target: {fileID: 5193810386290871703, guid: 869a023103a10444e93cac08e1d23e22, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 8b7341d2b4f8cf54db45547fa164bbe6, type: 2}
     - target: {fileID: 6150555477217639582, guid: 869a023103a10444e93cac08e1d23e22, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.25
@@ -40795,6 +41753,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7397746748396674667, guid: 869a023103a10444e93cac08e1d23e22, type: 3}
       insertIndex: -1
       addedObject: {fileID: 8824341086113965052}
+    - targetCorrespondingSourceObject: {fileID: 7397746748396674667, guid: 869a023103a10444e93cac08e1d23e22, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8824341086113965055}
   m_SourcePrefab: {fileID: 100100000, guid: 869a023103a10444e93cac08e1d23e22, type: 3}
 --- !u!1 &5085215230461114085 stripped
 GameObject:
@@ -40805,6 +41766,75 @@ GameObject:
 Transform:
   m_CorrespondingSourceObject: {fileID: 6150555477217639582, guid: 869a023103a10444e93cac08e1d23e22, type: 3}
   m_PrefabInstance: {fileID: 3296521931437366287}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5991884407367053606
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 584075585}
+    m_Modifications:
+    - target: {fileID: 5008076167376802474, guid: a2afef62d87f2724fac764e77230e31b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.46
+      objectReference: {fileID: 0}
+    - target: {fileID: 5008076167376802474, guid: a2afef62d87f2724fac764e77230e31b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 5008076167376802474, guid: a2afef62d87f2724fac764e77230e31b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -101.63
+      objectReference: {fileID: 0}
+    - target: {fileID: 5008076167376802474, guid: a2afef62d87f2724fac764e77230e31b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 5008076167376802474, guid: a2afef62d87f2724fac764e77230e31b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5008076167376802474, guid: a2afef62d87f2724fac764e77230e31b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5008076167376802474, guid: a2afef62d87f2724fac764e77230e31b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5008076167376802474, guid: a2afef62d87f2724fac764e77230e31b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5008076167376802474, guid: a2afef62d87f2724fac764e77230e31b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5008076167376802474, guid: a2afef62d87f2724fac764e77230e31b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6678241982136415107, guid: a2afef62d87f2724fac764e77230e31b, type: 3}
+      propertyPath: m_Name
+      value: moeda
+      objectReference: {fileID: 0}
+    - target: {fileID: 7351095907196929519, guid: a2afef62d87f2724fac764e77230e31b, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: eb0b397ec47954445ba9cf31fa05861f, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6678241982136415107, guid: a2afef62d87f2724fac764e77230e31b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 9117137632917708237}
+  m_SourcePrefab: {fileID: 100100000, guid: a2afef62d87f2724fac764e77230e31b, type: 3}
+--- !u!1 &8488516686366345078 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6678241982136415107, guid: a2afef62d87f2724fac764e77230e31b, type: 3}
+  m_PrefabInstance: {fileID: 5991884407367053606}
   m_PrefabAsset: {fileID: 0}
 --- !u!95 &8824341086113965051
 Animator:
@@ -40851,6 +41881,41 @@ CapsuleCollider:
   m_Height: 0.002716195
   m_Direction: 1
   m_Center: {x: -9.313226e-10, y: -0.0000000037884704, z: 0.0006651542}
+--- !u!114 &8824341086113965055
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5085215230461114085}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd6c9564a4822ae429c7dce788a5fb65, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coletavel: []
+  tipo: 0
+  moedas: 0
+--- !u!4 &9117137632917708236 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5008076167376802474, guid: a2afef62d87f2724fac764e77230e31b, type: 3}
+  m_PrefabInstance: {fileID: 5991884407367053606}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &9117137632917708237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8488516686366345078}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd6c9564a4822ae429c7dce788a5fb65, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coletavel: []
+  tipo: 2
+  moedas: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -40862,3 +41927,4 @@ SceneRoots:
   - {fileID: 923405180}
   - {fileID: 1087680609}
   - {fileID: 1310700368}
+  - {fileID: 1799191379}
