@@ -23,7 +23,8 @@ public class Inimigo : MonoBehaviour
     public Transform[] waypoints;
     int m_IndiceWaypoint = 0;
     bool m_emPatrulha;
-    bool JogadorAvistado = false; 
+    bool JogadorAvistado = false;
+    public int tempoAteDeteccao;
 
     void Start()
     {
@@ -38,33 +39,8 @@ public class Inimigo : MonoBehaviour
 
     void Update()
     {
-
-        if (m_emPatrulha == false)
-        {
-            m_distancia = Vector3.Distance(agente.transform.position, alvo.transform.position);
-            if (m_distancia < distanciaMinima)
-            {
-                agente.isStopped = true;
-                //animador muda para instancia de Ataque
-            }
-            else
-            {
-                agente.isStopped = false;
-                //animador sai da instancia de Ataque
-                agente.SetDestination(alvo.position);
-            }
-        }
-        else
-        {
-            if(Vector3.Distance(transform.position, waypoints[m_IndiceWaypoint].position) <= 0)
-                ProxWaypoint();
-        }
+        Patrulha();
         Deteccao();
-        if(!JogadorAvistado && tempoDeDeteccao > 0)
-        {
-            tempoDeDeteccao -= (Time.deltaTime * redTempoEscondido);
-        }
-        Debug.Log(tempoDeDeteccao.ToString());
     }
     private void ProxWaypoint()
     {
@@ -92,9 +68,14 @@ public class Inimigo : MonoBehaviour
                 {
                     Debug.Log("player avistado");
                     JogadorAvistado = true;
-                    if (tempoDeDeteccao >= 5)
+                    if (tempoDeDeteccao >= tempoAteDeteccao)
                     {
                         m_emPatrulha = false;
+                        tempoDeDeteccao += Time.deltaTime;
+                        if (tempoDeDeteccao >= 2 * tempoDeDeteccao)
+                        {
+                            controller.avistado = true;
+                        }
                     }
                     else
                     {
@@ -102,7 +83,10 @@ public class Inimigo : MonoBehaviour
                     }
                 }
                 else
+                {
                     JogadorAvistado = false;
+                    DeteccaoRemota();
+                }
             }
 
         }
@@ -115,6 +99,53 @@ public class Inimigo : MonoBehaviour
         if(collision.gameObject.tag == "Player")
         {
             controller.Derrota();
+        }
+    }
+
+    private void PlayerEscondido()
+    {
+        if(controller.escondido)
+        {
+            redTempoEscondido += Time.deltaTime / 2f;
+        }
+    }
+
+    private void Patrulha()
+    {
+
+        if (m_emPatrulha == false)
+        {
+            m_distancia = Vector3.Distance(agente.transform.position, alvo.transform.position);
+            if (m_distancia < distanciaMinima)
+            {
+                agente.isStopped = true;
+                //animador muda para instancia de Ataque
+            }
+            else
+            {
+                agente.isStopped = false;
+                //animador sai da instancia de Ataque
+                agente.SetDestination(alvo.position);
+            }
+        }
+        else
+        {
+            if (Vector3.Distance(transform.position, waypoints[m_IndiceWaypoint].position) <= 0)
+                ProxWaypoint();
+        }
+        
+        if (!JogadorAvistado && tempoDeDeteccao > 0)
+        {
+            PlayerEscondido(); 
+            tempoDeDeteccao -= (Time.deltaTime * redTempoEscondido);
+        }
+    }
+
+    private void DeteccaoRemota()
+    {
+        if(controller.avistado)
+        {
+            m_emPatrulha = false;
         }
     }
 }
