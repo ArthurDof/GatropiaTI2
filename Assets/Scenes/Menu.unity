@@ -3091,7 +3091,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2183dfc03c03dd044b98edd534132f0f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  painelLivre: {fileID: 0}
+  painelLivre: {fileID: 913723877}
   painelOpcoes: {fileID: 1852964588}
   painelTutorial: {fileID: 1229736883}
   painelControles: {fileID: 530332051}
