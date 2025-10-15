@@ -1,3 +1,4 @@
+using UnityEditor;
 using UnityEngine;
 
 public class ScriptPlayer : MonoBehaviour
@@ -13,15 +14,16 @@ public class ScriptPlayer : MonoBehaviour
     public float freioPassivo = 50f;
     public float forcaPulo = 25f;
     public float forcaPuloAndando = 125;
-    public float cooldownPulo;
+    float cooldownPulo;
+    float saiuRail;
     Vector3 Pulo;
     Vector3 PuloAndando;
     Vector3 impulso;
 
-    public float accelAtual = 0f;
+    float accelAtual = 0f;
     float freioAtual = 0f;
     float virarAtual = 0f;
-    public float colisao = 0f;
+    float colisao = 0f;
     bool up = false;
     bool down = false;
     bool left = false;
@@ -30,6 +32,7 @@ public class ScriptPlayer : MonoBehaviour
 
     private void Start()
     {
+        saiuRail = 1;
         cooldownPulo = 2f;
         Pulo = new Vector3(0.0f, 2.0f, 0.0f);
         colisao = 0f;
@@ -42,15 +45,30 @@ public class ScriptPlayer : MonoBehaviour
         PuloAndando = (Camera.main.transform.forward/2 + Vector3.up).normalized * 2f;
         impulso = (Camera.main.transform.forward).normalized * 2;
         cooldownPulo += Time.deltaTime;
+        saiuRail += Time.deltaTime;
+        if (saiuRail > 0.1f)
+        {
+            rb.constraints &= ~RigidbodyConstraints.FreezeRotationY;
+        }
+        if (cooldownPulo > 0f && cooldownPulo < 0.2f)
+        {
+            rb.constraints |= RigidbodyConstraints.FreezeRotationY;
+        }
+        else
+        {
+            rb.constraints &= ~RigidbodyConstraints.FreezeRotationY;
+        }
         if (colisao > 0f)
         {
             colisao += Time.deltaTime;
             if (0f < colisao && colisao < 0.5f)
             {
+                rb.constraints |= RigidbodyConstraints.FreezeRotationY;
                 freioAtual = 250000f;
             }
             if (colisao >= 0.5f)
             {
+                rb.constraints &= ~RigidbodyConstraints.FreezeRotationY;
                 colisao = 0f;
             }
         }
@@ -153,6 +171,9 @@ public class ScriptPlayer : MonoBehaviour
         if (narail== 0)
         {
             onrail = false;
+            rb.constraints |= RigidbodyConstraints.FreezeRotationY;
+            saiuRail = 0f;
+
         }
     }
     public void Pular()

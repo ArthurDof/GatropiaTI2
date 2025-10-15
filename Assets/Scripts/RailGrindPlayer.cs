@@ -78,6 +78,16 @@ public class RailGrindPlayer : MonoBehaviour
             CalculateAndSetRailPosition();
         }
     }
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.tag == "Rail")
+        {
+            onRail = true;
+            controller.EntrouSaiurail(1);
+            currentRailScript = other.gameObject.GetComponent<RailScript>();
+            CalculateAndSetRailPosition();
+        }
+    }
     void CalculateAndSetRailPosition()
     {
         timeForFullSpline = currentRailScript.totalSplineLength / grindSpeed;

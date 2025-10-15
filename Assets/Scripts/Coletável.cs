@@ -34,8 +34,8 @@ public class Coletável : MonoBehaviour
             {
                 moedas++;
             }
-            sfx.PlayerAudio(1);
-            Destroy(coletavel[tipo]);
+
+            Destroy(gameObject);
         }
     }
 }

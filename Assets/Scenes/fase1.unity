@@ -4852,6 +4852,7 @@ GameObject:
   - component: {fileID: 222540903}
   - component: {fileID: 222540906}
   - component: {fileID: 222540907}
+  - component: {fileID: 222540908}
   m_Layer: 6
   m_Name: Player
   m_TagString: Player
@@ -4867,7 +4868,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 222540897}
   serializedVersion: 4
-  m_Mass: 15
+  m_Mass: 20
   m_Drag: 0.7
   m_AngularDrag: 0.35
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -4994,15 +4995,12 @@ MonoBehaviour:
   Frente: {fileID: 1829739952}
   Tras: {fileID: 1254831760}
   rb: {fileID: 222540898}
-  accel: 100
+  accel: 60
   freio: 75
   anguloVirar: 15
   freioPassivo: 50
   forcaPulo: 60
   forcaPuloAndando: 80
-  cooldownPulo: 0
-  accelAtual: 0
-  colisao: 0
 --- !u!82 &222540906
 AudioSource:
   m_ObjectHideFlags: 0
@@ -5117,6 +5115,27 @@ MonoBehaviour:
   heightOffset: 1.2
   lerpSpeed: 20
   currentRailScript: {fileID: 1310700370}
+--- !u!65 &222540908
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 222540897}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 1
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.6638517, y: 0.6736257, z: 2.1596375}
+  m_Center: {x: 0.031689554, y: -0.89763916, z: 0.026138306}
 --- !u!1 &223209757
 GameObject:
   m_ObjectHideFlags: 0
@@ -7709,7 +7728,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 693, y: -54}
+  m_AnchoredPosition: {x: 600, y: -92}
   m_SizeDelta: {x: 839.7726, y: 155.9545}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &346950310
@@ -19341,9 +19360,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 3cb5261d251d17242985362a61f16072, type: 3}
       insertIndex: -1
       addedObject: {fileID: 958519354}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 3cb5261d251d17242985362a61f16072, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 958519353}
   m_SourcePrefab: {fileID: 100100000, guid: 3cb5261d251d17242985362a61f16072, type: 3}
 --- !u!4 &958519351 stripped
 Transform:
@@ -19355,27 +19371,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 3cb5261d251d17242985362a61f16072, type: 3}
   m_PrefabInstance: {fileID: 958519350}
   m_PrefabAsset: {fileID: 0}
---- !u!65 &958519353
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 958519352}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.008916463, y: 0.0069307555, z: 0.030067887}
-  m_Center: {x: -0.000027282418, y: -0.0004870476, z: 0.013741493}
 --- !u!65 &958519354
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24908,17 +24903,17 @@ WheelCollider:
   m_Mass: 20
   m_WheelDampingRate: 0.4
   m_ForwardFriction:
-    m_ExtremumSlip: 0.9
-    m_ExtremumValue: 1
+    m_ExtremumSlip: 1.2
+    m_ExtremumValue: 3
     m_AsymptoteSlip: 0.8
-    m_AsymptoteValue: 0.5
-    m_Stiffness: 1
+    m_AsymptoteValue: 0.6
+    m_Stiffness: 2.2
   m_SidewaysFriction:
-    m_ExtremumSlip: 1.5
-    m_ExtremumValue: 2
-    m_AsymptoteSlip: 1.8
-    m_AsymptoteValue: 1.5
-    m_Stiffness: 1.5
+    m_ExtremumSlip: 1.2
+    m_ExtremumValue: 3
+    m_AsymptoteSlip: 0.8
+    m_AsymptoteValue: 0.6
+    m_Stiffness: 2.2
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -27128,7 +27123,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -689, y: -54}
+  m_AnchoredPosition: {x: -580, y: -84}
   m_SizeDelta: {x: 839.7726, y: 155.9545}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &1381767251
@@ -35119,115 +35114,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.13714652, y: 0.025764614, z: 0.044359118}
   m_Center: {x: 0.0050246576, y: 0.0054693623, z: -0.008096958}
---- !u!1 &1799191375
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1799191379}
-  - component: {fileID: 1799191378}
-  - component: {fileID: 1799191377}
-  - component: {fileID: 1799191376}
-  m_Layer: 0
-  m_Name: Plane
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!64 &1799191376
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1799191375}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!23 &1799191377
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1799191375}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &1799191378
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1799191375}
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!4 &1799191379
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1799191375}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.1976358, y: 0.9723562, z: 8.3253765}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1803110551
 GameObject:
   m_ObjectHideFlags: 0
@@ -36237,17 +36123,17 @@ WheelCollider:
   m_Mass: 20
   m_WheelDampingRate: 0.4
   m_ForwardFriction:
-    m_ExtremumSlip: 0.9
-    m_ExtremumValue: 1
+    m_ExtremumSlip: 1.2
+    m_ExtremumValue: 3
     m_AsymptoteSlip: 0.8
-    m_AsymptoteValue: 0.5
-    m_Stiffness: 1
+    m_AsymptoteValue: 0.6
+    m_Stiffness: 2.2
   m_SidewaysFriction:
-    m_ExtremumSlip: 1.5
-    m_ExtremumValue: 2
-    m_AsymptoteSlip: 1.8
-    m_AsymptoteValue: 1.5
-    m_Stiffness: 1.5
+    m_ExtremumSlip: 1.2
+    m_ExtremumValue: 3
+    m_AsymptoteSlip: 0.8
+    m_AsymptoteValue: 0.6
+    m_Stiffness: 2.2
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -42404,4 +42290,3 @@ SceneRoots:
   - {fileID: 923405180}
   - {fileID: 1087680609}
   - {fileID: 1310700368}
-  - {fileID: 1799191379}
