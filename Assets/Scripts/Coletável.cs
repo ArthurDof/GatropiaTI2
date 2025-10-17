@@ -5,6 +5,7 @@ public class Coletável : MonoBehaviour
     public GameObject[] coletavel;
     public int tipo;
     public int moedas = 0;
+    public int rndSFX;
     GameManager gm;
     AudioController sfx;
     void Start()
@@ -24,10 +25,14 @@ public class Coletável : MonoBehaviour
         {
             if (tipo == 0)//peixe
             {
+                rndSFX = Random.Range(1, 9);
+                sfx.PlayerAudio(rndSFX);
                 gm.ColetavelTempo(10);
             }
             else if (tipo == 1)//antidoto
             {
+                rndSFX = Random.Range(1, 9);
+                sfx.PlayerAudio(rndSFX);
                 //pendente o slider de detecção
             }
             else if (tipo == 2)//moeda
