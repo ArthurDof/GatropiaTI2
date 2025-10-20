@@ -16,11 +16,7 @@ public class AntidotoColetavel : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             int rndSFX = Random.Range(1, 9);
-<<<<<<< Updated upstream
-            sfx.PlayerAudio(rndSFX);
-=======
             //sfx.PlayerAudio(rndSFX);
->>>>>>> Stashed changes
 
             // ((slider de detecção)
             Destroy(gameObject);
