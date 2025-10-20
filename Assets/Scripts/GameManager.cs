@@ -18,7 +18,7 @@ public class GameManager : MonoBehaviour
     public float tempomax= 100f;
     public float tempofaltando;
     public Slider Tempo;
-    public bool cheatpause;
+    public TextMeshProUGUI tempoTexto;
 
     //pontuação (base em colisões)
     int batidas;
@@ -26,6 +26,7 @@ public class GameManager : MonoBehaviour
     double pontos = 0;
     double pontosFinais=0;
     public TextMeshProUGUI pontosVitoria;
+    public TextMeshProUGUI pontosDuranteOJogo;
 
     void Start()
     {
@@ -34,31 +35,13 @@ public class GameManager : MonoBehaviour
         Tempo.maxValue = tempomax;
         Tempo.value = tempofaltando;
         Time.timeScale = 1;
-        cheatpause = false;
     }
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.L))
-        {
-            Vitoria();
-        }
-        if (Input.GetKeyDown(KeyCode.K))
-        {
-            if (cheatpause == true)
-            {
-                cheatpause = false;
-            }
-            else
-            if (cheatpause == false)
-            {
-                cheatpause = true;
-            }
-        }
-        if (cheatpause == false) 
-        {
         tempofaltando -= Time.deltaTime;
-        }
         Tempo.value = tempofaltando;
+        tempoTexto.text = tempofaltando.ToString("F1");
+
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             if (vitoriaderrota == 0)
@@ -82,6 +65,15 @@ public class GameManager : MonoBehaviour
         {
             pontos = 1000;
         }
+        if (tempofaltando <= 10)
+        {
+            tempoTexto.color = Color.red;
+        }
+        else
+        {
+            tempoTexto.color = Color.white;
+        }
+        pontosDuranteOJogo.text = $"{pontos:F0}";
     }
 
 
