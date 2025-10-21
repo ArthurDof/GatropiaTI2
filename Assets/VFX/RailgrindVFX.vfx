@@ -16,10 +16,10 @@ MonoBehaviour:
   - title: Heads & Trails
     position:
       serializedVersion: 2
-      x: 1344
+      x: 1345
       y: -1110
-      width: 1322
-      height: 3575
+      width: 1320
+      height: 3541
     contents:
     - model: {fileID: 8926484042661616970}
       id: 0
@@ -233,7 +233,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 90
+      m_SerializableObject: 200
     m_Space: -1
   m_Property:
     name: Rate
@@ -296,7 +296,7 @@ MonoBehaviour:
   - {fileID: 8926484042661617224}
   - {fileID: 8926484042661617482}
   - {fileID: 8926484042661617392}
-  m_UIPosition: {x: 1600, y: -766}
+  m_UIPosition: {x: 1601, y: -766}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
@@ -337,7 +337,7 @@ MonoBehaviour:
   - {fileID: 8926484042661617009}
   - {fileID: 8926484042661617113}
   dataType: 0
-  capacity: 150
+  capacity: 500
   stripCapacity: 16
   particlePerStripCount: 16
   needsComputeBounds: 0
@@ -529,9 +529,9 @@ MonoBehaviour:
   - {fileID: 8926484042661617061}
   - {fileID: 8926484042661617084}
   dataType: 1
-  capacity: 1600
-  stripCapacity: 16
-  particlePerStripCount: 100
+  capacity: 3000
+  stripCapacity: 25
+  particlePerStripCount: 120
   needsComputeBounds: 0
   boundsMode: 0
   m_Space: 1
@@ -2339,7 +2339,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEditor.VFX.DirectionType, Unity.VisualEffectGraph.Editor,
           Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"direction":{"x":0.0,"y":0.6000000238418579,"z":-1.0}}'
+      m_SerializableObject: '{"direction":{"x":0.0,"y":0.30000001192092898,"z":-1.0}}'
     m_Space: 0
   m_Property:
     name: Direction
@@ -2508,7 +2508,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 6.5
+      m_SerializableObject: 8
     m_Space: -1
   m_Property:
     name: MinSpeed
@@ -2542,7 +2542,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 9.24
+      m_SerializableObject: 12
     m_Space: -1
   m_Property:
     name: MaxSpeed
@@ -3360,7 +3360,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.AnimationCurve, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"frames":[{"time":-0.45096760988235476,"value":0.0021649040281772615,"inTangent":0.27075183391571047,"outTangent":0.27075183391571047,"tangentMode":0,"leftTangentMode":0,"rightTangentMode":0,"broken":false},{"time":1.3094106912612916,"value":0.40841102600097659,"inTangent":-0.5861574411392212,"outTangent":-0.5861574411392212,"tangentMode":0,"leftTangentMode":0,"rightTangentMode":0,"broken":false}],"preWrapMode":8,"postWrapMode":8,"version":1}'
+      m_SerializableObject: '{"frames":[{"time":-0.538987934589386,"value":0.02752501145005226,"inTangent":0.27075183391571047,"outTangent":0.27075183391571047,"tangentMode":0,"leftTangentMode":0,"rightTangentMode":0,"broken":false},{"time":1.3094106912612916,"value":0.40841102600097659,"inTangent":-0.5861574411392212,"outTangent":-0.5861574411392212,"tangentMode":0,"leftTangentMode":0,"rightTangentMode":0,"broken":false}],"preWrapMode":8,"postWrapMode":8,"version":1}'
     m_Space: -1
   m_Property:
     name: Size
