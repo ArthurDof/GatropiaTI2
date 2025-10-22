@@ -7,6 +7,7 @@ public class ScriptPlayer : MonoBehaviour
     GameManager controller;
     [SerializeField] WheelCollider Frente;
     [SerializeField] WheelCollider Tras;
+    public GameObject VFXrailgrind;
     public Rigidbody rb;
     public float accel = 100f;
     public float freio = 75f;
@@ -18,6 +19,7 @@ public class ScriptPlayer : MonoBehaviour
     float saiuRail;
     Vector3 Pulo;
     Vector3 PuloAndando;
+    Vector3 knockback;
     Vector3 impulso;
 
     float accelAtual = 0f;
@@ -43,6 +45,7 @@ public class ScriptPlayer : MonoBehaviour
     void FixedUpdate()
     {
         PuloAndando = (Camera.main.transform.forward/2 + Vector3.up).normalized * 2f;
+        knockback = (Camera.main.transform.forward*-1 + Vector3.up).normalized * 2;
         impulso = (Camera.main.transform.forward).normalized * 2;
         cooldownPulo += Time.deltaTime;
         saiuRail += Time.deltaTime;
@@ -155,11 +158,9 @@ public class ScriptPlayer : MonoBehaviour
         if (collision.gameObject.tag == "obstaculo")
         {
             controller.DetectouColisao();
-            if (colisao ==0f)
-            {
-                sfx.PlayerAudio(0);
-            }
+            sfx.PlayerAudio(0);
             colisao += Time.deltaTime;
+            rb.AddForce(knockback * 60, ForceMode.Impulse);
         }
     }
     public void EntrouSaiurail(int narail)
@@ -167,10 +168,13 @@ public class ScriptPlayer : MonoBehaviour
         if (narail == 1)
         {
             onrail = true;
+            VFXrailgrind.SetActive(true);
         }
         if (narail== 0)
         {
             onrail = false;
+            VFXrailgrind.SetActive(false);
+            rb.AddForce(impulso * forcaPuloAndando, ForceMode.Impulse);
             rb.constraints |= RigidbodyConstraints.FreezeRotationY;
             saiuRail = 0f;
 
