@@ -2,9 +2,11 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.Mathematics;
+using UnityEditor.Tilemaps;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.Splines;
+using UnityEngine.UI;
 
 public class RailGrindPlayer : MonoBehaviour
 {
@@ -16,26 +18,62 @@ public class RailGrindPlayer : MonoBehaviour
     float elapsedTime;
     [SerializeField] float lerpSpeed = 10f;
     ScriptPlayer controller;
+    GameManager gameManager;
+    public float quicktimeevent;
+    public Slider QuickTimeL;
+    public Slider QuickTimeR;
+    int nemclicou;
 
     [Header("Scripts")]
     [SerializeField] RailScript currentRailScript;
     Rigidbody playerRigidbody;
-
+    public GameObject quicktime;
     private void Start()
     {
+        nemclicou = 1;
+        QuickTimeL.maxValue = 1;
+        QuickTimeL.minValue = 0;
+        QuickTimeR.maxValue = 1;
+        QuickTimeR.minValue = 0;
+        quicktimeevent = 1f;
+        grindSpeed = 15;
         controller = GameObject.FindGameObjectWithTag("Player").GetComponent<ScriptPlayer>();
+        gameManager = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameManager>();
         playerRigidbody = GetComponent<Rigidbody>();
     }
     private void FixedUpdate()
     {
         if (onRail)
         {
+            quicktimeevent -= Time.deltaTime;
+            QuickTimeL.value = quicktimeevent;
+            QuickTimeR.value = quicktimeevent;
             MovePlayerAlongRail();
         }
     }
     private void Update()
     {
-
+        if (onRail)
+        {
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                clicouquicktime();
+            }
+            if (quicktimeevent <= -2f)
+            {
+                nemclicou = 1;
+                quicktimeevent = 1f;
+                quicktime.gameObject.SetActive(true);
+            }
+            if (quicktimeevent <= 0f)
+            {
+                quicktime.gameObject.SetActive(false);
+                if (nemclicou == 1)
+                {
+                    clicouquicktime();
+                }
+            }
+        }
     }
     void MovePlayerAlongRail()
     {
@@ -74,6 +112,7 @@ public class RailGrindPlayer : MonoBehaviour
         {
             onRail = true;
             controller.EntrouSaiurail(1);
+            quicktime.gameObject.SetActive(true);
             currentRailScript = collision.gameObject.GetComponent<RailScript>();
             CalculateAndSetRailPosition();
         }
@@ -84,6 +123,7 @@ public class RailGrindPlayer : MonoBehaviour
         {
             onRail = true;
             controller.EntrouSaiurail(1);
+            quicktime.gameObject.SetActive(true);
             currentRailScript = other.gameObject.GetComponent<RailScript>();
             CalculateAndSetRailPosition();
         }
@@ -106,7 +146,24 @@ public class RailGrindPlayer : MonoBehaviour
     {
         onRail = false;
         controller.EntrouSaiurail(0);
+        quicktime.gameObject.SetActive(false);
+        quicktimeevent = 1f;
+        nemclicou = 1;
         currentRailScript = null;
         transform.position += transform.forward * 1;
+    }
+    public void clicouquicktime()
+    {
+        nemclicou = 0;
+        if (quicktimeevent <= 0.5f && quicktimeevent > 0f )
+        {
+            gameManager.AdicionarPontos(200);
+        }
+        else
+        {
+            gameManager.AdicionarPontos(-500);
+            gameManager.ColetavelTempo(-10);
+        }
+        quicktime.gameObject.SetActive(false);
     }
 }

@@ -24,11 +24,13 @@ public class GameManager : MonoBehaviour
     int batidas;
     double multiplicador;
     double pontos = 0;
+    int pontosmanobras;
     double pontosFinais=0;
     public TextMeshProUGUI pontosVitoria;
 
     void Start()
     {
+        pontosmanobras = 0;
         multiplicador = 20;
         tempofaltando = tempomax;
         Tempo.maxValue = tempomax;
@@ -128,7 +130,7 @@ public class GameManager : MonoBehaviour
     public void Vitoria()
     {
         vitoriaderrota = 1;
-        pontosFinais = (pontos * multiplicador) / 10;
+        pontosFinais = ((pontos + pontosmanobras) * multiplicador) / 10;
         pontosVitoria.text = "Pontuação: " + $"{pontos:F1}" + " X " + $"{multiplicador / 10}" + " = " + $"{pontosFinais:F1}".ToString();
         telaVitoriaDerrota[0].gameObject.SetActive(true);
         if (isPaused == false)
@@ -160,6 +162,10 @@ public class GameManager : MonoBehaviour
         {
             SceneManager.LoadScene("fase1");
         }
+    }
+    public void AdicionarPontos(int add)
+    {
+        pontosmanobras = pontosmanobras + add;
     }
     
 }
