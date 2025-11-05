@@ -17,32 +17,51 @@ public class GameManager : MonoBehaviour
     //tempo decrescente
     public float tempomax= 100f;
     public float tempofaltando;
+    bool cheatpause;
     public Slider Tempo;
 
     //pontuação (base em colisões)
     int batidas;
     double multiplicador;
     double pontos = 0;
-    double pontosFinais= 0;
+    int pontosmanobras;
+    double pontosFinais=0;
     public TextMeshProUGUI pontosVitoria;
-
-    //Esconderijo e Detecção
-    public bool escondido = false;
-    public bool avistado = false;
-    public Button esconder;
 
     void Start()
     {
+        pontosmanobras = 0;
         multiplicador = 20;
         tempofaltando = tempomax;
         Tempo.maxValue = tempomax;
         Tempo.value = tempofaltando;
         Time.timeScale = 1;
+        cheatpause = false;
     }
     void Update()
     {
-        tempofaltando -= Time.deltaTime;
+        if (Input.GetKeyDown(KeyCode.L))
+        {
+            Vitoria();
+        }
+        if (Input.GetKeyDown(KeyCode.K))
+        {
+            if (cheatpause == true)
+            {
+                cheatpause = false;
+            }
+            else
+            if (cheatpause == false)
+            {
+                cheatpause = true;
+            }
+        }
+        if (cheatpause == false)
+        {
+            tempofaltando -= Time.deltaTime;
+        }
         Tempo.value = tempofaltando;
+
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             if (vitoriaderrota == 0)
@@ -111,7 +130,7 @@ public class GameManager : MonoBehaviour
     public void Vitoria()
     {
         vitoriaderrota = 1;
-        pontosFinais = (pontos * multiplicador) / 10;
+        pontosFinais = ((pontos + pontosmanobras) * multiplicador) / 10;
         pontosVitoria.text = "Pontuação: " + $"{pontos:F1}" + " X " + $"{multiplicador / 10}" + " = " + $"{pontosFinais:F1}".ToString();
         telaVitoriaDerrota[0].gameObject.SetActive(true);
         if (isPaused == false)
@@ -144,22 +163,9 @@ public class GameManager : MonoBehaviour
             SceneManager.LoadScene("fase1");
         }
     }
-
-    public void BotãoDeEsconder()
+    public void AdicionarPontos(int add)
     {
-        if(!escondido)
-            esconder.onClick.AddListener(Esconder);
-        else
-            esconder.onClick.AddListener(SairDoEsconderijo);
+        pontosmanobras = pontosmanobras + add;
     }
-    public void Esconder()
-    {
-        escondido = true;
-    }
-
-    public void SairDoEsconderijo()
-    {
-        escondido = false;
-    }
-
+    
 }

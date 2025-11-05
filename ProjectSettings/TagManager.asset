@@ -9,6 +9,7 @@ TagManager:
   - obstaculo
   - Inimigo
   - Esconderijo
+  - Rail
   layers:
   - Default
   - TransparentFX
