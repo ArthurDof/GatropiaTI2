@@ -28,6 +28,13 @@ public class GameManager : MonoBehaviour
     double pontosFinais=0;
     public TextMeshProUGUI pontosVitoria;
 
+    //Esconderijo e Deteccao
+    public bool escondido = false;
+    public bool avistado = false;
+    public Button esconder;
+
+
+
     void Start()
     {
         pontosmanobras = 0;
@@ -167,5 +174,20 @@ public class GameManager : MonoBehaviour
     {
         pontosmanobras = pontosmanobras + add;
     }
-    
+    public void BotaoDeEsconder()
+    {
+        if (!escondido)
+            esconder.onClick.AddListener(Esconder);
+        else
+            esconder.onClick.AddListener(SairDoEsconderijo);
+    }
+    public void Esconder()
+    {
+        escondido = true;
+    }
+
+    public void SairDoEsconderijo()
+    {
+        escondido = false;
+    }
 }
