@@ -1,5 +1,4 @@
 using TMPro;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -17,8 +16,15 @@ public class GameManager : MonoBehaviour
     //tempo decrescente
     public float tempomax= 100f;
     public float tempofaltando;
+    public TextMeshProUGUI tempoTexto;
     bool cheatpause;
     public Slider Tempo;
+
+    //Esconderijo e Deteccao
+    public bool escondido = false;
+    public bool avistado = false;
+    public Button esconder;
+    public Slider deteccao;
 
     //pontuação (base em colisões)
     int batidas;
@@ -37,6 +43,10 @@ public class GameManager : MonoBehaviour
         Tempo.value = tempofaltando;
         Time.timeScale = 1;
         cheatpause = false;
+
+
+        deteccao.maxValue = 10f;
+        deteccao.minValue = 0f;
     }
     void Update()
     {
@@ -60,8 +70,20 @@ public class GameManager : MonoBehaviour
         {
             tempofaltando -= Time.deltaTime;
         }
-        Tempo.value = tempofaltando;
 
+        //Texto tempo restante
+        Tempo.value = tempofaltando;
+        tempoTexto.text = Mathf.CeilToInt(tempofaltando).ToString();
+        if (tempofaltando <= 10)
+        {
+            tempoTexto.color = Color.red;
+        }
+        else
+        {
+            tempoTexto.color = Color.white;
+        }
+
+        //pausa do jogo
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             if (vitoriaderrota == 0)
@@ -69,6 +91,8 @@ public class GameManager : MonoBehaviour
                 Pause();
             }
         }
+
+        //acabou o tempo
         if (tempofaltando <= 0)
         {
             Derrota();
@@ -167,5 +191,22 @@ public class GameManager : MonoBehaviour
     {
         pontosmanobras = pontosmanobras + add;
     }
-    
+
+    public void BotaoDeEsconder()
+    {
+        if (!escondido)
+            esconder.onClick.AddListener(Esconder);
+        else
+            esconder.onClick.AddListener(SairDoEsconderijo);
+    }
+    public void Esconder()
+    {
+        escondido = true;
+    }
+
+    public void SairDoEsconderijo()
+    {
+        escondido = false;
+    }
+
 }
