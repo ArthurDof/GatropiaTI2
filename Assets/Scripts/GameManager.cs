@@ -1,5 +1,6 @@
 using TMPro;
 using UnityEngine;
+using UnityEngine.InputSystem.Controls;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 public class GameManager : MonoBehaviour
@@ -25,6 +26,7 @@ public class GameManager : MonoBehaviour
     public bool avistado = false;
     public Button esconder;
     public Slider deteccao;
+    float detectado;
 
     //pontuação (base em colisões)
     int batidas;
@@ -45,11 +47,17 @@ public class GameManager : MonoBehaviour
         cheatpause = false;
 
 
-        deteccao.maxValue = 10f;
+        deteccao.maxValue = 50f;
         deteccao.minValue = 0f;
+        detectado = 50f;
     }
     void Update()
     {
+        deteccao.value = detectado;
+        if (avistado == true)
+        {
+            detectado -= Time.deltaTime;
+        }
         if (Input.GetKeyDown(KeyCode.L))
         {
             Vitoria();
@@ -97,6 +105,10 @@ public class GameManager : MonoBehaviour
         {
             Derrota();
         }
+        if (detectado <= 0)
+        {
+            Derrota();
+        }
         if (batidas >= 10)
         {
             pontos = (tempofaltando * 100) + (-150 * batidas + 1500);
@@ -112,13 +124,21 @@ public class GameManager : MonoBehaviour
     }
 
 
-    //função para coletavel que adiciona tempo
+    //função para coletavel que adiciona tempo e diminui detecção
     public void ColetavelTempo(int tempo)
     {
         tempofaltando += tempo;
         if(tempofaltando > tempomax)
         {
             tempofaltando = tempomax;
+        }
+    }
+    public void ColetavelAntidoto(int antidoto)
+    {
+        detectado += antidoto;
+        if (detectado > 50f)
+        {
+            detectado = 50;
         }
     }
 
@@ -184,7 +204,7 @@ public class GameManager : MonoBehaviour
     {
         if (cenarioatual == 0)
         {
-            SceneManager.LoadScene("fase1");
+            SceneManager.LoadScene("fase1normal");
         }
     }
     public void AdicionarPontos(int add)
@@ -198,6 +218,17 @@ public class GameManager : MonoBehaviour
             esconder.onClick.AddListener(Esconder);
         else
             esconder.onClick.AddListener(SairDoEsconderijo);
+    }
+    public void visto(bool foiavistado)
+    {
+        if (foiavistado == true)
+        {
+            avistado = true;
+        }
+        else if (foiavistado == false)
+        {
+            avistado = false;
+        }
     }
     public void Esconder()
     {

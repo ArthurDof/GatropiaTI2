@@ -71,7 +71,6 @@ public class Inimigo : MonoBehaviour
                 tempoDeDeteccao -= Time.deltaTime * (redTempoEscondido * 0.5f);
             }
         }
-        Debug.Log($"Detecção: {tempoDeDeteccao:F2} | Escondido: {controller.escondido}");
     }
     private void ProxWaypoint()
     {
@@ -86,7 +85,6 @@ public class Inimigo : MonoBehaviour
 
     void Deteccao()
     {
-        Debug.Log("detectando");
         Collider[] playerVisto = Physics.OverlapSphere(transform.position, raioDeVisão, player);
         if (playerVisto.Length != 0)
         {
@@ -99,10 +97,10 @@ public class Inimigo : MonoBehaviour
                 {
                     Debug.Log("player avistado");
                     JogadorAvistado = true;
+                    controller.visto(true);
                     if (tempoDeDeteccao >= 10)
                     {
                         m_emPatrulha = false;
-                        controller.Derrota();
                     }
                     else
                     {
@@ -110,12 +108,18 @@ public class Inimigo : MonoBehaviour
                     }
                 }
                 else
+                {
                     JogadorAvistado = false;
+                    controller.visto(false);
+                }
             }
 
         }
         else if (JogadorAvistado)
+        {
             JogadorAvistado = false;
+            controller.visto(false);
+        }
 
     }
     private void OnCollisionEnter(Collision collision)
