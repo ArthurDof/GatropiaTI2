@@ -3,19 +3,24 @@ using UnityEngine;
 public class PeixeColetavel : MonoBehaviour
 {
     private GameManager gm;
-    public GameObject vfx;
+    private AudioController sfx;
 
     void Start()
     {
         gm = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameManager>();
+        sfx = GameObject.FindGameObjectWithTag("GameController").GetComponent<AudioController>();
     }
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
-        {
-            Instantiate(vfx, transform.position + new Vector3(0, 0, 0), transform.rotation);
+        {        
+            Debug.Log("Colidiu com " + other.name);
+
+            int rndSFX = Random.Range(1, 9);
+           // sfx.PlayerAudio(rndSFX);
             gm.ColetavelTempo(10);
+
             Destroy(gameObject);
         }
     }
