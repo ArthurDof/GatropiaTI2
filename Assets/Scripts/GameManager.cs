@@ -1,3 +1,4 @@
+using System.Text;
 using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem.Controls;
@@ -20,6 +21,13 @@ public class GameManager : MonoBehaviour
     bool cheatpause;
     public Slider Tempo;
     public TextMeshProUGUI tempoTexto;
+
+    //Esconderijo e Deteccao
+    public bool escondido = false;
+    public bool avistado = false;
+    public Button esconder;
+    public Slider deteccao;
+    float detectado;
 
     //pontuação (base em colisões)
     int batidas;
@@ -49,6 +57,11 @@ public class GameManager : MonoBehaviour
     }
     void Update()
     {
+        deteccao.value = detectado;
+        if (avistado == true)
+        {
+            detectado -= Time.deltaTime;
+        }
         if (Input.GetKeyDown(KeyCode.L))
         {
             Vitoria();
@@ -70,6 +83,7 @@ public class GameManager : MonoBehaviour
             tempofaltando -= Time.deltaTime;
         }
         Tempo.value = tempofaltando;
+        tempoTexto.text = Mathf.CeilToInt(tempofaltando).ToString();
 
         if (Input.GetKeyDown(KeyCode.Escape))
         {
@@ -111,6 +125,14 @@ public class GameManager : MonoBehaviour
         if (tempofaltando > tempomax)
         {
             tempofaltando = tempomax;
+        }
+    }
+    public void ColetavelAntidoto(int antidoto)
+    {
+        detectado += antidoto;
+        if (detectado > 50f)
+        {
+            detectado = 50;
         }
     }
 
@@ -182,6 +204,36 @@ public class GameManager : MonoBehaviour
     public void AdicionarPontos(int add)
     {
         pontosmanobras = pontosmanobras + add;
+    }
+
+    public void BotaoDeEsconder()
+    {
+        if (!escondido)
+            esconder.onClick.AddListener(Esconder);
+        else
+            esconder.onClick.AddListener(SairDoEsconderijo);
+    }
+
+    public void visto(bool foiavistado)
+    {
+        if (foiavistado == true)
+        {
+            avistado = true;
+        }
+        else if (foiavistado == false)
+        {
+            avistado = false;
+        }
+    }
+
+    public void Esconder()
+    {
+        escondido = true;
+    }
+
+    public void SairDoEsconderijo()
+    {
+        escondido = false;
     }
 
     void AtualizarPontosDuranteOJogo()
