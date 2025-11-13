@@ -23,11 +23,11 @@ public class Inimigo : MonoBehaviour
     public Transform[] waypoints;
     int m_IndiceWaypoint = 0;
     bool m_emPatrulha;
-    bool JogadorAvistado = false;
-    public int tempoAteDeteccao;
+    bool JogadorAvistado = false; 
 
     void Start()
     {
+        controller = Object.FindAnyObjectByType<GameManager>();
         Debug.Log(m_IndiceWaypoint.ToString() + waypoints.Length.ToString());
         agente = GetComponent<NavMeshAgent>();
         //animator = GetComponent<Animator>();
@@ -38,79 +38,6 @@ public class Inimigo : MonoBehaviour
     }
 
     void Update()
-    {
-        Patrulha();
-        Deteccao();
-    }
-    private void ProxWaypoint()
-    {
-        Debug.Log(m_IndiceWaypoint.ToString());
-        if(m_IndiceWaypoint < waypoints.Length)
-        {
-            m_IndiceWaypoint ++;
-            agente.SetDestination(waypoints[m_IndiceWaypoint].position); 
-        }else
-            m_IndiceWaypoint = 0;
-    }
-
-    void Deteccao()
-    {
-        Debug.Log("detectando");
-        Collider[] playerVisto = Physics.OverlapSphere(transform.position, raioDeVisão, player);
-        if (playerVisto.Length != 0)
-        {
-            alvo = playerVisto[0].transform;
-            Vector3 dirJogador = (alvo.position - transform.position).normalized;
-            if (Vector3.Angle(transform.position, dirJogador) < campoDeVisão / 2)
-            {
-                float distanciaJogador = Vector3.Distance(transform.position, alvo.position);
-                if (!Physics.Raycast(transform.position, dirJogador, distanciaJogador, obstaculo))
-                {
-                    Debug.Log("player avistado");
-                    JogadorAvistado = true;
-                    if (tempoDeDeteccao >= tempoAteDeteccao)
-                    {
-                        m_emPatrulha = false;
-                        tempoDeDeteccao += Time.deltaTime;
-                        if (tempoDeDeteccao >= 2 * tempoDeDeteccao)
-                        {
-                            controller.avistado = true;
-                        }
-                    }
-                    else
-                    {
-                        tempoDeDeteccao += Time.deltaTime;
-                    }
-                }
-                else
-                {
-                    JogadorAvistado = false;
-                    DeteccaoRemota();
-                }
-            }
-
-        }
-        else if (JogadorAvistado)
-            JogadorAvistado = false;
-
-    }
-    private void OnCollisionEnter(Collision collision)
-    {
-        if(collision.gameObject.tag == "Player")
-        {
-            controller.Derrota();
-        }
-    }
-
-    private void PlayerEscondido()
-    {
-        if(controller.escondido)
-        {
-            redTempoEscondido += Time.deltaTime / 2f;
-        }
-    }
-
-    private void Patrulha()
     {
 
         if (m_emPatrulha == false)
@@ -130,22 +57,67 @@ public class Inimigo : MonoBehaviour
         }
         else
         {
-            if (Vector3.Distance(transform.position, waypoints[m_IndiceWaypoint].position) <= 0)
+            if(Vector3.Distance(transform.position, waypoints[m_IndiceWaypoint].position) <= 0)
                 ProxWaypoint();
         }
-        
-        if (!JogadorAvistado && tempoDeDeteccao > 0)
+        Deteccao();
+        if(!JogadorAvistado && tempoDeDeteccao > 0)
         {
-            PlayerEscondido(); 
             tempoDeDeteccao -= (Time.deltaTime * redTempoEscondido);
         }
+        Debug.Log(tempoDeDeteccao.ToString());
+    }
+    private void ProxWaypoint()
+    {
+        Debug.Log(m_IndiceWaypoint.ToString());
+        if(m_IndiceWaypoint < waypoints.Length)
+        {
+            m_IndiceWaypoint ++;
+            agente.SetDestination(waypoints[m_IndiceWaypoint].position); 
+        }else
+            m_IndiceWaypoint = 0;
     }
 
-    private void DeteccaoRemota()
+    void Deteccao()
     {
-        if(controller.avistado)
+        Collider[] playerVisto = Physics.OverlapSphere(transform.position, raioDeVisão, player);
+        if (playerVisto.Length != 0)
         {
-            m_emPatrulha = false;
+            alvo = playerVisto[0].transform;
+            Vector3 dirJogador = (alvo.position - transform.position).normalized;
+            if (Vector3.Angle(transform.position, dirJogador) < campoDeVisão / 2)
+            {
+                float distanciaJogador = Vector3.Distance(transform.position, alvo.position);
+                if (!Physics.Raycast(transform.position, dirJogador, distanciaJogador, obstaculo))
+                {
+                    Debug.Log("player avistado");
+                    JogadorAvistado = true;
+                    controller.visto(true);
+                    if (tempoDeDeteccao >= 5)
+                    {
+                        m_emPatrulha = false;
+                    }
+                    else
+                    {
+                        tempoDeDeteccao += Time.deltaTime;
+                    }
+                }
+                else
+                    JogadorAvistado = false;
+                    controller.visto(false);
+            }
+
+        }
+        else if (JogadorAvistado)
+            JogadorAvistado = false;
+            controller.visto(false);    
+
+    }
+    private void OnCollisionEnter(Collision collision)
+    {
+        if(collision.gameObject.tag == "Player")
+        {
+            controller.Derrota();
         }
     }
 }
