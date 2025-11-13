@@ -27,6 +27,7 @@ public class Inimigo : MonoBehaviour
 
     void Start()
     {
+        controller = Object.FindAnyObjectByType<GameManager>();
         Debug.Log(m_IndiceWaypoint.ToString() + waypoints.Length.ToString());
         agente = GetComponent<NavMeshAgent>();
         //animator = GetComponent<Animator>();
@@ -79,7 +80,6 @@ public class Inimigo : MonoBehaviour
 
     void Deteccao()
     {
-        Debug.Log("detectando");
         Collider[] playerVisto = Physics.OverlapSphere(transform.position, raioDeVisão, player);
         if (playerVisto.Length != 0)
         {
@@ -92,6 +92,7 @@ public class Inimigo : MonoBehaviour
                 {
                     Debug.Log("player avistado");
                     JogadorAvistado = true;
+                    controller.visto(true);
                     if (tempoDeDeteccao >= 5)
                     {
                         m_emPatrulha = false;
@@ -103,11 +104,13 @@ public class Inimigo : MonoBehaviour
                 }
                 else
                     JogadorAvistado = false;
+                    controller.visto(false);
             }
 
         }
         else if (JogadorAvistado)
             JogadorAvistado = false;
+            controller.visto(false);    
 
     }
     private void OnCollisionEnter(Collision collision)
