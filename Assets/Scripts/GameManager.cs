@@ -1,6 +1,6 @@
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
-using UnityEngine.InputSystem.Controls;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 public class GameManager : MonoBehaviour
@@ -17,16 +17,8 @@ public class GameManager : MonoBehaviour
     //tempo decrescente
     public float tempomax= 100f;
     public float tempofaltando;
-    public TextMeshProUGUI tempoTexto;
     bool cheatpause;
     public Slider Tempo;
-
-    //Esconderijo e Deteccao
-    public bool escondido = false;
-    public bool avistado = false;
-    public Button esconder;
-    public Slider deteccao;
-    float detectado;
 
     //pontuação (base em colisões)
     int batidas;
@@ -45,19 +37,9 @@ public class GameManager : MonoBehaviour
         Tempo.value = tempofaltando;
         Time.timeScale = 1;
         cheatpause = false;
-
-
-        deteccao.maxValue = 50f;
-        deteccao.minValue = 0f;
-        detectado = 50f;
     }
     void Update()
     {
-        deteccao.value = detectado;
-        if (avistado == true)
-        {
-            detectado -= Time.deltaTime;
-        }
         if (Input.GetKeyDown(KeyCode.L))
         {
             Vitoria();
@@ -78,20 +60,8 @@ public class GameManager : MonoBehaviour
         {
             tempofaltando -= Time.deltaTime;
         }
-
-        //Texto tempo restante
         Tempo.value = tempofaltando;
-        tempoTexto.text = Mathf.CeilToInt(tempofaltando).ToString();
-        if (tempofaltando <= 10)
-        {
-            tempoTexto.color = Color.red;
-        }
-        else
-        {
-            tempoTexto.color = Color.white;
-        }
 
-        //pausa do jogo
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             if (vitoriaderrota == 0)
@@ -99,13 +69,7 @@ public class GameManager : MonoBehaviour
                 Pause();
             }
         }
-
-        //acabou o tempo
         if (tempofaltando <= 0)
-        {
-            Derrota();
-        }
-        if (detectado <= 0)
         {
             Derrota();
         }
@@ -124,21 +88,13 @@ public class GameManager : MonoBehaviour
     }
 
 
-    //função para coletavel que adiciona tempo e diminui detecção
+    //função para coletavel que adiciona tempo
     public void ColetavelTempo(int tempo)
     {
         tempofaltando += tempo;
         if(tempofaltando > tempomax)
         {
             tempofaltando = tempomax;
-        }
-    }
-    public void ColetavelAntidoto(int antidoto)
-    {
-        detectado += antidoto;
-        if (detectado > 50f)
-        {
-            detectado = 50;
         }
     }
 
@@ -204,40 +160,12 @@ public class GameManager : MonoBehaviour
     {
         if (cenarioatual == 0)
         {
-            SceneManager.LoadScene("fase1normal");
+            SceneManager.LoadScene("fase1");
         }
     }
     public void AdicionarPontos(int add)
     {
         pontosmanobras = pontosmanobras + add;
     }
-
-    public void BotaoDeEsconder()
-    {
-        if (!escondido)
-            esconder.onClick.AddListener(Esconder);
-        else
-            esconder.onClick.AddListener(SairDoEsconderijo);
-    }
-    public void visto(bool foiavistado)
-    {
-        if (foiavistado == true)
-        {
-            avistado = true;
-        }
-        else if (foiavistado == false)
-        {
-            avistado = false;
-        }
-    }
-    public void Esconder()
-    {
-        escondido = true;
-    }
-
-    public void SairDoEsconderijo()
-    {
-        escondido = false;
-    }
-
+    
 }

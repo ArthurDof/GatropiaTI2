@@ -8,7 +8,7 @@ public class Inimigo : MonoBehaviour
     public float distanciaMinima;
     public LayerMask player;
     public LayerMask obstaculo;
-    float tempoDeDeteccao = 0;
+    public float tempoDeDeteccao = 0;
     [Range(0f, 1f)]
     public float redTempoEscondido;
 
@@ -27,7 +27,6 @@ public class Inimigo : MonoBehaviour
 
     void Start()
     {
-        controller = Object.FindAnyObjectByType<GameManager>();
         Debug.Log(m_IndiceWaypoint.ToString() + waypoints.Length.ToString());
         agente = GetComponent<NavMeshAgent>();
         //animator = GetComponent<Animator>();
@@ -35,7 +34,6 @@ public class Inimigo : MonoBehaviour
         agente.isStopped = false;
         agente.speed = velocidade;
         agente.SetDestination(waypoints[m_IndiceWaypoint].position);
-
     }
 
     void Update()
@@ -62,15 +60,11 @@ public class Inimigo : MonoBehaviour
                 ProxWaypoint();
         }
         Deteccao();
-        controller.deteccao.value = tempoDeDeteccao;
-
-        if (!JogadorAvistado && tempoDeDeteccao > 0)
+        if(!JogadorAvistado && tempoDeDeteccao > 0)
         {
-            if (controller != null && controller.escondido)
-            {
-                tempoDeDeteccao -= Time.deltaTime * (redTempoEscondido * 0.5f);
-            }
+            tempoDeDeteccao -= (Time.deltaTime * redTempoEscondido);
         }
+        Debug.Log(tempoDeDeteccao.ToString());
     }
     private void ProxWaypoint()
     {
@@ -85,6 +79,7 @@ public class Inimigo : MonoBehaviour
 
     void Deteccao()
     {
+        Debug.Log("detectando");
         Collider[] playerVisto = Physics.OverlapSphere(transform.position, raioDeVisão, player);
         if (playerVisto.Length != 0)
         {
@@ -97,8 +92,7 @@ public class Inimigo : MonoBehaviour
                 {
                     Debug.Log("player avistado");
                     JogadorAvistado = true;
-                    controller.visto(true);
-                    if (tempoDeDeteccao >= 10)
+                    if (tempoDeDeteccao >= 5)
                     {
                         m_emPatrulha = false;
                     }
@@ -108,18 +102,12 @@ public class Inimigo : MonoBehaviour
                     }
                 }
                 else
-                {
                     JogadorAvistado = false;
-                    controller.visto(false);
-                }
             }
 
         }
         else if (JogadorAvistado)
-        {
             JogadorAvistado = false;
-            controller.visto(false);
-        }
 
     }
     private void OnCollisionEnter(Collision collision)

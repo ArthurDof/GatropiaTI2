@@ -3,19 +3,20 @@ using UnityEngine;
 public class AntidotoColetavel : MonoBehaviour
 {
     private GameManager gm;
-    public GameObject vfx;
+    private AudioController sfx;
 
     void Start()
     {
         gm = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameManager>();
+        sfx = GameObject.FindGameObjectWithTag("GameController").GetComponent<AudioController>();
     }
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
         {
-            gm.ColetavelAntidoto(5);
-            Instantiate(vfx, transform.position + new Vector3(0, 0, 0), transform.rotation);
+            int rndSFX = Random.Range(1, 9);
+            //sfx.PlayerAudio(rndSFX);
 
             // ((slider de detecção)
             Destroy(gameObject);
