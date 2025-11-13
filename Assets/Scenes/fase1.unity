@@ -5647,6 +5647,10 @@ PrefabInstance:
       propertyPath: controller
       value: 
       objectReference: {fileID: 2128957267}
+    - target: {fileID: 305662190946816371, guid: aca78a7571c8dcb4bad15d087fca1111, type: 3}
+      propertyPath: player.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 391559671462548196, guid: aca78a7571c8dcb4bad15d087fca1111, type: 3}
       propertyPath: waypoints.Array.size
       value: 13
@@ -5891,6 +5895,10 @@ PrefabInstance:
       propertyPath: controller
       value: 
       objectReference: {fileID: 2128957267}
+    - target: {fileID: 1187097930116265265, guid: aca78a7571c8dcb4bad15d087fca1111, type: 3}
+      propertyPath: player.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 1188558789486578607, guid: aca78a7571c8dcb4bad15d087fca1111, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0
@@ -6023,6 +6031,10 @@ PrefabInstance:
       propertyPath: controller
       value: 
       objectReference: {fileID: 2128957267}
+    - target: {fileID: 1795281763445573879, guid: aca78a7571c8dcb4bad15d087fca1111, type: 3}
+      propertyPath: player.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 1884692080305526511, guid: aca78a7571c8dcb4bad15d087fca1111, type: 3}
       propertyPath: m_Name
       value: Inimigo teste10
@@ -6095,6 +6107,10 @@ PrefabInstance:
       propertyPath: controller
       value: 
       objectReference: {fileID: 2128957267}
+    - target: {fileID: 1974038511380741456, guid: aca78a7571c8dcb4bad15d087fca1111, type: 3}
+      propertyPath: player.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 2150490580034265338, guid: aca78a7571c8dcb4bad15d087fca1111, type: 3}
       propertyPath: botao
       value: 
@@ -6103,6 +6119,10 @@ PrefabInstance:
       propertyPath: controller
       value: 
       objectReference: {fileID: 2128957267}
+    - target: {fileID: 2150490580034265338, guid: aca78a7571c8dcb4bad15d087fca1111, type: 3}
+      propertyPath: player.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 2171099115353597827, guid: aca78a7571c8dcb4bad15d087fca1111, type: 3}
       propertyPath: botao
       value: 
@@ -6111,6 +6131,10 @@ PrefabInstance:
       propertyPath: controller
       value: 
       objectReference: {fileID: 2128957267}
+    - target: {fileID: 2171099115353597827, guid: aca78a7571c8dcb4bad15d087fca1111, type: 3}
+      propertyPath: player.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 2458270873619098243, guid: aca78a7571c8dcb4bad15d087fca1111, type: 3}
       propertyPath: waypoints.Array.size
       value: 13
@@ -6355,6 +6379,10 @@ PrefabInstance:
       propertyPath: controller
       value: 
       objectReference: {fileID: 2128957267}
+    - target: {fileID: 2881000085907007982, guid: aca78a7571c8dcb4bad15d087fca1111, type: 3}
+      propertyPath: player.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 2917020664681655212, guid: aca78a7571c8dcb4bad15d087fca1111, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.5
@@ -6403,6 +6431,10 @@ PrefabInstance:
       propertyPath: controller
       value: 
       objectReference: {fileID: 2128957267}
+    - target: {fileID: 2953907964769222357, guid: aca78a7571c8dcb4bad15d087fca1111, type: 3}
+      propertyPath: player.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 3666505995957968228, guid: aca78a7571c8dcb4bad15d087fca1111, type: 3}
       propertyPath: botao
       value: 
@@ -6411,6 +6443,10 @@ PrefabInstance:
       propertyPath: controller
       value: 
       objectReference: {fileID: 2128957267}
+    - target: {fileID: 3666505995957968228, guid: aca78a7571c8dcb4bad15d087fca1111, type: 3}
+      propertyPath: player.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 3765630314951479274, guid: aca78a7571c8dcb4bad15d087fca1111, type: 3}
       propertyPath: botao
       value: 
@@ -6419,6 +6455,10 @@ PrefabInstance:
       propertyPath: controller
       value: 
       objectReference: {fileID: 2128957267}
+    - target: {fileID: 3765630314951479274, guid: aca78a7571c8dcb4bad15d087fca1111, type: 3}
+      propertyPath: player.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 4110158841654601990, guid: aca78a7571c8dcb4bad15d087fca1111, type: 3}
       propertyPath: waypoints.Array.size
       value: 13
@@ -6483,6 +6523,10 @@ PrefabInstance:
       propertyPath: controller
       value: 
       objectReference: {fileID: 2128957267}
+    - target: {fileID: 4736288370509423380, guid: aca78a7571c8dcb4bad15d087fca1111, type: 3}
+      propertyPath: player.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 4738933137123427215, guid: aca78a7571c8dcb4bad15d087fca1111, type: 3}
       propertyPath: m_Name
       value: Inimigo teste16
@@ -6519,6 +6563,10 @@ PrefabInstance:
       propertyPath: controller
       value: 
       objectReference: {fileID: 2128957267}
+    - target: {fileID: 5139876179806908629, guid: aca78a7571c8dcb4bad15d087fca1111, type: 3}
+      propertyPath: player.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 5186345352221888781, guid: aca78a7571c8dcb4bad15d087fca1111, type: 3}
       propertyPath: m_Name
       value: Inimigo teste22
@@ -6531,6 +6579,10 @@ PrefabInstance:
       propertyPath: controller
       value: 
       objectReference: {fileID: 2128957267}
+    - target: {fileID: 5196795843841666513, guid: aca78a7571c8dcb4bad15d087fca1111, type: 3}
+      propertyPath: player.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 5515417871982964703, guid: aca78a7571c8dcb4bad15d087fca1111, type: 3}
       propertyPath: botao
       value: 
@@ -6539,6 +6591,10 @@ PrefabInstance:
       propertyPath: controller
       value: 
       objectReference: {fileID: 2128957267}
+    - target: {fileID: 5515417871982964703, guid: aca78a7571c8dcb4bad15d087fca1111, type: 3}
+      propertyPath: player.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 5609308119225166920, guid: aca78a7571c8dcb4bad15d087fca1111, type: 3}
       propertyPath: waypoints.Array.size
       value: 13
@@ -6603,6 +6659,10 @@ PrefabInstance:
       propertyPath: controller
       value: 
       objectReference: {fileID: 2128957267}
+    - target: {fileID: 5645872647105154155, guid: aca78a7571c8dcb4bad15d087fca1111, type: 3}
+      propertyPath: player.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 5841086699860358604, guid: aca78a7571c8dcb4bad15d087fca1111, type: 3}
       propertyPath: waypoints.Array.size
       value: 13
@@ -6667,6 +6727,10 @@ PrefabInstance:
       propertyPath: controller
       value: 
       objectReference: {fileID: 2128957267}
+    - target: {fileID: 5868300776788670305, guid: aca78a7571c8dcb4bad15d087fca1111, type: 3}
+      propertyPath: player.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 5944922715210924139, guid: aca78a7571c8dcb4bad15d087fca1111, type: 3}
       propertyPath: waypoints.Array.size
       value: 13
@@ -6731,6 +6795,10 @@ PrefabInstance:
       propertyPath: controller
       value: 
       objectReference: {fileID: 2128957267}
+    - target: {fileID: 5990190824219138732, guid: aca78a7571c8dcb4bad15d087fca1111, type: 3}
+      propertyPath: player.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 6070212307189915073, guid: aca78a7571c8dcb4bad15d087fca1111, type: 3}
       propertyPath: waypoints.Array.size
       value: 13
@@ -6915,6 +6983,10 @@ PrefabInstance:
       propertyPath: controller
       value: 
       objectReference: {fileID: 2128957267}
+    - target: {fileID: 6888538474547848398, guid: aca78a7571c8dcb4bad15d087fca1111, type: 3}
+      propertyPath: player.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 6924791195923479777, guid: aca78a7571c8dcb4bad15d087fca1111, type: 3}
       propertyPath: m_Name
       value: Inimigo teste1
@@ -6995,6 +7067,10 @@ PrefabInstance:
       propertyPath: controller
       value: 
       objectReference: {fileID: 2128957267}
+    - target: {fileID: 7753585934992748636, guid: aca78a7571c8dcb4bad15d087fca1111, type: 3}
+      propertyPath: player.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 7780006232345483192, guid: aca78a7571c8dcb4bad15d087fca1111, type: 3}
       propertyPath: botao
       value: 
@@ -7003,6 +7079,10 @@ PrefabInstance:
       propertyPath: controller
       value: 
       objectReference: {fileID: 2128957267}
+    - target: {fileID: 7780006232345483192, guid: aca78a7571c8dcb4bad15d087fca1111, type: 3}
+      propertyPath: player.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 7865953731305227212, guid: aca78a7571c8dcb4bad15d087fca1111, type: 3}
       propertyPath: botao
       value: 
@@ -7011,6 +7091,10 @@ PrefabInstance:
       propertyPath: controller
       value: 
       objectReference: {fileID: 2128957267}
+    - target: {fileID: 7865953731305227212, guid: aca78a7571c8dcb4bad15d087fca1111, type: 3}
+      propertyPath: player.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 7932920809446091976, guid: aca78a7571c8dcb4bad15d087fca1111, type: 3}
       propertyPath: botao
       value: 
@@ -7019,6 +7103,10 @@ PrefabInstance:
       propertyPath: controller
       value: 
       objectReference: {fileID: 2128957267}
+    - target: {fileID: 7932920809446091976, guid: aca78a7571c8dcb4bad15d087fca1111, type: 3}
+      propertyPath: player.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 7935048386164364501, guid: aca78a7571c8dcb4bad15d087fca1111, type: 3}
       propertyPath: waypoints.Array.size
       value: 13
@@ -7087,6 +7175,10 @@ PrefabInstance:
       propertyPath: controller
       value: 
       objectReference: {fileID: 2128957267}
+    - target: {fileID: 8137896327536612413, guid: aca78a7571c8dcb4bad15d087fca1111, type: 3}
+      propertyPath: player.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 8468024963221224300, guid: aca78a7571c8dcb4bad15d087fca1111, type: 3}
       propertyPath: m_Name
       value: Inimigo teste17
@@ -10392,7 +10484,10 @@ PrefabInstance:
       value: "Hidrante (14) (N\xC3O APAGA \xC9 REF DE INIMIGO)"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 2792425200689144456, guid: f02cdee09a5c66546a8718fa96b17c95, type: 3}
+    - {fileID: 4141045969315346854, guid: f02cdee09a5c66546a8718fa96b17c95, type: 3}
+    - {fileID: 3863960249558875113, guid: f02cdee09a5c66546a8718fa96b17c95, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f02cdee09a5c66546a8718fa96b17c95, type: 3}
