@@ -7194,6 +7194,17 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 0
   botao: {fileID: 0}
+--- !u!114 &1533877746 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5426812245745912670, guid: 4f6e967e3b470a941be4a9f6ea11e363, type: 3}
+  m_PrefabInstance: {fileID: 5879023039120892745}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1600158259
 GameObject:
   m_ObjectHideFlags: 0
@@ -10589,7 +10600,10 @@ MonoBehaviour:
   tempomax: 30
   tempofaltando: 0
   Tempo: {fileID: 1373441717}
+  tempoTexto: {fileID: 1533877746}
   pontosVitoria: {fileID: 448839361}
+  pontosDuranteOJogo: {fileID: 5879023039120892746}
+  pontuacaoPorTempo: 1
 --- !u!4 &2128957268
 Transform:
   m_ObjectHideFlags: 0
@@ -10816,6 +10830,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4f6e967e3b470a941be4a9f6ea11e363, type: 3}
+--- !u!114 &5879023039120892746 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7376252713018895859, guid: 4f6e967e3b470a941be4a9f6ea11e363, type: 3}
+  m_PrefabInstance: {fileID: 5879023039120892745}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
