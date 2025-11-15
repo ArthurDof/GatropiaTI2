@@ -8,6 +8,8 @@ public class ScriptPlayer : MonoBehaviour
     [SerializeField] WheelCollider Frente;
     [SerializeField] WheelCollider Tras;
     public GameObject VFXrailgrind;
+    public GameObject Humano;
+    MeshRenderer meshhumano;
     public Rigidbody rb;
     public float accel = 100f;
     public float freio = 75f;
@@ -15,6 +17,8 @@ public class ScriptPlayer : MonoBehaviour
     public float freioPassivo = 50f;
     public float forcaPulo = 25f;
     public float forcaPuloAndando = 125;
+    float vertical;
+    float horizontal;
     float cooldownPulo;
     float saiuRail;
     Vector3 Pulo;
@@ -26,14 +30,17 @@ public class ScriptPlayer : MonoBehaviour
     float freioAtual = 0f;
     float virarAtual = 0f;
     float colisao = 0f;
-    bool up = false;
-    bool down = false;
-    bool left = false;
-    bool right = false;
+    public bool up = false;
+    public bool down = false;
+    public bool left = false;
+    public bool right = false;
     bool onrail = false;
 
     private void Start()
     {
+        vertical = 0f;
+        horizontal = 0f;
+        meshhumano = Humano.GetComponent<MeshRenderer>();
         saiuRail = 1;
         cooldownPulo = 2f;
         Pulo = new Vector3(0.0f, 2.0f, 0.0f);
@@ -44,6 +51,7 @@ public class ScriptPlayer : MonoBehaviour
 
     void FixedUpdate()
     {
+        Escondido(meshhumano);
         PuloAndando = (Camera.main.transform.forward/2 + Vector3.up).normalized * 2f;
         knockback = (Camera.main.transform.forward*-1 + Vector3.up).normalized * 2;
         impulso = (Camera.main.transform.forward).normalized * 2;
@@ -77,14 +85,29 @@ public class ScriptPlayer : MonoBehaviour
         }
         if (colisao == 0f)
         {
-            if (onrail == false)
+            if (onrail == false && controller.escondido == false)
             {
                 transform.rotation = Quaternion.Euler(0f, transform.eulerAngles.y, 0f);
                 if (Input.GetKey(KeyCode.Space))
                 {
                     Pular();
                 }
-                float vertical = Input.GetAxis("Vertical");
+                if (Input.GetKey(KeyCode.W))
+                {
+                    up = true;
+                }
+                else
+                {
+                    up = false;
+                }
+                if (Input.GetKey(KeyCode.S))
+                {
+                    down = true;
+                }
+                else
+                {
+                    down = false;
+                }
                 if (up == true && down == true)
                 {
                     vertical = 0f;
@@ -99,9 +122,26 @@ public class ScriptPlayer : MonoBehaviour
                     {
                         vertical = -1f;
                     }
+                    if (up == false && down == false)
+                    vertical = 0f;
                 }
                 accelAtual = accel * vertical;
-                float horizontal = Input.GetAxis("Horizontal");
+                if (Input.GetKey(KeyCode.A))
+                {
+                    left = true;
+                }
+                else
+                {
+                    left = false;
+                }
+                if (Input.GetKey(KeyCode.D))
+                {
+                    right = true;
+                }
+                else
+                {
+                    right = false;
+                }
                 if (left == true && right == true)
                 {
                     horizontal = 0f;
@@ -110,12 +150,14 @@ public class ScriptPlayer : MonoBehaviour
                 {
                     if (left == true)
                     {
-                        horizontal = -1f;
+                        horizontal = -0.95f;
                     }
                     if (right == true)
                     {
-                        horizontal = 1f;
+                        horizontal = 0.95f;
                     }
+                    if (left == false && right == false)
+                        horizontal = 0f;
                 }
                 virarAtual = anguloVirar * horizontal;
 
@@ -152,6 +194,19 @@ public class ScriptPlayer : MonoBehaviour
         {
             controller.Vitoria();
         }
+        if (other.gameObject.tag == "Esconderijo")
+        {
+            controller.PodeEsconder(true);
+            Debug.Log("esconderijo em alcance");
+        }
+    }
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.gameObject.tag == "Esconderijo")
+        {
+            Debug.Log("esconderijo fora de alcance");
+            controller.PodeEsconder(false);
+        }
     }
     private void OnCollisionEnter(Collision collision)
     {
@@ -180,6 +235,21 @@ public class ScriptPlayer : MonoBehaviour
 
         }
     }
+    private void Escondido(MeshRenderer Meshhumano)
+    {
+        if(controller.escondido)
+        {
+            Meshhumano.enabled = false;
+            up = false;
+            down = false;
+            left = false;
+            right = false;
+        }
+        else 
+        {
+            Meshhumano.enabled = true;
+        }
+    }
     public void Pular()
     {
         if (cooldownPulo >= 2f)
@@ -195,6 +265,10 @@ public class ScriptPlayer : MonoBehaviour
                 cooldownPulo = 0f;
             }
         }
+    }
+    public void clicouesconder()
+    {
+
     }
     public void clicarUp()
     {

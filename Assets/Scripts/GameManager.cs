@@ -1,5 +1,6 @@
 using System.Text;
 using TMPro;
+using UnityEditor.Tilemaps;
 using UnityEngine;
 using UnityEngine.InputSystem.Controls;
 using UnityEngine.SceneManagement;
@@ -25,6 +26,7 @@ public class GameManager : MonoBehaviour
     //Esconderijo e Deteccao
     public bool escondido = false;
     public bool avistado = false;
+    public GameObject BotaoEsconder;
     public Button esconder;
     public Slider deteccao;
     public float detectado;
@@ -61,6 +63,10 @@ public class GameManager : MonoBehaviour
     void Update()
     {
         deteccao.value = detectado;
+        if (escondido == true)
+        {
+            detectado += Time.deltaTime / 2;
+        }
         if (avistado == true)
         {
             detectado -= Time.deltaTime;
@@ -200,6 +206,13 @@ public class GameManager : MonoBehaviour
             multiplicador--;
         }
     }
+    public void PodeEsconder(bool Pode)
+    {
+        if (Pode == true)
+            BotaoEsconder.SetActive(true);
+        else
+            BotaoEsconder.SetActive(false);
+    }
 
     public void TentarNovamente()
     {
@@ -216,9 +229,9 @@ public class GameManager : MonoBehaviour
     public void BotaoDeEsconder()
     {
         if (!escondido)
-            esconder.onClick.AddListener(Esconder);
+            Esconder();
         else
-            esconder.onClick.AddListener(SairDoEsconderijo);
+            SairDoEsconderijo();
     }
 
     public void Visto(bool foiavistado)
@@ -232,7 +245,6 @@ public class GameManager : MonoBehaviour
             avistado = false;
         }
     }
-
     public void Esconder()
     {
         escondido = true;
