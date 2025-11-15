@@ -39,7 +39,6 @@ public class Inimigo : MonoBehaviour
 
     void Update()
     {
-
         if (m_emPatrulha == false)
         {
             m_distancia = Vector3.Distance(agente.transform.position, alvo.transform.position);
@@ -57,7 +56,7 @@ public class Inimigo : MonoBehaviour
         }
         else
         {
-            if(Vector3.Distance(transform.position, waypoints[m_IndiceWaypoint].position) <= 0)
+            if (Vector3.Distance(transform.position, waypoints[m_IndiceWaypoint].position) <= 0)
                 ProxWaypoint();
         }
         Deteccao();
@@ -90,9 +89,8 @@ public class Inimigo : MonoBehaviour
                 float distanciaJogador = Vector3.Distance(transform.position, alvo.position);
                 if (!Physics.Raycast(transform.position, dirJogador, distanciaJogador, obstaculo))
                 {
-                    Debug.Log("player avistado");
                     JogadorAvistado = true;
-                    controller.visto(true);
+                    controller.Visto(true);
                     if (tempoDeDeteccao >= 5)
                     {
                         m_emPatrulha = false;
@@ -103,15 +101,18 @@ public class Inimigo : MonoBehaviour
                     }
                 }
                 else
+                {
                     JogadorAvistado = false;
-                    controller.visto(false);
+                    controller.Visto(false);
+                }
+                    
             }
-
         }
         else if (JogadorAvistado)
+        {
             JogadorAvistado = false;
-            controller.visto(false);    
-
+            controller.Visto(false);
+        }
     }
     private void OnCollisionEnter(Collision collision)
     {

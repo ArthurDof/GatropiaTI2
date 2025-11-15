@@ -27,7 +27,7 @@ public class GameManager : MonoBehaviour
     public bool avistado = false;
     public Button esconder;
     public Slider deteccao;
-    float detectado;
+    public float detectado;
 
     //pontuação (base em colisões)
     int batidas;
@@ -41,11 +41,14 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
+        detectado = 50f;
         pontosmanobras = 0;
         multiplicador = 10;
         tempofaltando = tempomax;
         Tempo.maxValue = tempomax;
         Tempo.value = tempofaltando;
+        deteccao.minValue = 0;
+        deteccao.maxValue = detectado;
         tempoTexto.text = tempofaltando.ToString("F1");
         Time.timeScale = 1;
         cheatpause = false;
@@ -103,6 +106,10 @@ public class GameManager : MonoBehaviour
         }
 
         if (tempofaltando <= 0)
+        {
+            Derrota();
+        }
+        if (detectado <= 0)
         {
             Derrota();
         }
@@ -214,7 +221,7 @@ public class GameManager : MonoBehaviour
             esconder.onClick.AddListener(SairDoEsconderijo);
     }
 
-    public void visto(bool foiavistado)
+    public void Visto(bool foiavistado)
     {
         if (foiavistado == true)
         {
