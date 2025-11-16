@@ -43,7 +43,7 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
-        detectado = 50f;
+        detectado = 15f;
         pontosmanobras = 0;
         multiplicador = 10;
         tempofaltando = tempomax;
@@ -65,7 +65,7 @@ public class GameManager : MonoBehaviour
         deteccao.value = detectado;
         if (escondido == true)
         {
-            detectado += Time.deltaTime / 2;
+            detectado += Time.deltaTime * 2;
         }
         if (avistado == true)
         {

@@ -11,6 +11,7 @@ public class Inimigo : MonoBehaviour
     public float tempoDeDeteccao = 0;
     [Range(0f, 1f)]
     public float redTempoEscondido;
+    public GameObject VFX;
 
     private NavMeshAgent agente;
     //private Animator animator;
@@ -39,32 +40,45 @@ public class Inimigo : MonoBehaviour
 
     void Update()
     {
-        if (m_emPatrulha == false)
+        if (JogadorAvistado == true)
         {
-            m_distancia = Vector3.Distance(agente.transform.position, alvo.transform.position);
-            if (m_distancia < distanciaMinima)
+            VFX.SetActive(true);
+        }
+        if (JogadorAvistado == false)
+        {
+            VFX.SetActive(false);
+        }
+            if (m_emPatrulha == false)
             {
-                agente.isStopped = true;
-                //animador muda para instancia de Ataque
+                m_distancia = Vector3.Distance(agente.transform.position, alvo.transform.position);
+                if (m_distancia < distanciaMinima)
+                {
+                    agente.isStopped = true;
+                    //animador muda para instancia de Ataque
+                }
+                else
+                {
+                    agente.isStopped = false;
+                    //animador sai da instancia de Ataque
+                    agente.SetDestination(alvo.position);
+                }
             }
             else
             {
-                agente.isStopped = false;
-                //animador sai da instancia de Ataque
-                agente.SetDestination(alvo.position);
+                if (Vector3.Distance(transform.position, waypoints[m_IndiceWaypoint].position) <= 0)
+                    ProxWaypoint();
             }
-        }
-        else
+            Deteccao();
+            if (!JogadorAvistado && tempoDeDeteccao > 0)
+            {
+                tempoDeDeteccao -= (Time.deltaTime * redTempoEscondido);
+            }
+        if (controller.escondido == true)
         {
-            if (Vector3.Distance(transform.position, waypoints[m_IndiceWaypoint].position) <= 0)
-                ProxWaypoint();
+            JogadorAvistado = false;
+            controller.Visto(false);
         }
-        Deteccao();
-        if(!JogadorAvistado && tempoDeDeteccao > 0)
-        {
-            tempoDeDeteccao -= (Time.deltaTime * redTempoEscondido);
-        }
-        Debug.Log(tempoDeDeteccao.ToString());
+
     }
     private void ProxWaypoint()
     {
@@ -87,6 +101,7 @@ public class Inimigo : MonoBehaviour
             if (Vector3.Angle(transform.position, dirJogador) < campoDeVisão / 2)
             {
                 float distanciaJogador = Vector3.Distance(transform.position, alvo.position);
+
                 if (!Physics.Raycast(transform.position, dirJogador, distanciaJogador, obstaculo))
                 {
                     JogadorAvistado = true;
@@ -112,13 +127,6 @@ public class Inimigo : MonoBehaviour
         {
             JogadorAvistado = false;
             controller.Visto(false);
-        }
-    }
-    private void OnCollisionEnter(Collision collision)
-    {
-        if(collision.gameObject.tag == "Player")
-        {
-            controller.Derrota();
         }
     }
 }

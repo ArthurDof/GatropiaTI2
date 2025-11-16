@@ -14,7 +14,7 @@ public class AntidotoColetavel : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            gm.ColetavelAntidoto(5);
+            gm.ColetavelAntidoto(3);
             Instantiate(vfx, transform.position + new Vector3(0, 0, 0), transform.rotation);
 
             // ((slider de detecção)

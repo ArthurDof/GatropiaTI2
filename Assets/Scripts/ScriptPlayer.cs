@@ -35,6 +35,7 @@ public class ScriptPlayer : MonoBehaviour
     public bool left = false;
     public bool right = false;
     bool onrail = false;
+    public bool NoMobile;
 
     private void Start()
     {
@@ -88,25 +89,28 @@ public class ScriptPlayer : MonoBehaviour
             if (onrail == false && controller.escondido == false)
             {
                 transform.rotation = Quaternion.Euler(0f, transform.eulerAngles.y, 0f);
-                if (Input.GetKey(KeyCode.Space))
+                if (NoMobile == false)
                 {
-                    Pular();
-                }
-                if (Input.GetKey(KeyCode.W))
-                {
-                    up = true;
-                }
-                else
-                {
-                    up = false;
-                }
-                if (Input.GetKey(KeyCode.S))
-                {
-                    down = true;
-                }
-                else
-                {
-                    down = false;
+                    if (Input.GetKey(KeyCode.Space))
+                    {
+                        Pular();
+                    }
+                    if (Input.GetKey(KeyCode.W))
+                    {
+                        clicarUp();
+                    }
+                    else
+                    {
+                        soltarUp();
+                    }
+                    if (Input.GetKey(KeyCode.S))
+                    {
+                        clicarDown();
+                    }
+                    else
+                    {
+                        soltarDown();
+                    }
                 }
                 if (up == true && down == true)
                 {
@@ -126,21 +130,24 @@ public class ScriptPlayer : MonoBehaviour
                     vertical = 0f;
                 }
                 accelAtual = accel * vertical;
-                if (Input.GetKey(KeyCode.A))
+                if (NoMobile == false)
                 {
-                    left = true;
-                }
-                else
-                {
-                    left = false;
-                }
-                if (Input.GetKey(KeyCode.D))
-                {
-                    right = true;
-                }
-                else
-                {
-                    right = false;
+                    if (Input.GetKey(KeyCode.A))
+                    {
+                        clicarEsquerda();
+                    }
+                    else
+                    {
+                        soltarEsquerda();
+                    }
+                    if (Input.GetKey(KeyCode.D))
+                    {
+                        clicarDireita();
+                    }
+                    else
+                    {
+                        soltarDireita();
+                    }
                 }
                 if (left == true && right == true)
                 {
@@ -160,13 +167,6 @@ public class ScriptPlayer : MonoBehaviour
                         horizontal = 0f;
                 }
                 virarAtual = anguloVirar * horizontal;
-
-                if (Input.GetKey(KeyCode.F))
-                {
-                    freioAtual = freio;
-                }
-                else
-                {
                     if (accelAtual == 0)
                     {
                         freioAtual = freioPassivo;
@@ -175,7 +175,6 @@ public class ScriptPlayer : MonoBehaviour
                     {
                         freioAtual = 0;
                     }
-                }
             }
         }
         Frente.motorTorque = accelAtual;
@@ -217,6 +216,13 @@ public class ScriptPlayer : MonoBehaviour
             colisao += Time.deltaTime;
             rb.AddForce(knockback * 60, ForceMode.Impulse);
         }
+        if (controller.escondido == false && onrail == false)
+        {
+            if (collision.gameObject.tag == "Inimigo")
+            {
+                controller.Derrota();
+            }
+        }
     }
     public void EntrouSaiurail(int narail)
     {
@@ -229,7 +235,7 @@ public class ScriptPlayer : MonoBehaviour
         {
             onrail = false;
             VFXrailgrind.SetActive(false);
-            rb.AddForce(impulso * forcaPuloAndando, ForceMode.Impulse);
+            rb.AddForce(impulso * forcaPuloAndando * 2, ForceMode.Impulse);
             rb.constraints |= RigidbodyConstraints.FreezeRotationY;
             saiuRail = 0f;
 
@@ -240,6 +246,7 @@ public class ScriptPlayer : MonoBehaviour
         if(controller.escondido)
         {
             Meshhumano.enabled = false;
+            rb.constraints |= RigidbodyConstraints.FreezePosition;
             up = false;
             down = false;
             left = false;
@@ -248,6 +255,7 @@ public class ScriptPlayer : MonoBehaviour
         else 
         {
             Meshhumano.enabled = true;
+            rb.constraints &= ~RigidbodyConstraints.FreezePosition;
         }
     }
     public void Pular()
@@ -265,10 +273,6 @@ public class ScriptPlayer : MonoBehaviour
                 cooldownPulo = 0f;
             }
         }
-    }
-    public void clicouesconder()
-    {
-
     }
     public void clicarUp()
     {
