@@ -38,9 +38,15 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _Edit_Noise: 0.71
+    - _Estrelas_escala: 2416.93
+    - _Linha_do_horizonte: -0.43
     - _QueueControl: 0
     - _QueueOffset: 0
-    m_Colors: []
+    m_Colors:
+    - _Cor_Estrela: {r: 0.94833726, g: 0.9303578, b: 0.9528302, a: 0}
+    - _Cor_de_baixo: {r: 0.081477225, g: 0.02002492, b: 0.09433961, a: 0}
+    - _Cor_de_cima: {r: 0.15449783, g: 0.018912429, b: 0.23584908, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
 --- !u!114 &333656848759317233
