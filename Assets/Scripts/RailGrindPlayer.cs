@@ -2,7 +2,6 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.Mathematics;
-using UnityEditor.Tilemaps;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.Splines;
@@ -23,6 +22,8 @@ public class RailGrindPlayer : MonoBehaviour
     public Slider QuickTimeL;
     public Slider QuickTimeR;
     int nemclicou;
+    public Image QuickEsquerdo;
+    public Image QuickDireito;
 
     [Header("Scripts")]
     [SerializeField] RailScript currentRailScript;
@@ -59,10 +60,17 @@ public class RailGrindPlayer : MonoBehaviour
             {
                 clicouquicktime();
             }
+            if (quicktimeevent <= 0.5f && quicktimeevent > 0f)
+            {
+                QuickEsquerdo.color = new Color(0f, 255f, 0f, 100f);
+                QuickDireito.color = new Color(0f, 255f, 0f, 100f);
+            }
             if (quicktimeevent <= -2f)
             {
                 nemclicou = 1;
                 quicktimeevent = 1f;
+                QuickEsquerdo.color = new Color(255f, 0f, 0f, 100f);
+                QuickDireito.color = new Color(255f, 0f, 0f, 100f);
                 quicktime.gameObject.SetActive(true);
             }
             if (quicktimeevent <= 0f)
@@ -113,6 +121,8 @@ public class RailGrindPlayer : MonoBehaviour
             onRail = true;
             controller.EntrouSaiurail(1);
             quicktime.gameObject.SetActive(true);
+            QuickEsquerdo.color = new Color(255f, 0f, 0f, 100f);
+            QuickDireito.color = new Color(255f, 0f, 0f, 100f);
             currentRailScript = collision.gameObject.GetComponent<RailScript>();
             CalculateAndSetRailPosition();
         }
@@ -124,6 +134,8 @@ public class RailGrindPlayer : MonoBehaviour
             onRail = true;
             controller.EntrouSaiurail(1);
             quicktime.gameObject.SetActive(true);
+            QuickEsquerdo.color = new Color(255f, 0f, 0f, 100f);
+            QuickDireito.color = new Color(255f, 0f, 0f, 100f);
             currentRailScript = other.gameObject.GetComponent<RailScript>();
             CalculateAndSetRailPosition();
         }
@@ -162,7 +174,7 @@ public class RailGrindPlayer : MonoBehaviour
         else
         {
             gameManager.AdicionarPontos(-500);
-            gameManager.ColetavelTempo(-10);
+            gameManager.ColetavelTempo(-5);
         }
         quicktime.gameObject.SetActive(false);
     }

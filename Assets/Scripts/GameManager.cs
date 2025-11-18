@@ -2,8 +2,10 @@ using System.Text;
 using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem.Controls;
+using UnityEngine.InputSystem.XR;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using static UnityEngine.AudioSettings;
 public class GameManager : MonoBehaviour
 {
     //cenário e vitoria/derrota
@@ -25,9 +27,10 @@ public class GameManager : MonoBehaviour
     //Esconderijo e Deteccao
     public bool escondido = false;
     public bool avistado = false;
+    public GameObject BotaoEsconder;
     public Button esconder;
     public Slider deteccao;
-    float detectado;
+    public float detectado;
 
     //pontuação (base em colisões)
     int batidas;
@@ -39,13 +42,20 @@ public class GameManager : MonoBehaviour
     public TextMeshProUGUI pontosDuranteOJogo;
     public bool pontuacaoPorTempo = true;
 
+    //gamecheat mobile
+    private int tapCount = 0;
+    private float lastTapTime = 0f;
+
     void Start()
     {
+        detectado = 15f;
         pontosmanobras = 0;
         multiplicador = 10;
         tempofaltando = tempomax;
         Tempo.maxValue = tempomax;
         Tempo.value = tempofaltando;
+        deteccao.minValue = 0;
+        deteccao.maxValue = detectado;
         tempoTexto.text = tempofaltando.ToString("F1");
         Time.timeScale = 1;
         cheatpause = false;
@@ -57,7 +67,16 @@ public class GameManager : MonoBehaviour
     }
     void Update()
     {
+        
+        if(Input.touchCount <= 5)
+        {
+            cheatpause = !cheatpause;
+        }
         deteccao.value = detectado;
+        if (escondido == true)
+        {
+            detectado += Time.deltaTime * 2;
+        }
         if (avistado == true)
         {
             detectado -= Time.deltaTime;
@@ -78,6 +97,7 @@ public class GameManager : MonoBehaviour
                 cheatpause = true;
             }
         }
+        DetectTaps();
         if (cheatpause == false)
         {
             tempofaltando -= Time.deltaTime;
@@ -106,6 +126,10 @@ public class GameManager : MonoBehaviour
         {
             Derrota();
         }
+        if (detectado <= 0)
+        {
+            Derrota();
+        }
         if (batidas >= 5)
         {
             pontos += (-15 * batidas + 150);
@@ -117,7 +141,25 @@ public class GameManager : MonoBehaviour
         AtualizarPontosDuranteOJogo();
     }
 
+    void DetectTaps()
+    {
+        if (Input.touchCount == 1 && Input.GetTouch(0).phase == TouchPhase.Began)
+        {
+            float timeNow = Time.time;
 
+            if (timeNow - lastTapTime < 0.3f)
+                tapCount++;
+            else
+                tapCount = 1;
+
+            lastTapTime = timeNow;
+
+            if (tapCount == 5)
+            {
+                cheatpause = !cheatpause;
+            }
+        }
+    }
     //função para coletavel que adiciona tempo
     public void ColetavelTempo(int tempo)
     {
@@ -193,6 +235,13 @@ public class GameManager : MonoBehaviour
             multiplicador--;
         }
     }
+    public void PodeEsconder(bool Pode)
+    {
+        if (Pode == true)
+            BotaoEsconder.SetActive(true);
+        else
+            BotaoEsconder.SetActive(false);
+    }
 
     public void TentarNovamente()
     {
@@ -209,12 +258,12 @@ public class GameManager : MonoBehaviour
     public void BotaoDeEsconder()
     {
         if (!escondido)
-            esconder.onClick.AddListener(Esconder);
+            Esconder();
         else
-            esconder.onClick.AddListener(SairDoEsconderijo);
+            SairDoEsconderijo();
     }
 
-    public void visto(bool foiavistado)
+    public void Visto(bool foiavistado)
     {
         if (foiavistado == true)
         {
@@ -225,7 +274,6 @@ public class GameManager : MonoBehaviour
             avistado = false;
         }
     }
-
     public void Esconder()
     {
         escondido = true;
