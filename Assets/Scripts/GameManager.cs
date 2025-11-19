@@ -48,7 +48,7 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
-        detectado = 15f;
+        detectado = 7f;
         pontosmanobras = 0;
         multiplicador = 10;
         tempofaltando = tempomax;
@@ -76,6 +76,7 @@ public class GameManager : MonoBehaviour
         if (escondido == true)
         {
             detectado += Time.deltaTime * 2;
+            BotaoEsconder.SetActive(true);
         }
         if (avistado == true)
         {
