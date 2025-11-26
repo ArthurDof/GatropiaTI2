@@ -1,4 +1,5 @@
 using UnityEditor;
+using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 
 public class ScriptPlayer : MonoBehaviour
@@ -42,6 +43,7 @@ public class ScriptPlayer : MonoBehaviour
         vertical = 0f;
         horizontal = 0f;
         meshhumano = Humano.GetComponent<MeshRenderer>();
+        accel = 60;
         saiuRail = 1;
         cooldownPulo = 2f;
         Pulo = new Vector3(0.0f, 2.0f, 0.0f);
@@ -52,7 +54,11 @@ public class ScriptPlayer : MonoBehaviour
 
     void FixedUpdate()
     {
-        Escondido(meshhumano);
+        if (up == true)
+            accel += Time.deltaTime;
+        else
+            accel = 60;
+            Escondido(meshhumano);
         PuloAndando = (Camera.main.transform.forward/2 + Vector3.up).normalized * 2f;
         knockback = (Camera.main.transform.forward*-1 + Vector3.up).normalized * 2;
         impulso = (Camera.main.transform.forward).normalized * 2;
