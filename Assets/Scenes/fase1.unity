@@ -329,11 +329,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5429514618118778129, guid: 60f48d7204ca2344f94d6bdbc79ce270, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 983.73755
+      value: 1204.5
       objectReference: {fileID: 0}
     - target: {fileID: 5429514618118778129, guid: 60f48d7204ca2344f94d6bdbc79ce270, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 906.12634
+      value: 1037.6862
       objectReference: {fileID: 0}
     - target: {fileID: 5429514618118778129, guid: 60f48d7204ca2344f94d6bdbc79ce270, type: 3}
       propertyPath: m_LocalPosition.x
@@ -365,11 +365,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5429514618118778129, guid: 60f48d7204ca2344f94d6bdbc79ce270, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 2.0289307
+      value: 7.248596
       objectReference: {fileID: 0}
     - target: {fileID: 5429514618118778129, guid: 60f48d7204ca2344f94d6bdbc79ce270, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -463.20996
+      value: -468.553
       objectReference: {fileID: 0}
     - target: {fileID: 5429514618118778129, guid: 60f48d7204ca2344f94d6bdbc79ce270, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -691,7 +691,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4279147519
+    rgba: 4294967295
   m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -4013,7 +4013,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4279147519
+    rgba: 4294967295
   m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -5550,7 +5550,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4279147519
+    rgba: 4294967295
   m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -5803,8 +5803,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 2.0289307, y: -463.20996}
-  m_SizeDelta: {x: 983.73755, y: 906.12634}
+  m_AnchoredPosition: {x: 3.5751953, y: -457.96997}
+  m_SizeDelta: {x: 1172.3765, y: 1016.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1162478837
 MonoBehaviour:
@@ -11992,7 +11992,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4279147519
+    rgba: 4294967295
   m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -14066,11 +14066,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3111346376391244849, guid: 18ebd61c8117bb84c8fa005325b35be8, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 983.73755
+      value: 1184.8
       objectReference: {fileID: 0}
     - target: {fileID: 3111346376391244849, guid: 18ebd61c8117bb84c8fa005325b35be8, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 906.12634
+      value: 1037.7
       objectReference: {fileID: 0}
     - target: {fileID: 3111346376391244849, guid: 18ebd61c8117bb84c8fa005325b35be8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14102,11 +14102,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3111346376391244849, guid: 18ebd61c8117bb84c8fa005325b35be8, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 2.0289307
+      value: -2.61911
       objectReference: {fileID: 0}
     - target: {fileID: 3111346376391244849, guid: 18ebd61c8117bb84c8fa005325b35be8, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -463.20996
+      value: -468.55
       objectReference: {fileID: 0}
     - target: {fileID: 3111346376391244849, guid: 18ebd61c8117bb84c8fa005325b35be8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -14135,6 +14135,10 @@ PrefabInstance:
     - target: {fileID: 6816196632707148597, guid: 18ebd61c8117bb84c8fa005325b35be8, type: 3}
       propertyPath: m_Name
       value: PanelCreditos
+      objectReference: {fileID: 0}
+    - target: {fileID: 6816196632707148597, guid: 18ebd61c8117bb84c8fa005325b35be8, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
