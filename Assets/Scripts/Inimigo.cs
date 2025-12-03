@@ -14,7 +14,7 @@ public class Inimigo : MonoBehaviour
     public GameObject VFX;
 
     private NavMeshAgent agente;
-    //private Animator animator;
+    private Animator animator;
     public float m_distancia;
     public float velocidade = 9;
 
@@ -28,10 +28,11 @@ public class Inimigo : MonoBehaviour
 
     void Start()
     {
+        animator = GetComponent<Animator>();
         controller = Object.FindAnyObjectByType<GameManager>();
         Debug.Log(m_IndiceWaypoint.ToString() + waypoints.Length.ToString());
         agente = GetComponent<NavMeshAgent>();
-        //animator = GetComponent<Animator>();
+        animator = GetComponent<Animator>();
         m_emPatrulha = true;
         agente.isStopped = false;
         agente.speed = velocidade;
@@ -54,12 +55,12 @@ public class Inimigo : MonoBehaviour
                 if (m_distancia < distanciaMinima)
                 {
                     agente.isStopped = true;
-                    //animador muda para instancia de Ataque
+                    //animator.SetBool("isRunning", true);
                 }
                 else
                 {
                     agente.isStopped = false;
-                    //animador sai da instancia de Ataque
+                    //animator.SetBool("isPatrolling", true);
                     agente.SetDestination(alvo.position);
                 }
             }
@@ -77,6 +78,7 @@ public class Inimigo : MonoBehaviour
         {
             JogadorAvistado = false;
             controller.Visto(false);
+            ProxWaypoint();
         }
 
     }
@@ -119,6 +121,7 @@ public class Inimigo : MonoBehaviour
                 {
                     JogadorAvistado = false;
                     controller.Visto(false);
+                    ProxWaypoint();
                 }
                     
             }
@@ -127,6 +130,7 @@ public class Inimigo : MonoBehaviour
         {
             JogadorAvistado = false;
             controller.Visto(false);
+            ProxWaypoint();
         }
     }
 }

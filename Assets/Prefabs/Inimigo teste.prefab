@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 4204981773377972244}
   - component: {fileID: 7940545417314945523}
   - component: {fileID: 6370211695253825317}
+  - component: {fileID: -6263789865177528391}
   m_Layer: 0
   m_Name: Inimigo teste
   m_TagString: Inimigo
@@ -195,6 +196,28 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+--- !u!95 &-6263789865177528391
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7896877342246393129}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 360ecc71338ca5d488b11d7cd2c377bf, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &7783282874556312266
 PrefabInstance:
   m_ObjectHideFlags: 0
