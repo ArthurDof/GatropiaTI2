@@ -1,5 +1,6 @@
 using System.Text;
 using TMPro;
+using Unity.Cinemachine;
 using UnityEngine;
 using UnityEngine.InputSystem.Controls;
 using UnityEngine.InputSystem.XR;
@@ -27,6 +28,7 @@ public class GameManager : MonoBehaviour
     //Esconderijo e Deteccao
     public bool escondido = false;
     public bool avistado = false;
+    bool podeEsconder = false;
     public GameObject BotaoEsconder;
     public Button esconder;
     public Slider deteccao;
@@ -46,9 +48,12 @@ public class GameManager : MonoBehaviour
     private int tapCount = 0;
     private float lastTapTime = 0f;
 
+    CinemachineImpulseSource impulse;
+
     void Start()
     {
-        detectado = 7f;
+        impulse = GetComponent<CinemachineImpulseSource>();
+        detectado = 8f;
         pontosmanobras = 0;
         multiplicador = 10;
         tempofaltando = tempomax;
@@ -67,8 +72,18 @@ public class GameManager : MonoBehaviour
     }
     void Update()
     {
-        
-        if(Input.touchCount <= 5)
+        if (podeEsconder == true)
+        {
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                BotaoDeEsconder();
+            }
+        }
+        if (avistado == true)
+        {
+            impulse.GenerateImpulse();
+        }
+        if (Input.touchCount <= 5)
         {
             cheatpause = !cheatpause;
         }
@@ -102,6 +117,11 @@ public class GameManager : MonoBehaviour
         if (cheatpause == false)
         {
             tempofaltando -= Time.deltaTime;
+            if (avistado == true)
+            {
+                detectado -= Time.deltaTime;
+                impulse.GenerateImpulse();
+            }
         }
         Tempo.value = tempofaltando;
         tempoTexto.text = Mathf.CeilToInt(tempofaltando).ToString();
@@ -239,9 +259,15 @@ public class GameManager : MonoBehaviour
     public void PodeEsconder(bool Pode)
     {
         if (Pode == true)
+        {
             BotaoEsconder.SetActive(true);
+            podeEsconder = true;
+        }
         else
+        {
             BotaoEsconder.SetActive(false);
+            podeEsconder = false;
+        }
     }
 
     public void TentarNovamente()
