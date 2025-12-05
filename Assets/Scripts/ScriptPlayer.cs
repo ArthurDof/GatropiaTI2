@@ -39,6 +39,7 @@ public class ScriptPlayer : MonoBehaviour
     public bool right = false;
     bool onrail = false;
     public bool NoMobile;
+    public GameObject vfx;
 
     private void Start()
     {
@@ -279,6 +280,10 @@ public class ScriptPlayer : MonoBehaviour
                 cooldownPulo = 0f;
             }
         }
+    }
+    public void EsconderVFX()
+    {
+        Instantiate(vfx, transform.position + new Vector3(0, -0.5f, 0), transform.rotation);
     }
     public void clicarUp()
     {

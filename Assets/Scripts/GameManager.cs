@@ -10,6 +10,7 @@ using static UnityEngine.AudioSettings;
 public class GameManager : MonoBehaviour
 {
     //cenário e vitoria/derrota
+    ScriptPlayer player;
     public int cenarioatual = 0;
     int vitoriaderrota = 0;
     public GameObject[] telaVitoriaDerrota;
@@ -52,6 +53,7 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
+        player = GameObject.FindGameObjectWithTag("Player").gameObject.GetComponent<ScriptPlayer>();
         impulse = GetComponent<CinemachineImpulseSource>();
         detectado = 8f;
         pontosmanobras = 0;
@@ -78,10 +80,6 @@ public class GameManager : MonoBehaviour
             {
                 BotaoDeEsconder();
             }
-        }
-        if (avistado == true)
-        {
-            impulse.GenerateImpulse();
         }
         if (Input.touchCount <= 5)
         {
@@ -150,6 +148,10 @@ public class GameManager : MonoBehaviour
         if (detectado <= 0)
         {
             Derrota();
+        }
+        if (detectado >= deteccao.maxValue)
+        {
+            detectado = deteccao.maxValue;
         }
         if (batidas >= 5)
         {
@@ -285,9 +287,15 @@ public class GameManager : MonoBehaviour
     public void BotaoDeEsconder()
     {
         if (!escondido)
+        {
+            player.EsconderVFX();
             Esconder();
+        }
         else
+        {
+            player.EsconderVFX();
             SairDoEsconderijo();
+        }
     }
 
     public void Visto(bool foiavistado)
