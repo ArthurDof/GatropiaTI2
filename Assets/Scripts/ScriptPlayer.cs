@@ -11,8 +11,9 @@ public class ScriptPlayer : MonoBehaviour
     [SerializeField] WheelCollider Frente;
     [SerializeField] WheelCollider Tras;
     public GameObject VFXrailgrind;
+    public GameObject VFXAndar;
     public GameObject Humano;
-    MeshRenderer meshhumano;
+    SkinnedMeshRenderer meshhumano;
     public Rigidbody rb;
     public float accel = 60f;
     public float freio = 75f;
@@ -45,7 +46,7 @@ public class ScriptPlayer : MonoBehaviour
     {
         vertical = 0f;
         horizontal = 0f;
-        meshhumano = Humano.GetComponent<MeshRenderer>();
+        meshhumano = Humano.GetComponent<SkinnedMeshRenderer>();
         accel = 60;
         saiuRail = 1;
         cooldownPulo = 2f;
@@ -58,6 +59,10 @@ public class ScriptPlayer : MonoBehaviour
 
     void FixedUpdate()
     {
+        if (up == true)
+            VFXAndar.SetActive(true);
+        else
+            VFXAndar.SetActive(false);
             Escondido(meshhumano);
         PuloAndando = (Camera.main.transform.forward/2 + Vector3.up).normalized * 2f;
         knockback = (Camera.main.transform.forward*-1 + Vector3.up).normalized * 2;
@@ -248,7 +253,7 @@ public class ScriptPlayer : MonoBehaviour
 
         }
     }
-    private void Escondido(MeshRenderer Meshhumano)
+    private void Escondido(SkinnedMeshRenderer Meshhumano)
     {
         if(controller.escondido)
         {
