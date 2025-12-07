@@ -5,7 +5,7 @@ public class Inimigo : MonoBehaviour
 {
     GameManager controller;
     public Transform alvo;
-    public float distanciaMinima;
+    public float distanciaMinima = 100;
     public LayerMask player;
     public LayerMask obstaculo;
     public float tempoDeDeteccao = 0;
@@ -26,11 +26,10 @@ public class Inimigo : MonoBehaviour
     bool m_emPatrulha;
     bool JogadorAvistado = false; 
 
-    void Start()
+    void Awake()
     {
         animator = GetComponent<Animator>();
         controller = Object.FindAnyObjectByType<GameManager>();
-        Debug.Log(m_IndiceWaypoint.ToString() + waypoints.Length.ToString());
         agente = GetComponent<NavMeshAgent>();
         animator = GetComponent<Animator>();
         m_emPatrulha = true;
@@ -41,46 +40,10 @@ public class Inimigo : MonoBehaviour
 
     void Update()
     {
-        if (JogadorAvistado == true)
-        {
-            VFX.SetActive(true);
-        }
-        if (JogadorAvistado == false)
-        {
-            VFX.SetActive(false);
-        }
-            if (m_emPatrulha == false)
-            {
-                m_distancia = Vector3.Distance(agente.transform.position, alvo.transform.position);
-                if (m_distancia < distanciaMinima)
-                {
-                    agente.isStopped = true;
-                    //animator.SetBool("isRunning", true);
-                }
-                else
-                {
-                    agente.isStopped = false;
-                    //animator.SetBool("isPatrolling", true);
-                    agente.SetDestination(alvo.position);
-                }
-            }
-            else
-            {
-                if (Vector3.Distance(transform.position, waypoints[m_IndiceWaypoint].position) <= 0)
-                    ProxWaypoint();
-            }
-            Deteccao();
-            if (!JogadorAvistado && tempoDeDeteccao > 0)
-            {
-                tempoDeDeteccao -= (Time.deltaTime * redTempoEscondido);
-            }
-        if (controller.escondido == true)
-        {
-            JogadorAvistado = false;
-            controller.Visto(false);
-            ProxWaypoint();
-        }
-
+        Perseguicao();
+        Deteccao();
+        VFXDeteccao();
+        PerdeuPlayer();
     }
     private void ProxWaypoint()
     {
@@ -91,6 +54,55 @@ public class Inimigo : MonoBehaviour
             agente.SetDestination(waypoints[m_IndiceWaypoint].position); 
         }else
             m_IndiceWaypoint = 0;
+    }
+
+    private void VFXDeteccao()
+    {
+        if (JogadorAvistado)
+        {
+            VFX.SetActive(true);
+        } else
+        {
+            VFX.SetActive(false);
+        }
+    }
+     private void Perseguicao()
+    {
+        if (!m_emPatrulha)
+        {
+            m_distancia = Vector3.Distance(agente.transform.position, alvo.transform.position);
+            if (m_distancia < distanciaMinima)
+            {
+                agente.isStopped = true;
+
+            }
+            else
+            {
+                agente.isStopped = false;
+                agente.SetDestination(alvo.position);
+                animator.SetBool("isRunning", true);
+            }
+        }
+        else
+        {
+            if (Vector3.Distance(transform.position, waypoints[m_IndiceWaypoint].position) <= 0)
+                ProxWaypoint();
+        }
+    }
+    private void PerdeuPlayer()
+    {
+        if (!JogadorAvistado && tempoDeDeteccao > 0)
+        {
+            tempoDeDeteccao -= (Time.deltaTime * redTempoEscondido);
+        }
+        else if (controller.escondido && !m_emPatrulha)
+        {
+            JogadorAvistado = false;
+            controller.Visto(false);
+            m_emPatrulha = true;
+            animator.SetBool("isRunning", false);
+            ProxWaypoint();
+        }
     }
 
     void Deteccao()
@@ -121,7 +133,6 @@ public class Inimigo : MonoBehaviour
                 {
                     JogadorAvistado = false;
                     controller.Visto(false);
-                    ProxWaypoint();
                 }
                     
             }
@@ -130,7 +141,6 @@ public class Inimigo : MonoBehaviour
         {
             JogadorAvistado = false;
             controller.Visto(false);
-            ProxWaypoint();
         }
     }
 }
