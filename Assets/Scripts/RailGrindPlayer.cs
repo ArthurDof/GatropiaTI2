@@ -170,11 +170,12 @@ public class RailGrindPlayer : MonoBehaviour
         if (quicktimeevent <= 0.5f && quicktimeevent > 0f )
         {
             gameManager.AdicionarPontos(200);
+            controller.AcertouTruque();
         }
         else
         {
             gameManager.AdicionarPontos(-500);
-            gameManager.ColetavelTempo(-5);
+            gameManager.ColetavelTempo(-7);
         }
         quicktime.gameObject.SetActive(false);
     }

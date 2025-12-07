@@ -1,5 +1,6 @@
 using Unity.Cinemachine;
 using UnityEditor;
+using UnityEditor.AnimatedValues;
 using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 
@@ -15,6 +16,7 @@ public class ScriptPlayer : MonoBehaviour
     public GameObject Humano;
     SkinnedMeshRenderer meshhumano;
     public Rigidbody rb;
+    public Animator animPlayer;
     public float accel = 60f;
     public float freio = 75f;
     public float anguloVirar = 15f;
@@ -42,13 +44,18 @@ public class ScriptPlayer : MonoBehaviour
     public bool NoMobile;
     public GameObject vfx;
 
+    private Vector2 ultimaPosXZ;
+    private float ultimaPosY;
     private void Start()
     {
+        ultimaPosY = rb.position.y;
+        ultimaPosXZ = new Vector2(rb.position.x, rb.position.z);
         vertical = 0f;
         horizontal = 0f;
         meshhumano = Humano.GetComponent<SkinnedMeshRenderer>();
         accel = 60;
         saiuRail = 1;
+        animPlayer.Play("Idle");
         cooldownPulo = 2f;
         Pulo = new Vector3(0.0f, 2.0f, 0.0f);
         colisao = 0f;
@@ -59,6 +66,19 @@ public class ScriptPlayer : MonoBehaviour
 
     void FixedUpdate()
     {
+        if (onrail == true)
+        {
+            animPlayer.SetBool("Patinar", false);
+            animPlayer.SetBool("Idle", false);
+            animPlayer.SetBool("Freio", false);
+            animPlayer.SetBool("Queda", false);
+        }
+        if (up == false && down == false)
+        {
+            animPlayer.SetBool("Patinar", false);
+        }
+        float posY = rb.position.y;
+        Vector2 posXZ = new Vector2(rb.position.x, rb.position.z);
         if (up == true)
             VFXAndar.SetActive(true);
         else
@@ -100,6 +120,21 @@ public class ScriptPlayer : MonoBehaviour
             if (onrail == false && controller.escondido == false)
             {
                 transform.rotation = Quaternion.Euler(0f, transform.eulerAngles.y, 0f);
+                if (Vector2.Distance(posXZ, ultimaPosXZ) >= 0.1f)
+                {
+                    if (up == false && down ==false)
+                    {
+                        animPlayer.SetBool("Freio", true);
+                    }
+                }
+                else
+                    animPlayer.SetBool("Freio", false);
+                if (Mathf.Abs(posY - ultimaPosY) >= 0.1f)
+                {
+                    animPlayer.SetBool("Queda", true);
+                }
+                else
+                    animPlayer.SetBool("Queda", false);
                 if (NoMobile == false)
                 {
                     if (Input.GetKey(KeyCode.Space))
@@ -197,6 +232,9 @@ public class ScriptPlayer : MonoBehaviour
         {
             accelAtual = accelAtual / 20;
         }
+        ultimaPosXZ = posXZ;
+        ultimaPosY = posY;
+
     }
     void OnTriggerEnter(Collider other)
     {
@@ -222,6 +260,8 @@ public class ScriptPlayer : MonoBehaviour
     {
         if (collision.gameObject.tag == "obstaculo")
         {
+            animPlayer.StopPlayback();
+            animPlayer.Play("Trombar");
             impulse.GenerateImpulse();
             controller.DetectouColisao();
             sfx.PlayerAudio(0);
@@ -241,17 +281,28 @@ public class ScriptPlayer : MonoBehaviour
         if (narail == 1)
         {
             onrail = true;
+            animPlayer.StopPlayback();
+            animPlayer.SetBool("RailGrind", true);
+            animPlayer.Play("RailGrind");
             VFXrailgrind.SetActive(true);
         }
         if (narail== 0)
         {
             onrail = false;
             VFXrailgrind.SetActive(false);
+            animPlayer.StopPlayback();
+            animPlayer.SetBool("RailGrind", false);
+            animPlayer.Play("Queda");
             rb.AddForce(impulso * forcaPuloAndando * 2, ForceMode.Impulse);
             rb.constraints |= RigidbodyConstraints.FreezeRotationY;
             saiuRail = 0f;
 
         }
+    }
+    public void AcertouTruque()
+    {
+        animPlayer.StopPlayback();
+        animPlayer.Play("Truque");
     }
     private void Escondido(SkinnedMeshRenderer Meshhumano)
     {
@@ -274,6 +325,8 @@ public class ScriptPlayer : MonoBehaviour
     {
         if (cooldownPulo >= 2f)
         {
+            animPlayer.StopPlayback();
+            animPlayer.Play("Pulo");
             if (accelAtual > 0f)
             {
                 rb.AddForce(PuloAndando * forcaPuloAndando, ForceMode.Impulse);
@@ -293,19 +346,23 @@ public class ScriptPlayer : MonoBehaviour
     public void clicarUp()
     {
         up = true;
+        animPlayer.SetBool("Patinar", true);
     }
     public void soltarUp()
     {
         up = false;
+        animPlayer.SetBool("Idle", true);
     }
 
     public void clicarDown() 
     { 
-        down = true; 
+        down = true;
+        animPlayer.SetBool("Patinar", true);
     }
     public void soltarDown() 
     { 
-        down = false; 
+        down = false;
+        animPlayer.SetBool("Idle", true);
     }
 
     public void clicarDireita() 
@@ -314,7 +371,8 @@ public class ScriptPlayer : MonoBehaviour
     }
     public void soltarDireita() 
     { 
-        right = false; 
+        right = false;
+        animPlayer.SetBool("Idle", true);
     }
 
     public void clicarEsquerda() 
@@ -323,6 +381,7 @@ public class ScriptPlayer : MonoBehaviour
     }
     public void soltarEsquerda() 
     { 
-        left = false; 
+        left = false;
+        animPlayer.SetBool("Idle", true);
     }
 }

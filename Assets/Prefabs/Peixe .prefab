@@ -79,10 +79,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1910017883902756545}
     m_Modifications:
-    - target: {fileID: 1338773052382379982, guid: 6677fc1ea5cda4248957b815346e2ab1, type: 3}
-      propertyPath: 'm_Materials.Array.data[0]'
-      value: 
-      objectReference: {fileID: 2100000, guid: a001b26182a858b41934681c5db4ced1, type: 2}
     - target: {fileID: 6137089321741763882, guid: 8a5b9fcfa0787f541951de4fcaafdd3c, type: 3}
       propertyPath: m_LocalScale.x
       value: 61.993004
@@ -135,6 +131,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: clockFish
       objectReference: {fileID: 0}
+    - target: {fileID: 1338773052382379982, guid: 6677fc1ea5cda4248957b815346e2ab1, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: a001b26182a858b41934681c5db4ced1, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -205,8 +205,16 @@ PrefabInstance:
       value: Cylinder
       objectReference: {fileID: 0}
     - target: {fileID: 3598284033532888255, guid: 769bb313d056d2045960d4779a53f746, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3598284033532888255, guid: 769bb313d056d2045960d4779a53f746, type: 3}
       propertyPath: m_LocalScale.y
       value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 3598284033532888255, guid: 769bb313d056d2045960d4779a53f746, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 3598284033532888255, guid: 769bb313d056d2045960d4779a53f746, type: 3}
       propertyPath: m_LocalPosition.x
