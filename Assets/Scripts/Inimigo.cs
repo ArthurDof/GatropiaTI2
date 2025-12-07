@@ -5,7 +5,7 @@ public class Inimigo : MonoBehaviour
 {
     GameManager controller;
     public Transform alvo;
-    public float distanciaMinima = 100;
+    public float distanciaMinima = 0;
     public LayerMask player;
     public LayerMask obstaculo;
     public float tempoDeDeteccao = 0;
@@ -40,6 +40,7 @@ public class Inimigo : MonoBehaviour
 
     void Update()
     {
+        Debug.Log(waypoints[m_IndiceWaypoint].position);
         Perseguicao();
         Deteccao();
         VFXDeteccao();
@@ -47,27 +48,32 @@ public class Inimigo : MonoBehaviour
     }
     private void ProxWaypoint()
     {
-        Debug.Log(m_IndiceWaypoint.ToString());
+        Debug.Log("Prox Waypoint In");
         if(m_IndiceWaypoint < waypoints.Length)
         {
             m_IndiceWaypoint ++;
             agente.SetDestination(waypoints[m_IndiceWaypoint].position); 
         }else
             m_IndiceWaypoint = 0;
+        Debug.Log("Prox Waypoint Out");
     }
 
     private void VFXDeteccao()
     {
+        Debug.Log("VFX Deteccao in");
         if (JogadorAvistado)
         {
             VFX.SetActive(true);
-        } else
+        }
+        else
         {
             VFX.SetActive(false);
         }
+        Debug.Log("VFX Deteccao Out");
     }
-     private void Perseguicao()
+    private void Perseguicao()
     {
+        Debug.Log("Perseguicao in");
         if (!m_emPatrulha)
         {
             m_distancia = Vector3.Distance(agente.transform.position, alvo.transform.position);
@@ -85,12 +91,18 @@ public class Inimigo : MonoBehaviour
         }
         else
         {
-            if (Vector3.Distance(transform.position, waypoints[m_IndiceWaypoint].position) <= 0)
+            Debug.Log("If in");
+            if (Vector3.Distance(transform.position, waypoints[m_IndiceWaypoint].position) < 5f)
+            {
+                Debug.Log("If in");
                 ProxWaypoint();
+            }
         }
+        Debug.Log("Perseguicao Out");
     }
     private void PerdeuPlayer()
     {
+        Debug.Log("Perdeu Player in");
         if (!JogadorAvistado && tempoDeDeteccao > 0)
         {
             tempoDeDeteccao -= (Time.deltaTime * redTempoEscondido);
@@ -101,12 +113,13 @@ public class Inimigo : MonoBehaviour
             controller.Visto(false);
             m_emPatrulha = true;
             animator.SetBool("isRunning", false);
-            ProxWaypoint();
         }
+        Debug.Log("Perdeu Player out");
     }
 
     void Deteccao()
     {
+        Debug.Log("Deteccao in");
         Collider[] playerVisto = Physics.OverlapSphere(transform.position, raioDeVisão, player);
         if (playerVisto.Length != 0)
         {
@@ -142,5 +155,6 @@ public class Inimigo : MonoBehaviour
             JogadorAvistado = false;
             controller.Visto(false);
         }
+        Debug.Log("Deteccao Out");
     }
 }
