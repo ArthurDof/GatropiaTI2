@@ -9,6 +9,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1910017883902756545}
+  - component: {fileID: 819660470066259154}
+  - component: {fileID: 5826427480307540605}
   m_Layer: 0
   m_Name: 'Peixe '
   m_TagString: Untagged
@@ -33,6 +35,42 @@ Transform:
   - {fileID: 6292294399497521714}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &819660470066259154
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5964025746542128094}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbed85c6debd32745a513d5b229ccb14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vfx: {fileID: 4110960250722998113, guid: 6ea6d57c1ca6fdd48bea279d40938a80, type: 3}
+--- !u!136 &5826427480307540605
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5964025746542128094}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.91
+  m_Height: 0.67
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &7241540861309112057
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -103,9 +141,6 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 6800579011307282320, guid: 8a5b9fcfa0787f541951de4fcaafdd3c, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 8645515790103561306}
-    - targetCorrespondingSourceObject: {fileID: 6800579011307282320, guid: 8a5b9fcfa0787f541951de4fcaafdd3c, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 3061343348775789002}
     - targetCorrespondingSourceObject: {fileID: 6800579011307282320, guid: 8a5b9fcfa0787f541951de4fcaafdd3c, type: 3}
       insertIndex: -1
@@ -121,28 +156,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 6800579011307282320, guid: 8a5b9fcfa0787f541951de4fcaafdd3c, type: 3}
   m_PrefabInstance: {fileID: 7241540861309112057}
   m_PrefabAsset: {fileID: 0}
---- !u!95 &8645515790103561306
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4188239487441883497}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 53eeb94fe370e4f4589df4f077b0d07c, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!136 &3061343348775789002
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -160,7 +173,7 @@ CapsuleCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 1
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Radius: 0.019739214
   m_Height: 0.017134802
@@ -173,7 +186,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4188239487441883497}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bbed85c6debd32745a513d5b229ccb14, type: 3}
   m_Name: 
