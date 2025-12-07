@@ -3,7 +3,12 @@ guid: 720cc8b6f336ca341bec1d40d6767067
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: janelas
+    second: {fileID: 2100000, guid: a0c762c14aea88d4a9643bcc5eb3a13f, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

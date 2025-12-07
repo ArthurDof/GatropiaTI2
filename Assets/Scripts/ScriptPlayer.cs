@@ -1,23 +1,26 @@
+using Unity.Cinemachine;
 using UnityEditor;
 using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 
 public class ScriptPlayer : MonoBehaviour
 {
+    CinemachineImpulseSource impulse;
     AudioController sfx;
     GameManager controller;
     [SerializeField] WheelCollider Frente;
     [SerializeField] WheelCollider Tras;
     public GameObject VFXrailgrind;
+    public GameObject VFXAndar;
     public GameObject Humano;
-    MeshRenderer meshhumano;
+    SkinnedMeshRenderer meshhumano;
     public Rigidbody rb;
-    public float accel = 100f;
+    public float accel = 60f;
     public float freio = 75f;
     public float anguloVirar = 15f;
     public float freioPassivo = 50f;
-    public float forcaPulo = 25f;
-    public float forcaPuloAndando = 125;
+    public float forcaPulo = 60f;
+    public float forcaPuloAndando = 80;
     float vertical;
     float horizontal;
     float cooldownPulo;
@@ -37,27 +40,29 @@ public class ScriptPlayer : MonoBehaviour
     public bool right = false;
     bool onrail = false;
     public bool NoMobile;
+    public GameObject vfx;
 
     private void Start()
     {
         vertical = 0f;
         horizontal = 0f;
-        meshhumano = Humano.GetComponent<MeshRenderer>();
+        meshhumano = Humano.GetComponent<SkinnedMeshRenderer>();
         accel = 60;
         saiuRail = 1;
         cooldownPulo = 2f;
         Pulo = new Vector3(0.0f, 2.0f, 0.0f);
         colisao = 0f;
         controller = GameObject.FindGameObjectWithTag("GameController").gameObject.GetComponent<GameManager>();
+        impulse = GetComponent<CinemachineImpulseSource>();
         sfx = GameObject.FindGameObjectWithTag("GameController").gameObject.GetComponent<AudioController>();
     }
 
     void FixedUpdate()
     {
         if (up == true)
-            accel += Time.deltaTime;
+            VFXAndar.SetActive(true);
         else
-            accel = 60;
+            VFXAndar.SetActive(false);
             Escondido(meshhumano);
         PuloAndando = (Camera.main.transform.forward/2 + Vector3.up).normalized * 2f;
         knockback = (Camera.main.transform.forward*-1 + Vector3.up).normalized * 2;
@@ -163,11 +168,11 @@ public class ScriptPlayer : MonoBehaviour
                 {
                     if (left == true)
                     {
-                        horizontal = -0.95f;
+                        horizontal = -0.75f;
                     }
                     if (right == true)
                     {
-                        horizontal = 0.95f;
+                        horizontal = 0.75f;
                     }
                     if (left == false && right == false)
                         horizontal = 0f;
@@ -217,6 +222,7 @@ public class ScriptPlayer : MonoBehaviour
     {
         if (collision.gameObject.tag == "obstaculo")
         {
+            impulse.GenerateImpulse();
             controller.DetectouColisao();
             sfx.PlayerAudio(0);
             colisao += Time.deltaTime;
@@ -247,7 +253,7 @@ public class ScriptPlayer : MonoBehaviour
 
         }
     }
-    private void Escondido(MeshRenderer Meshhumano)
+    private void Escondido(SkinnedMeshRenderer Meshhumano)
     {
         if(controller.escondido)
         {
@@ -279,6 +285,10 @@ public class ScriptPlayer : MonoBehaviour
                 cooldownPulo = 0f;
             }
         }
+    }
+    public void EsconderVFX()
+    {
+        Instantiate(vfx, transform.position + new Vector3(0, -0.5f, 0), transform.rotation);
     }
     public void clicarUp()
     {

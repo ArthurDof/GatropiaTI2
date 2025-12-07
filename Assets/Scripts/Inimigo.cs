@@ -5,7 +5,7 @@ public class Inimigo : MonoBehaviour
 {
     GameManager controller;
     public Transform alvo;
-    public float distanciaMinima;
+    public float distanciaMinima = 0;
     public LayerMask player;
     public LayerMask obstaculo;
     public float tempoDeDeteccao = 0;
@@ -14,7 +14,7 @@ public class Inimigo : MonoBehaviour
     public GameObject VFX;
 
     private NavMeshAgent agente;
-    //private Animator animator;
+    private Animator animator;
     public float m_distancia;
     public float velocidade = 9;
 
@@ -26,12 +26,12 @@ public class Inimigo : MonoBehaviour
     bool m_emPatrulha;
     bool JogadorAvistado = false; 
 
-    void Start()
+    void Awake()
     {
+        animator = GetComponent<Animator>();
         controller = Object.FindAnyObjectByType<GameManager>();
-        Debug.Log(m_IndiceWaypoint.ToString() + waypoints.Length.ToString());
         agente = GetComponent<NavMeshAgent>();
-        //animator = GetComponent<Animator>();
+        animator = GetComponent<Animator>();
         m_emPatrulha = true;
         agente.isStopped = false;
         agente.speed = velocidade;
@@ -40,59 +40,86 @@ public class Inimigo : MonoBehaviour
 
     void Update()
     {
-        if (JogadorAvistado == true)
-        {
-            VFX.SetActive(true);
-        }
-        if (JogadorAvistado == false)
-        {
-            VFX.SetActive(false);
-        }
-            if (m_emPatrulha == false)
-            {
-                m_distancia = Vector3.Distance(agente.transform.position, alvo.transform.position);
-                if (m_distancia < distanciaMinima)
-                {
-                    agente.isStopped = true;
-                    //animador muda para instancia de Ataque
-                }
-                else
-                {
-                    agente.isStopped = false;
-                    //animador sai da instancia de Ataque
-                    agente.SetDestination(alvo.position);
-                }
-            }
-            else
-            {
-                if (Vector3.Distance(transform.position, waypoints[m_IndiceWaypoint].position) <= 0)
-                    ProxWaypoint();
-            }
-            Deteccao();
-            if (!JogadorAvistado && tempoDeDeteccao > 0)
-            {
-                tempoDeDeteccao -= (Time.deltaTime * redTempoEscondido);
-            }
-        if (controller.escondido == true)
-        {
-            JogadorAvistado = false;
-            controller.Visto(false);
-        }
-
+        Debug.Log(waypoints[m_IndiceWaypoint].position);
+        Perseguicao();
+        Deteccao();
+        VFXDeteccao();
+        PerdeuPlayer();
     }
     private void ProxWaypoint()
     {
-        Debug.Log(m_IndiceWaypoint.ToString());
+        Debug.Log("Prox Waypoint In");
         if(m_IndiceWaypoint < waypoints.Length)
         {
             m_IndiceWaypoint ++;
             agente.SetDestination(waypoints[m_IndiceWaypoint].position); 
         }else
             m_IndiceWaypoint = 0;
+        Debug.Log("Prox Waypoint Out");
+    }
+
+    private void VFXDeteccao()
+    {
+        Debug.Log("VFX Deteccao in");
+        if (JogadorAvistado)
+        {
+            VFX.SetActive(true);
+        }
+        else
+        {
+            VFX.SetActive(false);
+        }
+        Debug.Log("VFX Deteccao Out");
+    }
+    private void Perseguicao()
+    {
+        Debug.Log("Perseguicao in");
+        if (!m_emPatrulha)
+        {
+            m_distancia = Vector3.Distance(agente.transform.position, alvo.transform.position);
+            if (m_distancia < distanciaMinima)
+            {
+                agente.isStopped = true;
+
+            }
+            else
+            {
+                agente.isStopped = false;
+                agente.SetDestination(alvo.position);
+                animator.SetBool("isRunning", true);
+            }
+        }
+        else
+        {
+            Debug.Log("If in");
+            if (Vector3.Distance(transform.position, waypoints[m_IndiceWaypoint].position) < 5f)
+            {
+                Debug.Log("If in");
+                ProxWaypoint();
+            }
+        }
+        Debug.Log("Perseguicao Out");
+    }
+    private void PerdeuPlayer()
+    {
+        Debug.Log("Perdeu Player in");
+        if (!JogadorAvistado && tempoDeDeteccao > 0)
+        {
+            tempoDeDeteccao -= (Time.deltaTime * redTempoEscondido);
+        }
+        else if (controller.escondido && !m_emPatrulha)
+        {
+            JogadorAvistado = false;
+            controller.Visto(false);
+            m_emPatrulha = true;
+            animator.SetBool("isRunning", false);
+        }
+        Debug.Log("Perdeu Player out");
     }
 
     void Deteccao()
     {
+        Debug.Log("Deteccao in");
         Collider[] playerVisto = Physics.OverlapSphere(transform.position, raioDeVisão, player);
         if (playerVisto.Length != 0)
         {
@@ -128,5 +155,6 @@ public class Inimigo : MonoBehaviour
             JogadorAvistado = false;
             controller.Visto(false);
         }
+        Debug.Log("Deteccao Out");
     }
 }

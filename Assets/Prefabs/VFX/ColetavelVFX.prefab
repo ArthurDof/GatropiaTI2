@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4411161167724033099}
   - component: {fileID: 2335181711035319127}
   - component: {fileID: 6139651326450505947}
+  - component: {fileID: 7441095634252239358}
   m_Layer: 0
   m_Name: ColetavelVFX
   m_TagString: Untagged
@@ -114,3 +115,16 @@ VFXRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!114 &7441095634252239358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4110960250722998113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 023631b2d9a5eb54086eb25cc6902c7a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  temsfx: 1
