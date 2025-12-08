@@ -25,21 +25,20 @@ public class Inimigo : MonoBehaviour
     int m_IndiceWaypoint = 0;
     bool m_emPatrulha;
     bool JogadorAvistado = false;
-    private void Awake()
-    {
-        controller = Object.FindAnyObjectByType<GameManager>();
-        redTempoEscondido = controller.redTempoDeteccao;
-    }
+    //private void Awake()
+    //{
+    //    controller = Object.FindAnyObjectByType<GameManager>();
+    //    redTempoEscondido = controller.redTempoDeteccao;
+    //}
 
     void Awake()
     {
         animator = GetComponent<Animator>();
-<<<<<<< Updated upstream
+
         controller = Object.FindAnyObjectByType<GameManager>();
-=======
+
         
         Debug.Log(m_IndiceWaypoint.ToString() + waypoints.Length.ToString());
->>>>>>> Stashed changes
         agente = GetComponent<NavMeshAgent>();
         animator = GetComponent<Animator>();
         m_emPatrulha = true;
@@ -50,13 +49,11 @@ public class Inimigo : MonoBehaviour
 
     void Update()
     {
-<<<<<<< Updated upstream
         Debug.Log(waypoints[m_IndiceWaypoint].position);
         Perseguicao();
         Deteccao();
         VFXDeteccao();
         PerdeuPlayer();
-=======
         AnimationActivate();
         VFXActivation();
         Patrolling();
@@ -115,7 +112,6 @@ public class Inimigo : MonoBehaviour
             controller.Visto(false);
             m_emPatrulha = true;
         }
->>>>>>> Stashed changes
     }
     private void ProxWaypoint()
     {
