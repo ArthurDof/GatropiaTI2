@@ -57,7 +57,7 @@ public class GameManager : MonoBehaviour
         impulse = GetComponent<CinemachineImpulseSource>();
         detectado = 8f;
         pontosmanobras = 0;
-        multiplicador = 10;
+        multiplicador = 20;
         tempofaltando = tempomax;
         Tempo.maxValue = tempomax;
         Tempo.value = tempofaltando;
@@ -106,7 +106,6 @@ public class GameManager : MonoBehaviour
                 cheatpause = false;
             }
             else
-            if (cheatpause == false)
             {
                 cheatpause = true;
             }
@@ -153,7 +152,7 @@ public class GameManager : MonoBehaviour
         {
             detectado = deteccao.maxValue;
         }
-        if (batidas >= 5)
+        if (batidas >= 10)
         {
             pontos += (-15 * batidas + 150);
         }
@@ -234,7 +233,7 @@ public class GameManager : MonoBehaviour
     {
         vitoriaderrota = 1;
         pontosFinais = ((pontos + pontosmanobras) * multiplicador) / 10;
-        pontosVitoria.text = "Pontuação: " + $"{pontos:F0}" + " X " + $"{multiplicador / 10}" + " = " + $"{pontosFinais:F0}".ToString();
+        pontosVitoria.text = "Pontuação: " + $"{pontos + pontosmanobras:F0}" + " X " + $"{multiplicador / 10}" + " = " + $"{pontosFinais:F0}".ToString();
         telaVitoriaDerrota[0].gameObject.SetActive(true);
         if (isPaused == false)
         {

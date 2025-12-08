@@ -11,7 +11,7 @@ public class VFXColetavel : MonoBehaviour
         if (temsfx == true )
         {
             sfx = GameObject.FindGameObjectWithTag("GameController").GetComponent<AudioController>();
-            sfx.PlayerAudio(0);
+            sfx.PlayerAudio(1);
         }
     }
     void Update()
