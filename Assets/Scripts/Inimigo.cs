@@ -19,17 +19,27 @@ public class Inimigo : MonoBehaviour
     public float velocidade = 9;
 
     public float raioDeVisão = 15;
-    [Range(0f,360f)]
+    [Range(0f, 360f)]
     public float campoDeVisão = 90;
     public Transform[] waypoints;
     int m_IndiceWaypoint = 0;
     bool m_emPatrulha;
-    bool JogadorAvistado = false; 
+    bool JogadorAvistado = false;
+    private void Awake()
+    {
+        controller = Object.FindAnyObjectByType<GameManager>();
+        redTempoEscondido = controller.redTempoDeteccao;
+    }
 
     void Awake()
     {
         animator = GetComponent<Animator>();
+<<<<<<< Updated upstream
         controller = Object.FindAnyObjectByType<GameManager>();
+=======
+        
+        Debug.Log(m_IndiceWaypoint.ToString() + waypoints.Length.ToString());
+>>>>>>> Stashed changes
         agente = GetComponent<NavMeshAgent>();
         animator = GetComponent<Animator>();
         m_emPatrulha = true;
@@ -40,11 +50,72 @@ public class Inimigo : MonoBehaviour
 
     void Update()
     {
+<<<<<<< Updated upstream
         Debug.Log(waypoints[m_IndiceWaypoint].position);
         Perseguicao();
         Deteccao();
         VFXDeteccao();
         PerdeuPlayer();
+=======
+        AnimationActivate();
+        VFXActivation();
+        Patrolling();
+        Deteccao();
+        Esconderijo();
+    }
+    private void AnimationActivate()
+    {
+        if (m_emPatrulha)
+            animator.SetBool("isPatrolling", true);
+        else
+            animator.SetBool("isRunning", true);
+
+    }
+    private void VFXActivation()
+    {
+        if (JogadorAvistado)
+            VFX.SetActive(true);
+        else
+            VFX.SetActive(false);
+    }
+    private void Patrolling()
+    {
+        if (m_emPatrulha == false)
+        {
+            m_distancia = Vector3.Distance(agente.transform.position, alvo.transform.position);
+            if (m_distancia < distanciaMinima)
+            {
+                agente.isStopped = true;
+                //
+            }
+            else
+            {
+                agente.isStopped = false;
+                //
+                agente.SetDestination(alvo.position);
+            }
+        }
+        else
+        {
+            if (Vector3.Distance(transform.position, waypoints[m_IndiceWaypoint].position) <= 0)
+                ProxWaypoint();
+        }
+    }
+    private void Esconderijo()
+    {
+        if (!JogadorAvistado && tempoDeDeteccao > 0)
+        {
+            tempoDeDeteccao -= (Time.deltaTime * redTempoEscondido);
+            agente.isStopped = false;
+            agente.SetDestination(alvo.position);
+        }
+        if (controller.escondido)
+        {
+            JogadorAvistado = false;
+            controller.Visto(false);
+            m_emPatrulha = true;
+        }
+>>>>>>> Stashed changes
     }
     private void ProxWaypoint()
     {

@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< Updated upstream:Assets/Scenes/Testando/NavMesh-NavMesh Surface.asset.meta
 guid: 1d7e6f0e2a09039499f09a88c77557dc
+========
+guid: 1343b0ae30db8be49933236bcf17cc37
+>>>>>>>> Stashed changes:Assets/Scenes/Testes/NavMesh-NavMesh Surface.asset.meta
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 23800000

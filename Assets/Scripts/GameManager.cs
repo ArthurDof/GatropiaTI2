@@ -34,6 +34,7 @@ public class GameManager : MonoBehaviour
     public Button esconder;
     public Slider deteccao;
     public float detectado;
+    public float redTempoDeteccao;
 
     //pontuação (base em colisões)
     int batidas;
@@ -51,6 +52,10 @@ public class GameManager : MonoBehaviour
 
     CinemachineImpulseSource impulse;
 
+    private void Awake()
+    {
+        redTempoDeteccao = 0.2f;
+    }
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player").gameObject.GetComponent<ScriptPlayer>();
@@ -71,6 +76,7 @@ public class GameManager : MonoBehaviour
         {
             pontosDuranteOJogo.gameObject.SetActive(!pontuacaoPorTempo);
         }
+
     }
     void Update()
     {
